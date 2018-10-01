@@ -1,0 +1,132 @@
+#lg	asn	description
+http://lg.alsysdata.net	25409	AlsysNet
+http://lg.crimea-ix.net	39751	crimea-ix
+https://ssl.e-utp.net/cgi-bin/lg/lg.cgi	56662	e-utp.net
+http://lg.hotfile.com/	7366	"Lemuria Communications "
+http://www.lonap.net/cgi-bin/mrlg.cgi	8330	LONAP
+http://noc.spacenet.ru/lg	34300	Internet-CosmosLtd.
+http://lg.ix.net.ua	"15645 "	"Ukrainian Exchange UA-IX "
+http://lg.ua-ix.net.ua	15645	UA-IX
+http://lg.maxiweb.com.br	28140	"Maxiweb Internet Provider"
+http://lg.schedom-europe.net/	29587	"Schedom "
+http://lg.lagis.at/	35369	"lagis Internet Serviceprovider GmbH"
+http://lg.svao-ix.ru	65100	SVAO-IX
+http://www.arbital.ru/lg/	44068	"Arbital "
+http://lg.inn.ru/	49813	"Innova Distribution LLC"
+http://lg.mipt.ru	5467	MIPT-Telecom
+http://master.comcor.ru/lg	8732	
+http://www.unixsol.org/lg	24770	UnixSolutions
+http://lg.t-systems.com.br	53070	"T-Systems Brazil"
+http://noc.masterhost.ru/lg	25532	masterhost
+http://lg.bulgartel.bg	"44814 "	"BulgarTel "
+http://active24.cz/lg/lg.cgi	25234	"ACTIVE 24 "
+http://lg.nic.cz/	25192	"CZ.NIC, z.s.p.o."
+http://netmon.acad.bg/lg	6802	ISTF
+http://ping6.it/	29449	"Ping6.it - V6 only "
+http://noc.demos.net/lg/lg/lg.cgi	2578	Demos
+http://noc.citylan.ru/lg	25308	CityLanCom
+http://lg.smile.smn.lv	39626	"SMILE IXP - Riga,Latvia"
+"http://www.six-de.net/lg/ "	"20640 "	"Titan Networks Six-de.net LG "
+http://www.bix.hu/lg/lg.cgi	5507	"Budapest IX"
+http://www.as34442.net/lg	34442	"Xifos Limited"
+http://lg.telefonet.ru	29053	Telenet
+http://lg.noc.speedxs.net	30925	CBizz B.V.
+http://lg.mnet.bg	21230	MNET
+http://tie.telx.com/lg.pl	32299	Telx Route Servers
+https://lg.azuria.net	28877	Azuria
+http://www.n-ix.net/lg.html	21083	N-IX
+http://eng.5ninesdata.com/lg/	16842	5Nines Data, LLC.
+http://lg.sib.mts.ru	28884	N/A
+http://lg.call27.net	199032	Call27 Limited
+http://lg.hexanet.fr	34863	Hexanet
+http://lg.ststelecom.com/lg	29877	STS Telecom
+http://lg.roilcom.ru	16094	ROILCOM
+http://lg.inweb.co.uk	8851	Edge Telecom
+http://www.we-dare.net/lookingglass.php	20495	We Dare
+http://noc.exobitnetworks.com/lg/lg.cgi	30653	ExobitNetworks
+http://www.ncc.itgate.net/lg	12779	IT.Gate S.p.A.
+http://lg.cerberus.net.uk/lg	51918	Cerberus Networks Ltd
+http://w-ix.com	50384	W-IX LTD
+http://noc.iu.nl/lg	35260	Internet Unie Services B.V.
+http://noc.widexs.nl/lg	12573	WideXS
+http://lg.gin.ru	2854	OrangeBusinessServicesRussia
+http://lg.powernet.bg	8877	PowerNet
+http://lg.yellowfiber.net/	40015	Yellow Fiber Networks
+http://lg.euronet.nl	5390	EuroNet
+http://www.uhro.net/lg/	3265	XS4ALL
+http://noc.kiev.sovam.com/lg.dhtml	12530	Golden Telecom
+http://noc.luna.nl/lg/lg.cgi 	12902	Luna.nl
+http://www.rnp.br/servicos/lg	1916	RNP
+https://spnet.net/admin/lookingglass.phtml	8717	SpectrumNet (Sofia, Bulgaria)
+https://monitoring.ad-sy.ch/cgi-bin/lg.cgi	15716	Adfinis SyGroup AG
+http://lg.as16215.net	16215	Genotec Internet Consulting AG
+http://noc.isp-services.nl/lg	24875	ISP Services
+http://lglass.gcn.bg/lg.cgi	12615	Global Communication Net AD
+http://lg.bix.bg/	15669	Bulgarian Internet Exchange
+http://lg.nedzone.nl/lg/	25459	NedZone Internet BV
+http://lg.heagmedianet.de	12897	HEAGMediaNet
+http://lg.ramtel.ru	24638	Rambler
+http://lg.globalcom.lv	42979	Globalcom Ltd.
+http://lg.cablenet-as.net/	35432	Cablenet Communication Systems Ltd.
+http://lg.unwiredltd.com/lg	32354	Unwired
+http://lg.anders.ru	39792	Anders Telecom
+http://noc.reasonnet.com/lg	25525	Reasonnet IP Networks
+http://lg.devclic.net	44141	Devclic
+http://lg.airexpress.net.ua	48415	AirExpress (Zhytomyr, Ukraine)
+http://noc.unilogicnetworks.net/lg	28788	UnilogicNetworksB.V.
+http://lg.ufanet.ru/lg.cgi	24955	OJSC Ufanet
+http://pttbotafogo.moebius.com.br/PTT/ptt_lookingglass.php	28338	NB Telecom
+http://lg.magnet.ie	34245	MagnetNetworks
+http://lg.gtdinternet.com/cgi-bin/lg.cgi	14259	Gtd
+http://lg.adg.com.br	28289	Americana Digital
+http://lg.duocast.net/	31477	Duocast BV
+http://lg.bit.nl	12859	BITBV
+http://lg.rusnet.ru	3277	RUSnet
+http://noc.ihome.ru/lg/	25478	iHome LLC
+http://noc.i3d.net/lg/lg.cgi	49544	Interactive 3D BV
+http://lg.centauricom.com/lg	64601	Centauri Communications, Inc
+http://www.as42456.com/en/index.php?page=lookingglass	42456	WideVOIP - WhichWAN / Chmurtz SaRL
+http://www.as29527.net/lg	29527	OthelloTechnologySystemsLtd.
+http://lg.naukanet.ru	28809	Nauka-Svyaz
+http://lg.naukanet.ru/	8641	Nauka-Svyaz LTD
+http://www2.pt.lu/lg	6661	P&T Luxembourg
+http://lg.as15469.net	15469	Warinet Global Services SA
+https://noc.commcorp.net.br/pub/lg/	14840	Commcorp Telecom
+http://lg.megafon.ru	31133	MegaFon
+http://lg.starttelecom.ru	8744	StartTelecom.RU
+http://lg.iveloz.net.br	52866	IVeloz Telecom
+https://www.noris.net/cgi-bin/lg/lg.cgi	12337	norisnetworkAG
+http://lg.internet4you.com	29014	internet4YOU GmbH & Co. KG
+http://merry.netsys.more.net/lg/index.cgi	2572	MORENet
+http://www.as42004.net/lg	42004	VoIP Unlimited
+http://noc.briantel.com/lg	43843	BrianTel Srl
+http://lg.as28929.net	28929	ASDASD srl (Italy)
+http://lg.ipnetzone.com	20077	IPNetZone Communications
+http://lg.dts-online.net/cgi-bin/lg.cgi	8879	"DTS Systeme GmbH"
+http://lg.reacciun.ve/	20312	REACCIUN
+http://noc.ivi.ru/lg	57629	ivi.ru
+http://lg.gtc.su	30733	GLOBUS-TELECOM
+http://lg.webex.com	13445	WebEx Communications
+https://www.inex.ie/lg/	2128	INEX
+http://lg.hlkomm.net/	16097	HL komm
+http://lg.romnet.org	31554	RomNet altFEL
+http://lg.simbanet.co.tz	37084	SimbaNET Tanzania
+http://nms1.prago.net/public-cgi-bin/lg/lg.cgi	21142	PragoNet
+http://debby.sunrise.ch/lg	6730	SunriseCommunicationsAG
+http://www.six.sk/lg.html	2607	SIX - Slovak Internet eXchange
+http://lg.version6.net	3327	Linxtelecom
+http://bgp.stech.net.br/lg	25933	SouthTech Telecom
+http://www.as50763.net/lg/	50763	MCKAYCOM LTD
+http://www.iptp.net/tools/lg/lg.cgi	41095	IPTriplePlay
+http://lg.ntrnet.it/lg	47358	NTRNET srl
+http://lg.mironet.ch/lg	49983	MiroNet GmbH
+http://www.ccn.net/lg	29488	ccn corporate communication networks GmbH
+http://lg.itsbrasil.net	28186	ITS TELECOM
+https://lg.uli.it	9026	Utility Line Italia
+http://as-ielo.net/lg	29075	IELO
+http://lg.riss.ro/cgi-bin/lg.cgi	34043	SC Advanced Business Solution International SRL
+http://lg.gldn.net	3216	GoldenTelecomIPNetwork
+http://lg.corbina.net	8402	Corbina Telecom
+http://lg.peterstar.net/lg	20632	netepctap peterstar
+http://lg.eastlink.ca	11260	Eastlink
+http://lg.ja.net	786	JANET(UK)

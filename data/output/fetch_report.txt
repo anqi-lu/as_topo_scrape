@@ -1,0 +1,5 @@
+success_count: 880. lost_count: 396. percent: 0.6896551724137931.
+success_count: 111. lost_count: 130. percent: 0.4605809128630705.
+success_count: 111. lost_count: 130. percent: 0.4605809128630705.
+success_count: 111. lost_count: 130. percent: 0.4605809128630705.
+success_count: 60. lost_count: 71. percent: 0.4580152671755725.
