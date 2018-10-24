@@ -1,0 +1,4 @@
+http://lg.zsttk.ru/index.php
+act: show ip bgp summary
+prefix:
+action: submitted
