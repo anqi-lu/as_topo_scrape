@@ -9,3 +9,14 @@ Team members:
 
 Research topic: 
 [AS-Level Topology Collection Through Looking Glass Servers](http://conferences.sigcomm.org/imc/2013/papers/imc037s-khanA.pdf)
+
+
+#### Running Insturctions
+* Activate [pipenv](https://github.com/pypa/pipenv) - a virtual environment for this project
+> pipenv shell
+* Check pipenv is python 3. If not, switch to python 3
+> pipenv --python 3.6
+* Install all dependencies
+> pipenv install
+
+* Pipfile.lock is automatically populated. It contains all the packages in this project. 
