@@ -20,3 +20,4 @@ Research topic:
 > pipenv install
 
 * Pipfile.lock is automatically populated. It contains all the packages in this project. 
+* If you want to install packages, just use pip install (package name)
