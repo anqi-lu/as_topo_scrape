@@ -27,13 +27,8 @@ def read_url_data(filepath):
         elif method == 'get':
             resp = send_get_req(url)
     return resp
-        
-    
 
-    
-if __name__ == "__main__":
-    url = 'https://lg.as7012.net'
-    answer = 'https://lg.as7012.net/cgi-bin/bgplg?cmd=show+ip+bgp+summary&req='
+def send_request(url):
     r = requests.get(url)
     r_text = r.text
     soup = BeautifulSoup(r_text, 'html.parser')
@@ -95,3 +90,11 @@ if __name__ == "__main__":
             get_url += item +'='+ urllib.parse.quote_plus(data[item]) +'&'
             
         a = send_get_req(get_url)
+    
+    return a
+    
+
+    
+if __name__ == "__main__":
+    url = 'https://lg.as7012.net'
+    resp = send_request(url)
