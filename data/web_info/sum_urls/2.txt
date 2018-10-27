@@ -1,0 +1,2 @@
+https://lg.as7012.net/cgi-bin/bgplg?cmd=show+ip+bgp+summary&req=
+get

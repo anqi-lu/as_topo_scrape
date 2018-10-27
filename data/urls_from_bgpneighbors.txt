@@ -25,7 +25,7 @@ http://ping6.it/
 http://noc.demos.net/lg/lg/lg.cgi
 http://noc.citylan.ru/lg
 http://lg.smile.smn.lv
-http://www.six-de.net/lg/
+"http://www.six-de.net/lg/
 http://www.bix.hu/lg/lg.cgi
 http://www.as34442.net/lg
 http://lg.telefonet.ru
