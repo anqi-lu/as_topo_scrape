@@ -4,8 +4,8 @@
 
 Team members: 
 * Anqi Lu
-* Zeqian Li
 * Wei Xiong 
+* Zeqian Li
 
 Research topic: 
 [AS-Level Topology Collection Through Looking Glass Servers](http://conferences.sigcomm.org/imc/2013/papers/imc037s-khanA.pdf)
