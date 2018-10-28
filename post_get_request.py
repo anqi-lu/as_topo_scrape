@@ -48,6 +48,10 @@ def inputs_process(inputs, data):
                     value = 'Submit'
                 elif inp.attrs['type'].lower() == 'text':
                     value = ''
+                else:
+                    raise ValueError("type not as submit or text")
+            else:
+                raise ValueError("no value and type in input tag")
                 
             text = ''
             if inp.attrs['type'].lower() == 'radio':
@@ -89,6 +93,7 @@ def select_process(selects, data):
 '''only extract data with bgp summary'''            
 def data_postprocess(data):
     post_data = {}
+    sum_flag = False
     for key in data:
         attrs = data[key]
         if len(attrs) == 1:
@@ -98,8 +103,11 @@ def data_postprocess(data):
             for attr in attrs:
                 text = attr[1]
                 if 'bgp' in text and '6' not in text and 'sum' in text: #BGP summary
+                    sum_flag = True
                     post_data[key] = attr[0]
                     break
+    if not sum_flag:
+        raise ValueError("bgp summary not found")
     return post_data
                 
 '''input AS source url, return html text'''
@@ -160,5 +168,5 @@ def send_request(url):
 
     
 if __name__ == "__main__":
-    url = 'https://lg.maxiweb.com.br/cgi-local/lg.cgi'
+    url = 'http://www.ccn.net/lg'
     resp = send_request(url)
