@@ -3,6 +3,8 @@ import bs4
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import urllib
+import os
+import datetime
 
 '''send post request, return html text results, need further data ectraction'''
 def send_pst_req(url_data):
@@ -103,20 +105,85 @@ def data_postprocess(data):
         if len(attrs) == 1:
             post_data[key] = attrs[0][0]
         else:
-            post_data[key] = attrs[0][0]
+            is_bgp = False
+#            post_data[key] = attrs[0][0]
             for attr in attrs:
                 text = attr[1]
                 if 'bgp' in text and '6' not in text and 'sum' in text: #BGP summary
                     sum_flag = True
+                    is_bgp = True
                     post_data[key] = attr[0]
                     break
+            if not is_bgp:
+                post_data[key] = data[key]
     if not sum_flag:
         raise ValueError("bgp summary not found")
     return post_data
+
                 
 '''input AS source url, return html text'''
+def gen_request(final_url, method, post_data):
+#    print(final_url, method, post_data)
+    #if it's a post method
+    if method.upper() == 'POST':
+           #join sources url with endpoint to create query path
+        return_text = send_pst_req([final_url, post_data])
+    #if it's a get method
+    elif method.upper() == 'GET':
+        final_url = final_url+'?'
+        #add all info in data to the source url to form a new request url   
+        for item in post_data:
+            final_url = final_url + item +'='+ urllib.parse.quote_plus(post_data[item]) +'&'
+        #call send get request function send_get_req()
+        return_text = send_get_req(final_url)
+        
+    '''the ASN only contained in pre tag'''    
+    response = BeautifulSoup(return_text, 'html.parser')
+    pres = response.find_all('pre')
+    if len(pres) > 0:
+        dest = 'data/output/results/pre'
+        if not os.path.exists(dest):
+            os.makedirs(dest)
+        file_path = os.path.join(dest, ''.join(e for e in final_url if e.isalnum())+'_'+str(datetime.datetime.now()).replace(':','')+'.txt')
+        with open(file_path, 'a') as f:
+            f.write(url+'\n')
+            f.write(str(post_data)+'\n')
+            f.write(pres[0].text)
+        return pres[0].text
+    else:
+        dest = 'data/output/results/nopre'
+        if not os.path.exists(dest):
+            os.makedirs(dest)
+        file_path = os.path.join(dest, ''.join(e for e in final_url if e.isalnum())+'_'+str(datetime.datetime.now()).replace(':','')+'.txt')
+        with open(file_path, 'a') as f:
+            f.write(url+'\n')
+            f.write(str(post_data)+'\n')
+            f.write(return_text)
+        return return_text
+    
+def walk_data(data, method, url):
+    data_process = data.copy()
+    min_tree = True
+    for key in data:
+        attrs = data[key]
+        if type(attrs) == list:
+            if len(attrs) > 1:
+                min_tree = False
+                for attr in attrs:
+                    data_process[key] = attr[0]
+                    walk_data(data_process, method, url)
+            else:
+                data_process[key] = attrs[0]
+    
+    if min_tree:
+        try:
+            gen_request(url, method, data_process)
+        except ValueError as err:
+            print(err.args)
+    
+                
 def send_request(url):
-    #get form contents inside the html
+        #get form contents inside the html
     r = requests.get(url)
     url = r.url
     r = requests.get(url)
@@ -143,36 +210,20 @@ def send_request(url):
     else:
         endpoint = ''
     
+    final_url = urljoin(url, endpoint)
+    
     data = {}
     
     inputs_process(inputs, data)
     select_process(selects, data)
     
     post_data = data_postprocess(data)
-
-    #if it's a post method
-    if method.upper() == 'POST':
-        post_url = urljoin(url, endpoint)   #join sources url with endpoint to create query path
-        return_text = send_pst_req([post_url, post_data])
-    #if it's a get method
-    elif method.upper() == 'GET':
-        get_url = urljoin(url, endpoint)+'?'
-        #add all info in data to the source url to form a new request url   
-        for item in post_data:
-            get_url = get_url + item +'='+ urllib.parse.quote_plus(post_data[item]) +'&'
-        #call send get request function send_get_req()
-        return_text = send_get_req(get_url)
-        
-    '''the ASN only contained in pre tag'''    
-    response = BeautifulSoup(return_text, 'html.parser')
-    pres = response.find_all('pre')
-    if len(pres) > 0:
-        return pres[0].text
-    else:
-        return return_text
+    
+    walk_data(post_data, method, final_url)
+    
     
 
     
 if __name__ == "__main__":
-    url = 'http://as39326.net/lg/'
+    url = 'http://lglass.gcn.bg/lg.cgi'
     resp = send_request(url)
