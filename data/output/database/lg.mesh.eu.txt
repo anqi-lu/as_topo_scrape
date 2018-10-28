@@ -1,0 +1,27 @@
+http://lg.mesh.eu
+<html>
+<body topmargin="0" marginwidth="0" leftmargin="15" marginheight="15">
+<table align="center" border="0" width=1000">
+<tr><td align="center" valign=top>
+<br />
+<img src="mesh.png">
+<br />
+
+
+<h2>MESH Looking Glass (AS25074)</h2>
+<form method=get action=index.php>
+<select name=routerid>
+<option value=1 selected>Duesseldorf (edge1-dus1)</option>
+<option value=2>Amsterdam (edge1-ams3)</option>
+<option value=3>Munich (edge1-muc2)</option>
+</select> <select name=cmdid>
+<option value=0 selected>Traceroute / mtr (Duesseldorf)</option>
+<option value=1>ping (Duesseldorf)</option>
+<option value=2>show ip route</option>
+<option value=3>show ipv6 route</option>
+<option value=4>show bgp ipv4 unicast</option>
+<option value=5>show bgp ipv6 unicast</option>
+</select> <input type=text value="" size=50 name=target>
+<input type=submit value=Go>
+</form> 
+IP invalid

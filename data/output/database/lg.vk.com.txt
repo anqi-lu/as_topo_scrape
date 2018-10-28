@@ -1,0 +1,505 @@
+https://lg.vk.com<html>
+<head>
+<title>VK Looking Glass</title>
+<style>
+body, html {
+  margin: 0px;
+  padding: 0px;
+  background: #FFF;
+  direction: ltr;
+  font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+  font-size: 11px;
+  width: 100%;
+  overflow: hidden;
+}
+#page_wrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+}
+#page_header {
+  width: 800px;
+  margin: 0px auto;
+  height: 40px;
+  position: relative;
+  background: #4E729A url(/images/hat_vk.gif) 0px -43px repeat-x;
+}
+#page_header .left, #page_header .right {
+  position: absolute;
+  width: 10px;
+  height: 40px;
+  background: #4E729A url(/images/hat_vk.gif) no-repeat;
+}
+#page_header .left {
+  left: 0px;
+  background-position: 0px -1px;
+}
+#page_header .right {
+  right: 0px;
+  background-position: 100% -1px;
+}
+#logo {
+  display: block;
+  width: 38px;
+  padding: 0px 15px;
+  margin: 0px auto;
+}
+#logo_img {
+  width: 38px;
+  height: 40px;
+  background: #4E729A url(/images/hat_vk.gif) -10px -1px no-repeat;
+}
+.wrap3 {
+  width: 781px;
+  text-align: left;
+  margin: 0px auto;
+}
+#wrap2 {
+  border: solid #F3F3F3;
+  border-width: 0px 1px 1px;
+}
+#wrap1 {
+  border: solid #D9E0E7;
+  border-width: 0px 1px 1px;
+  padding: 20px;
+}
+.header {
+  font-size: 16px;
+  font-weight: bold;
+  color: #45688E;
+  padding-bottom: 20px;
+  padding-left: 320px;
+}
+.row {
+  clear: both;
+  padding-top: 10px;
+}
+#dc_radio_c,
+#dc_radio_a,
+#dc_radio_b {
+  padding-bottom: 10px;
+}
+input[type="text"],
+input[type="submit"],
+input[type="button"],
+input[type="search"],
+input[type="password"],
+input[type~="text"],
+input[type~="search"],
+input[type~="password"],
+input[type~="email"] {
+  font-size: 11px;
+  font-family: Tahoma, Verdana, Arial, Sans-Serif, Lucida Sans;
+}
+input.text, textarea {
+  background: #FFF;
+  border: 1px solid #C0CAD5;
+  font-family: tahoma, tahoma, verdana, arial, sans-serif, Lucida Sans;
+  font-size: 11px;
+  padding: 3px;
+  margin: 0px;
+}
+.label {
+  width: 300px;
+  padding: 0px 10px;
+  color: #777;
+  float: left;
+  text-align: right;
+  padding-top: 4px;
+}
+.labeled, .labeled_low {
+  width: 110px;
+  float: left;
+}
+.labeled_low {
+  padding-top: 4px;
+}
+#ip {
+  width: 102px;
+}
+#result {
+  clear: both;
+  padding-top: 20px;
+}
+.traceroute_h {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0px 0px 10px;
+}
+#footer {
+  padding-top: 10px;
+  text-align: center;
+}
+.details {
+  padding: 4px 10px 0px;
+}
+.checkbox {
+  cursor: pointer;
+  line-height: 14px;
+}
+.checkbox.disabled {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.checkbox div {
+  float: left;
+  width: 15px;
+  margin-right: 5px;
+  height: 14px;
+  background: url(/images/icons/check.gif) 0px 0px no-repeat;
+}
+.checkbox:hover div {
+  background-position: 0px -28px;
+}
+.checkbox.disabled:hover div {
+  background-position: 0px 0px;
+}
+.checkbox.on div {
+  background-position: 0px -14px;
+}
+.checkbox.on:hover div {
+  background-position: 0px -42px;
+}
+.checkbox.disabled.on:hover div {
+  background-position: 0px -14px;
+}
+.radiobtn {
+  cursor: pointer;
+  line-height: 14px;
+}
+.radiobtn div {
+  float: left;
+  width: 15px;
+  margin-right: 5px;
+  height: 14px;
+  margin-bottom: 1px; /* Second line fix */
+  background: url(/images/icons/radio.gif) 0px 0px no-repeat;
+}
+.radiobtn:hover div {
+  background-position: 0px -28px;
+}
+.radiobtn_hover div {
+  background-position: 0px -28px;
+}
+.radiobtn.on div {
+  background-position: 0px -14px;
+}
+.radiobtn.on:hover div {
+  background-position: 0px -42px;
+}
+.radiobtn.on.radiobtn_hover div {
+  background-position: 0px -42px;
+}
+.button_blue,
+.button_gray {
+  border: 0;
+  display: inline-block;
+  *display: inline;
+  position: relative;
+  line-height: normal;
+  zoom: 1;
+}
+.box_controls .button_blue,
+.box_controls .button_gray {
+  margin: 2px 5px;
+}
+.button_blue button,
+.button_gray button {
+  border: 0;
+  -webkit-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background: none;
+  font-size: 11px;
+  margin: 0px;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+  vertical-align: top;
+  overflow: visible;
+  line-height: 13px;
+}
+.button_wide {
+  display: block;
+}
+.button_wide button {
+  width: 100%;
+}
+
+.button_blue button::-moz-focus-inner,
+.button_gray button::-moz-focus-inner {
+  border: 0;
+}
+
+.button_blue button,
+.button_blue.button_disabled button:active,
+.button_blue.button_disabled button.active,
+.button_blue.button_disabled button:hover,
+.button_blue.button_disabled button.hover {
+  padding: 6px 16px;
+  *padding: 6px 17px;
+  border: 0;
+  border-bottom: 1px solid #496b93;
+  text-shadow: 0 1px 0 #5578A0;
+  background: #658AB0 url(/images/button_bgf.png?1) repeat-x top;
+  background-position: 0px -12px;
+  *border: 0;
+  color: #FFF;
+}
+.button_blue button:hover,
+.button_blue button.hover {
+  background-position: 0px -5px;
+  border-bottom-color: #4e7199;
+}
+.button_blue button:active,
+.button_blue button.active,
+.is_2x .button_blue button:active,
+.is_2x .button_blue button.active {
+  background: #5e80a5;
+  border-bottom-color: #51749c;
+  position: relative;
+}
+.button_big.button_blue button {
+  padding: 7px 16px;
+  *padding: 7px 17px;
+}
+
+.button_gray button,
+.button_gray.button_disabled button:active,
+.button_gray.button_disabled button.active,
+.button_gray.button_disabled button:hover,
+.button_gray.button_disabled button.hover {
+  padding: 5px 15px 6px;
+  *padding: 5px 16px 6px;
+  border: 1px solid;
+  border-top-color: #D3D3D3;
+  border-bottom-color: #AEAEAE;
+  border-left-color: #C7C7C7;
+  border-right-color: #C7C7C7;
+  color: #555;
+  text-shadow: 0 1px 0 #F6F6F6;
+  *border: 0;
+  background: #E9E9E9 url(/images/button_bgf.png?1) repeat-x top;
+  background-position: 0px -59px;
+}
+.button_gray button:hover,
+.button_gray button.hover {
+  background-position: 0px -53px;
+  border-top-color: #D7D7D7;
+  border-bottom-color: #B7B7B7;
+  border-left-color: #CBCBCB;
+  border-right-color: #CBCBCB;
+}
+.button_gray button:active,
+.button_gray button.active,
+.is_2x .button_gray button:active,
+.is_2x .button_gray button.active {
+  background: #DCDCDC;
+  border-top-color: #BEBEBE;
+  border-bottom-color: #B6B6B6;
+  border-left-color: #BDBDBD;
+  border-right-color: #BDBDBD;
+  position: relative;
+}
+.button_big.button_gray button {
+  padding: 6px 15px 7px;
+  *padding: 6px 16px 7px;
+}
+
+.button_lock {
+  background: url('/images/upload_inv.gif') center no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.button_gray .button_lock {
+  background: url('/images/upload.gif') center no-repeat;
+}
+
+a.button_link:hover,
+a.button_blue:hover,
+a.button_gray:hover {
+  text-decoration: none;
+}
+.button_disabled {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.list_item {
+  font-family: monospace;
+  padding: 4px 0px;
+}
+</style>
+<script type="text/javascript">function trim(text) { return (text || '').replace(/^\s+|\s+$/g, ''); }
+function ge(el) {
+  return (typeof el == 'string' || typeof el == 'number') ? document.getElementById(el) : el;
+}
+function each(object, callback) {
+  var name, i = 0, length = object.length;
+  if (length === undefined) {
+    for (name in object)
+      if (callback.call(object[name], name, object[name]) === false)
+        break;
+  } else {
+    for (var value = object[0];
+      i < length && callback.call(value, i, value) !== false;
+        value = object[++i]) {}
+  }
+  return object;
+}
+function hasClass(obj, name) {
+  obj = ge(obj);
+  return obj && (new RegExp('(\\s|^)' + name + '(\\s|$)')).test(obj.className);
+}
+function addClass(obj, name) {
+  if ((obj = ge(obj)) && !hasClass(obj, name)) {
+    obj.className = (obj.className ? obj.className + ' ' : '') + name;
+  }
+}
+function removeClass(obj, name) {
+  if (obj = ge(obj)) {
+    obj.className = trim((obj.className || '').replace((new RegExp('(\\s|^)' + name + '(\\s|$)')), ' '));
+  }
+}
+function isChecked(el) {
+  el = ge(el);
+  return hasClass(el, 'on') ? 1 : '';
+}
+function checkbox(el, val) {
+  el = ge(el);
+  if (!el || hasClass(el, 'disabled')) return;
+
+  if (val === undefined) {
+    val = !isChecked(el);
+  }
+  if (val) {
+    addClass(el, 'on');
+  } else {
+    removeClass(el, 'on');
+  }
+  return false;
+}
+var radioBtns = {};
+function radioval(name) {
+  return radioBtns[name] ? radioBtns[name].val : false;
+}
+function radiobtn(el, val, name) {
+  if (!radioBtns[name]) return;
+  each(radioBtns[name].els, function() {
+    if (this == el) {
+      addClass(this, 'on');
+    } else {
+      removeClass(this, 'on');
+    }
+  });
+  return radioBtns[name].val = val;
+}
+function val(input, value, nofire) {
+  input = ge(input);
+  if (!input) return;
+
+  if (value !== undefined) {
+    if (input.tagName == 'INPUT' || input.tagName == 'TEXTAREA') {
+      input.value = value
+    } else {
+      input.innerHTML = value
+    }
+  }
+  return ((input.tagName == 'INPUT' || input.tagName == 'TEXTAREA') ? input.value : input.innerHTML) || '';
+}
+function elfocus(el, from, to) {
+  el = ge(el);
+  try {
+    el.focus();
+    if (from === undefined || from === false) from = el.value.length;
+    if (to === undefined || to === false) to = from;
+    if (el.createTextRange) {
+      var range = el.createTextRange();
+      range.collapse(true);
+      range.moveEnd('character', from);
+      range.moveStart('character', to);
+      range.select();
+    } else if (el.setSelectionRange) {
+      el.setSelectionRange(from, to);
+    }
+  } catch(e) {}
+}</script>
+</head>
+
+<body onload="elfocus('ip')">
+
+<div id="page_wrap">
+
+<div id="page_header">
+  <div class="left"></div>
+  <div class="right"></div>
+  <a id="logo" href="http://vk.com/" target="_blank">
+    <div id="logo_img"></div>
+  </a>
+</div>
+
+<div class="wrap3"><div id="wrap2"><div id="wrap1">
+
+<div class="header">VK Looking Glass</div>
+
+<form method="post" action="/" id="edit" name="edit">
+<input type="hidden" id="act" name="act" value="traceroute">
+
+<div class="row">
+  <div class="label">IP-address:</div>
+  <div class="labeled">
+    <input type="text" class="text" maxlength="15" id="ip" name="ip" value="" />
+  </div>
+  <div class="details">
+    <div class="checkbox " onclick="checkbox(this); val('reverse', isChecked(this));"><div></div>Reverse DNS</div>
+    <input type="hidden" id="reverse" name="reverse" value="" />
+  </div>
+</div>
+<div class="row">
+  <div class="label">Network:</div>
+  <div class="labeled_low">
+    <div id="dc_radio_c" class="radiobtn on" onclick="radiobtn(this, 'c', 'dc'); val('dc', radioval('dc'));"><div></div>SPb-1 (AS47541)</div>
+    <div id="dc_radio_a" class="radiobtn " onclick="radiobtn(this, 'a', 'dc'); val('dc', radioval('dc'));"><div></div>SPb-2 (AS47541)</div>
+    <input type="hidden" id="dc" name="dc" value="c" />
+    <script type="text/javascript">
+      radioBtns['dc'] = {
+        els: [ge('dc_radio_c'), ge('dc_radio_a'), ge('dc_radio_b')],
+        val: 'c'
+      };
+    </script>
+  </div>
+</div>
+
+<div class="row">
+  <div class="label">&nbsp;</div>
+  <div class="labeled" style="width: 200px">
+    <div class="button_blue" style="float: left">
+      <button onclick="ge('edit').submit()">Trace route</button>
+    </div>
+    <div class="button_blue" style="float: left; margin: 0px 10px;">
+      <button onclick="ge('act').value='ping';ge('edit').submit()">Ping</button>
+    </div>
+  </div>
+</div>
+
+</form>
+
+<div id="result" style="display: none">
+  <div class="header"></div>
+  <div class="traceroute"></div>
+</div>
+<br class="clear">
+
+</div></div></div>
+
+<div id="footer">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</div>
+
+</div>
+
+</body>
+</html>

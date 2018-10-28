@@ -1,0 +1,11 @@
+http://lg.rtcomm.ru
+BGP router identifier 81.176.81.18, local AS number 8342
+RIB entries 1567404, using 167 MiB of memory
+Peers 2, using 9120 bytes of memory
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+195.161.1.10    4  8342 26269686   28847        0    0    0 01w4d04h   849942
+195.161.1.75    4  8342 26903621   28856        0    0    0 01w4d04h   849942
+
+Total number of neighbors 2
+public.rt-comm.ru> 

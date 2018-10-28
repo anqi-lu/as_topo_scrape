@@ -1,0 +1,80 @@
+http://lg.telindustelecom.lu
+A:PELUBETSR7-0# show router bgp summary family ipv4 
+===============================================================================
+ BGP Router ID:31.204.89.200    AS:56665       Local AS:56665      
+===============================================================================
+BGP Admin State         : Up          BGP Oper State              : Up
+Total Peer Groups       : 10          Total Peers                 : 58        
+Total BGP Paths         : 201199      Total Path Memory           : 55923205  
+Total IPv4 Remote Rts   : 1154662     Total IPv4 Rem. Active Rts  : 715908    
+Total McIPv4 Remote Rts : 0           Total McIPv4 Rem. Active Rts: 0         
+Total McIPv6 Remote Rts : 0           Total McIPv6 Rem. Active Rts: 0         
+Total IPv6 Remote Rts   : 61447       Total IPv6 Rem. Active Rts  : 56380     
+Total IPv4 Backup Rts   : 0           Total IPv6 Backup Rts       : 0         
+ 
+Total Supressed Rts     : 0           Total Hist. Rts             : 0         
+Total Decay Rts         : 0         
+ 
+Total VPN Peer Groups   : 23          Total VPN Peers             : 25        
+Total VPN Local Rts     : 1367      
+Total VPN-IPv4 Rem. Rts : 1617        Total VPN-IPv4 Rem. Act. Rts: 360       
+Total VPN-IPv6 Rem. Rts : 0           Total VPN-IPv6 Rem. Act. Rts: 0         
+Total VPN-IPv4 Bkup Rts : 0           Total VPN-IPv6 Bkup Rts     : 0         
+ 
+Total VPN Supp. Rts     : 0           Total VPN Hist. Rts         : 0         
+Total VPN Decay Rts     : 0         
+ 
+Total L2-VPN Rem. Rts   : 0           Total L2VPN Rem. Act. Rts   : 0         
+Total MVPN-IPv4 Rem Rts : 0           Total MVPN-IPv4 Rem Act Rts : 0         
+Total MDT-SAFI Rem Rts  : 0           Total MDT-SAFI Rem Act Rts  : 0         
+Total MSPW Rem Rts      : 0           Total MSPW Rem Act Rts      : 0         
+Total RouteTgt Rem Rts  : 0           Total RouteTgt Rem Act Rts  : 0         
+Total McVpnIPv4 Rem Rts : 0           Total McVpnIPv4 Rem Act Rts : 0         
+Total MVPN-IPv6 Rem Rts : 0           Total MVPN-IPv6 Rem Act Rts : 0         
+Total EVPN Rem Rts      : 0           Total EVPN Rem Act Rts      : 0         
+Total FlowIpv4 Rem Rts  : 0           Total FlowIpv4 Rem Act Rts  : 0         
+Total FlowIpv6 Rem Rts  : 0           Total FlowIpv6 Rem Act Rts  : 0         
+Total LblIpv4 Rem Rts   : 0           Total LblIpv4 Rem. Act Rts  : 0         
+Total LblIpv6 Rem Rts   : 0           Total LblIpv6 Rem. Act Rts  : 0         
+Total LblIpv4 Bkp Rts   : 0           Total LblIpv6 Bkp Rts       : 0          
+
+===============================================================================
+BGP IPv4 Summary
+===============================================================================
+Legend : D - Dynamic Neighbor
+===============================================================================
+Neighbor
+                   AS PktRcvd PktSent  InQ OutQ Up/Down   State|Recv/Actv/Sent
+-------------------------------------------------------------------------------
+31.204.88.130
+               6774         0       0    0    0 0433d23h  Active
+31.204.88.134
+               6774         0       0    0    0 0433d23h  Active
+31.204.88.178
+               65101    96177       0    0    0 0374d08h  Active
+31.204.89.201
+               56665  1169279 1374408    0    0 0433d23h  8/7/40
+31.204.89.202
+               56665  1374365 1388481    0    0 0433d23h  2/2/40
+31.204.89.205
+               56665  1209974 1374951    0    0 0433d23h  1/1/40
+31.204.89.253
+               56665  152885*  293792    0    0 0100d19h  595417/595396/40
+31.204.89.254
+               56665  328897* 1373139    0    0 0433d23h  559227/120495/40
+31.204.91.166
+               0            0       0    0    0 0433d23h  Idle
+31.204.92.22
+               56665  1271841 1166273    0    0 0433d23h  1/1/1
+31.204.95.46
+               65103  1166229 1166272    0    0 0433d23h  1/1/1
+172.22.229.20
+               56665   510836  517601    0    0 0177d08h  0/0/40
+172.22.229.28
+               56665   480255  496871    0    0 0170d01h  0/0/40
+172.22.229.33
+               56665  1142042 1373771    0    0 0416d22h  0/0/40
+185.3.46.69
+               65105  1165613  129255    0    0 44d20h59m 5/5/1
+-------------------------------------------------------------------------------
+* indicates that the corresponding row element may have been truncated.

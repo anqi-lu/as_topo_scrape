@@ -1,0 +1,24 @@
+http://lg.netvisiontelecom.ro<HTML>
+<HEAD>
+<TITLE>Looking Glass - show bgp </TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<CENTER>
+<H2>Looking Glass - show bgp </H2>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<CENTER><FONT SIZE="+2" COLOR="#ff0000">ERROR: IP address not valid for query</FONT></CENTER>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE >
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:support@primetelecom.ro">support@primetelecom.ro</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

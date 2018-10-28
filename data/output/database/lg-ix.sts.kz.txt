@@ -1,0 +1,28 @@
+http://lg-ix.sts.kz
+BGP router identifier 195.12.116.1, local AS number 56549
+BGP table version is 752315, main routing table version 752315
+2270 network entries using 572040 bytes of memory
+2300 path entries using 202400 bytes of memory
+288/276 BGP path/bestpath attribute entries using 64512 bytes of memory
+183 BGP AS-PATH entries using 8244 bytes of memory
+79 BGP community entries using 2268 bytes of memory
+5 BGP extended community entries using 152 bytes of memory
+0 BGP route-map cache entries using 0 bytes of memory
+0 BGP filter-list cache entries using 0 bytes of memory
+BGP using 849616 total bytes of memory
+BGP activity 219820/217550 prefixes, 327962/325662 paths, scan interval 60 secs
+
+Neighbor        V           AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+195.12.116.7    4         9198    6841    7059   752315    0    0 4d03h           3
+195.12.116.10   4         8393   45575   47953   752315    0    0 4w0d           12
+195.12.116.11   4        35104  136779  165073   752315    0    0 13w3d          37
+195.12.116.12   4         9198  243155  244997   752315    0    0 10w5d         336
+195.12.116.13   4        35168  516660  589987   752315    0    0 25w4d         963
+195.12.116.14   4        41798  142698  138129   752315    0    0 12w2d         918
+195.12.116.16   4        60708  895254 1085756   752315    0    0 1y36w           2
+195.12.116.17   4        15549       0       0        1    0    0 11w6d    Active
+195.12.116.20   4        48503       0       0        1    0    0 1y22w    Active
+195.12.116.21   4        48503  125999  125476   752315    0    0 10w5d          24
+195.12.116.22   4        35168       0       0        1    0    0 10w5d    Idle
+195.12.116.23   4        64616       0       0        1    0    0 1y0w     Idle
+195.12.116.26   4        15549   90061   94429   752315    0    0 8w0d            5

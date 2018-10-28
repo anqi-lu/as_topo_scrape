@@ -1,0 +1,6 @@
+http://lg.clearfly.net
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+IBGP-V6                 27400    2179934      33051     0 3d12h04m  60814
+IBGP-V4                 27400    4790386      33079     0 3d12h14m 716978
+
+success.

@@ -1,0 +1,40 @@
+http://lg.eastlink.ca
+BGP router identifier 24.137.100.8, local AS number 11260
+BGP table version is 258788661, main routing table version 258788661
+714207 network entries using 91418496 bytes of memory
+1217835 path entries using 63327420 bytes of memory
+178871/114883 BGP path/bestpath attribute entries using 22180004 bytes of memory
+150689 BGP AS-PATH entries using 5152084 bytes of memory
+1941 BGP community entries using 135318 bytes of memory
+56 BGP extended community entries using 2190 bytes of memory
+0 BGP route-map cache entries using 0 bytes of memory
+0 BGP filter-list cache entries using 0 bytes of memory
+BGP using 182215512 total bytes of memory
+Dampening enabled. 0 history paths, 0 dampened paths
+BGP activity 8415518/7642384 prefixes, 133158378/131825238 paths, scan interval 60 secs
+
+Neighbor        V           AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+24.137.100.1    4        11260 78950896  271009 258788664    0    0 24w3d      614499
+24.137.100.2    4        11260 48123697  271009 258788664    0    0 24w3d      603026
+24.137.100.3    4        11260  248292  270982 258788664    0    0 24w3d         148
+24.137.100.4    4        11260  248683  270929 258788664    0    0 24w3d         163
+http://lg.eastlink.ca
+BGP router identifier 24.137.100.8, local AS number 11260
+BGP table version is 258789718, main routing table version 258789718
+714224 network entries using 91420672 bytes of memory
+1217865 path entries using 63328980 bytes of memory
+178784/114882 BGP path/bestpath attribute entries using 22169216 bytes of memory
+150585 BGP AS-PATH entries using 5148888 bytes of memory
+1932 BGP community entries using 134798 bytes of memory
+56 BGP extended community entries using 2190 bytes of memory
+0 BGP route-map cache entries using 0 bytes of memory
+0 BGP filter-list cache entries using 0 bytes of memory
+BGP using 182204744 total bytes of memory
+Dampening enabled. 0 history paths, 0 dampened paths
+BGP activity 8415552/7642397 prefixes, 133158790/131825609 paths, scan interval 60 secs
+
+Neighbor        V           AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+24.137.100.1    4        11260 78951320  271011 258789722    0    0 24w3d      614513
+24.137.100.2    4        11260 48123935  271010 258789722    0    0 24w3d      603045
+24.137.100.3    4        11260  248294  270984 258789722    0    0 24w3d         148
+24.137.100.4    4        11260  248685  270931 258789722    0    0 24w3d         163

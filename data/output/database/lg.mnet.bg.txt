@@ -1,0 +1,33 @@
+http://lg.mnet.bg
+BGP router identifier 84.43.191.250, local AS number 21230
+BGP table version is 823464307, main routing table version 823464307
+718172 network entries using 160870528 bytes of memory
+1939927 path entries using 170713576 bytes of memory
+196001/109868 BGP path/bestpath attribute entries using 40768208 bytes of memory
+203573 BGP AS-PATH entries using 10459296 bytes of memory
+8810 BGP community entries using 1850254 bytes of memory
+275 BGP extended community entries using 13682 bytes of memory
+311 BGP route-map cache entries using 17416 bytes of memory
+0 BGP filter-list cache entries using 0 bytes of memory
+BGP using 384692960 total bytes of memory
+169045 received paths for inbound soft reconfiguration
+BGP activity 20868313/20042444 prefixes, 303924951/301742693 paths, scan interval 60 secs
+
+Neighbor        V           AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+77.85.194.149   4         8866    2020    1936 823464008    0    0 14:45:51     1704
+84.43.189.225   4        41313    2433     985 823464251    0    0 14:48:02     8712
+84.43.189.230   4        44718    1966  262360 823464198    0    0 14:45:49        2
+84.43.189.234   4        29687    1872    1934 823464251    0    0 14:45:56       86
+84.43.189.245   4        12615    1886    1941 823464066    0    0 14:48:00       60
+84.43.189.250   4        21249    1021     981 823464108    0    0 14:47:57        4
+85.14.0.7       4         8262       0       0        1    0    0 14:03:59 Idle (PfxCt)
+88.203.240.33   4         8717    1191     980 823464066    0    0 14:45:46     1591
+95.158.129.45   4        41313     986     988 823464251    0    0 14:48:10        2
+95.158.131.251  4        41313  156672     984 823464097    0    0 14:47:55   653028
+95.158.131.252  4        41313  162422     982 823464097    0    0 14:47:58   653030
+178.132.82.81   4        57344    2997     982 823464108    0    0 14:47:52     7489
+178.132.82.82   4        57344    4415     989 823464108    0    0 14:47:57     7467
+185.1.40.1      4        41059  306923     982 823464097    0    0 14:47:50   213440
+185.1.40.254    4        41059  296628     986 823464097    0    0 14:47:58   213440
+194.12.255.1    4         8262    2926     981 823464251    0    0 14:48:38    10802
+217.145.80.53   4        20665     893     982 823464066    0    0 14:48:01        9

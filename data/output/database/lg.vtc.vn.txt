@@ -1,0 +1,291 @@
+http://lg.vtc.vn<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>VTC DIGICOM - Looking Glass</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+	<link rel="stylesheet" type="text/css" href="/public/css/maincss/mainList.css" />
+	<link rel="stylesheet" type="text/css" href="/public/css/subcss/subList.css" />
+	<script type="text/javascript" src="/public/js/mainjavascript/jquery.min.js"></script>
+	<script type="text/javascript" src="/public/js/mainjavascript/ddsmoothmenu.js"></script>
+	<script type="text/javascript" src="/public/js/mainjavascript/dropdownmenu.js"></script>
+	<script type="text/javascript" src="/public/js/mainjavascript/mainJS.js"></script>
+	<script type="text/javascript" src="/public/js/subjavascript/jquery.js"></script>
+	<script type="text/javascript" src="/public/js/subjavascript/jquery-ui.js"></script>
+	<script type="text/javascript" src="/public/js/subjavascript/jquery.multiselect.js"></script>
+	<script type="text/javascript" src="/public/js/subjavascript/subJS.js"></script>
+
+	<script language="javascript">
+	function leftendarrowover()
+	{
+		var thisli=document.getElementById('leftend')
+		thisli.className="leftendwitharrowList"
+	}
+
+	function leftendarrowout()
+	{
+		var thisli=document.getElementById('leftend')
+		thisli.className=""
+	}
+ 
+	</script>
+
+	<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-24291330-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+	_gaq.push(['_setAccount', 'UA-24023269-1'], ['_trackPageview'], ['_trackPageLoadTime']);
+
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+	</script>
+
+</head>
+<body>
+	<div id="wrapper">
+  		<div id="logo">
+			<a href="http://vtc.org.vn" target="_blank"><img src="/public/images/mainimg/vtcdigicom_logo.jpg" width="235" height="41" border="0" /></a>
+		</div>
+
+    		<div id="businessportal">
+			Digicom Co., VTC Multimedia Corp (AS38726) || Looking Glass
+  		</div>
+  		
+		<!--Logo-->
+		<div id="welcomemsg">
+			<span class="mainTextRed"></span>
+		</div>
+
+		<!--navbar-->
+		<div id="navbar">
+			<div id="navleftbar">
+				<div id="smoothmenu1" class="ddsmoothmenu">
+					<ul>
+						<li><a href="/" target="_self" class="leftend">Home</a></li>
+					</ul>
+				</div><!--smoothmenu1-->
+			</div><!--navleftbar-->
+			<div id="navrightbar">
+				<div id="smoothmenu2" class="ddsmoothmenu">
+					<ul>
+						<li style="z-index: 99;"><a href="#" class="arrowdownrightend" style="padding-right: 23px;">Quick Links</a>
+							<ul>
+								<li><a href="http://digicom.vtc.vn">VTC DIGICOM</a></li>
+								<li><a href="http://cloud.vtc.vn">VTC CLOUD</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--smoothmenu2-->
+			</div> <!--navrightbar-->
+		</div><!--navbar-->
+		<div id="iframecontent">
+
+
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" id="mainTB">
+				<tr>
+					<td>
+						<table width="100%" border="0" cellspacing="0">
+    <tr><td>&nbsp;</td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" id="mainTB">
+    <tr>
+        <td class="mainTBDateTableHeader">&nbsp Please specify a query</td>
+    </tr>
+    <tr>
+        <td>
+            <br />
+            <span style="margin-left:10px">If you have any question about this, please contact us via email: <a href="mailto:inoc@vtc.vn">inoc@vtc.vn</a></span>
+
+            <table width="95%" border="0" cellspacing="3" cellpadding="0" style="margin:0px 0px 0px 0px;">
+                <tr>
+                    <td>
+                        <form action="http://lg.vtc.vn/" method="post" name="lgQuery" id="lgQuery">
+                                                      <table width="400" border="0" cellspacing="3" cellpadding="0" style="margin:20px 0px 0px 50px;">
+                                <tr>
+                                    <td align="left" valign="top"><strong>Query Type</strong></td>
+                                    <td align="center" valign="top">:</td>
+                                    <td align="left" valign="top">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+                                            <tr>
+                                                <td>
+                                                    <!--<label>
+                                                        <input type="radio" name="queryType" id="queryType" value="ping" class="mainFMRadio" checked />Ping To
+                                                    </label>-->
+                                                </td>
+
+                                                <td id="tdBGP">
+                                                    <label>
+                                                        <input type="radio" name="queryType" id="queryType" value="bgp" class="mainFMRadio" checked />BGP
+                                                    </label>
+                                                </td>
+                                                
+                                                                                                <td>
+                                                    <label>
+                                                        <input type="radio" name="queryType" id="queryType" value="traceroute" class="mainFMRadio"  />Traceroute
+                                                    </label>
+                                                </td>
+                                                
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right" valign="top">&nbsp;</td>
+                                    <td align="right" valign="top">&nbsp;</td>
+                                    <td align="right" valign="top">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td width="20" align="left" valign="top"><strong>Router</strong></td>
+                                    <td width="5%" align="center" valign="top">:</td>
+                                    <td width="75%" align="left" valign="top">
+                                        <label>
+                                          <select name="connectionId" id="connectionId" size="1" class="mainFMDropDown mainFMAlignLeft">
+                                            <optgroup label="Asia">
+                                              <option value="0" >Hanoi, Vietnam (IPv4, IPv6)</option>
+                                              <option value="1" >HoChiMinh, Vietnam (IPv4, IPv6)</option>
+                                              <option value="2" >Chaiwan, Hongkong (IPv4, IPv6)</option>
+											  <option value="3" >Guangzhou, China (IPv4, IPv6)</option>
+                                              <option value="4" >Seoul, Korea (IPv4, IPv6)</option>                                              
+                                            </optgroup>
+                                            <optgroup label="America">
+                                              <option value="5" >Los Angeles, USA (IPv4, IPv6)</option>
+                                            </optgroup>
+											<optgroup label="Autralia">
+                                              <option value="6" >Mascot, Autralia (IPv4, IPv6)</option>
+                                            </optgroup>
+                                            <optgroup label="Europe">
+                                              <option value="7" >Frankfurt, Germany (IPv4, IPv6)</option>
+                                              <option value="8" >Paraha, Czech Republic (IPv4, IPv6)</option>
+                                            </optgroup>                                            
+                                          </select>
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" valign="top">&nbsp;</td>
+                                    <td align="left" valign="top">&nbsp;</td>
+                                    <td align="left" valign="top">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td align="left" valign="top" id="ipHostLabel"><strong>Network</strong></td>
+                                    <td align="center" valign="top">:</td>
+                                    <td align="left" valign="top">
+                                                                                <input type="text" name="ipHost" id="ipHost" value="Enter Subnet or Prefix" class="mainFMTextArea" onClick="this.value = ''" />
+
+                                                                            </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="left" valign="top">&nbsp;</td>
+                                    <td align="left" valign="top">&nbsp;</td>
+                                    <td align="left" valign="top">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td align="left" valign="top"><strong>Security Check</strong></td>
+                                    <td align="center" valign="top">:</td>
+                                    <td align="left" valign="top">
+                                        <script type="text/javascript">
+                                            var RecaptchaOptions = {
+                                                theme: 'white'
+                                            };
+                                        </script>
+                                        <br />
+                                                                                        <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdT7CMTAAAAANIMdCRQqG-pe_Sg1gSdNie0JbfW"></script>
+
+                                                
+                                            <noscript>
+                                            <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdT7CMTAAAAANIMdCRQqG-pe_Sg1gSdNie0JbfW" height="300" width="500" frameborder="0">
+                                            </iframe>
+                                            <br />
+                                            <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+                                            <input type="hidden" name="recaptcha_response_field" value="manual_challenge">
+                                            </noscript>
+                                            <div class="mainTextAlertUnder" style="display:none">Invalid Security Code</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" valign="top">&nbsp;</td>
+                                    <td align="center" valign="top">&nbsp;</td>
+                                    <td align="left" valign="top">
+                                        <div id="noRouter">
+                                            <div id="mainBtnRed" class="mainBtnLeftAlign">
+                                                <div id="mainBtnRedLeft"></div>
+                                                <div id="mainBtnRedCenter"><a href="#" id="submitForm">Submit</a></div>
+                                                <div id="mainBtnRedRight"></div>
+                                            </div>
+
+                                            <!--mainBtnRed-->
+
+                                            <div id="mainBtnRed" class="mainBtnLeftAlign">
+                                                <div id="mainBtnRedLeft"></div>
+                                                <div id="mainBtnRedCenter"><a href="#" id="resetForm">Reset</a></div>
+                                                <div id="mainBtnRedRight"></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </td>
+                    <td>
+                      <table width="400" border="0" cellspacing="1" cellpadding="0" style="margin:0px 0px 0px 50px;">
+                        <tr id="imgRow">
+                          <td align="center" valign="top">
+                            <img id="imgGlobe" src="/public/images/subimg/globe.png" height="240" alt="Looking Glass" style="display:none" >
+                            <img id="imgLoading" src="/public/images/subimg/loading-animation.gif" />
+                          </td>
+                        </tr>
+                    <script>
+                            $(document).ready(function(){
+                              $("#imgGlobe").show();
+                              $("#imgLoading").hide();
+                            });
+                          </script>                      </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+	
+					</td>
+      				</tr>
+      				<tr>
+					<td>
+						<table width="100%" border="0" cellpadding="0" cellspacing="0" id="mainTBFullWidthData" style="margin-top:0px;">
+							<tr class="mainTBDateTableHeader">
+								<td><div id="mainTBDateTableHeaderLeft">Terms of Use</div></td>
+							</tr>
+							<tr>
+								<td>
+									<ul>								
+										<li>This Looking Glass is not to be used with any automated scripts.</li> 
+										<li>Because of the low-priority nature of ICMP traffic handling on routers, this tool is not appropriate for use in measuring SLAs. This tool should only be used to verify reachability.</li>
+										<li>Ignoring this all policy will result in being banned. All transactions are logged.</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<div id="footorbox">
+				<b>
+				Copyright © 2016 Digicom Co., VTC Multimedia Corp - All Rights Reserved.
+				<br/>
+				18th Floor, VTC Building, 23 Lac Trung street, Hanoi, Vietnam.
+				</b>
+				
+			</div><!--footorbox-->
+    			<div id="footorwhitbox"></div><!--footorwhitbox--> 
+		</div><!--iframecontent--> 
+	</div><!--Wrapper-->
+</body>
+</html>

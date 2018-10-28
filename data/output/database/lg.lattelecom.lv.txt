@@ -1,0 +1,21 @@
+http://lg.lattelecom.lv<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Looking Glass - AS12578</TITLE>
+<LINK REL="shortcut icon" HREF="/favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://www.lattelecom.lv/"><IMG SRC="lattelecom.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<FONT FACE=Verdana Color=#616D7E size=3><b>Looking Glass - AS12578</font></b>
+</CENTER>
+<P>
+<P>
+<CENTER><FONT SIZE="+2" COLOR="#ff0000">Illegal characters in parameter string. Use IP address.</FONT></CENTER>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+<CENTER><TABLE WIDTH="85%"><TR><TD><FONT SIZE="-3">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</FONT></TD></TR></TABLE></CENTER>
+
+<P>
+</BODY>
+</HTML>

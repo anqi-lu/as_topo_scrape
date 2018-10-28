@@ -1,0 +1,12 @@
+http://lg.as26320.net
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+IPv6-WPGBURDC1-BGP01    26320      40789      36442     0 01w5d15h      0
+IPv6-WPGBURDC1-BGP02    26320      40793      36442     0 01w5d15h      2
+IPv6-WPG360DC1-BGP01    26320      40811      36442     0 01w5d15h      0
+IPv6-WPG360DC1-BGP02    26320    1061484      36442     0 01w5d15h  57647
+WPG360DC1-BGP02         26320     318338      36446     0 01w5d15h 118210
+WPGBURDC1-BGP02         26320      48198      36446     0 01w5d15h   3044
+WPG360DC1-BGP01         26320     994793      36446     0 01w5d15h 733401
+WPGBURDC1-BGP01         26320    1343422      36446     0 01w5d15h 721503
+
+success.

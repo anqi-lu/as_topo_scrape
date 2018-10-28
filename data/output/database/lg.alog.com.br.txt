@@ -1,0 +1,21 @@
+http://lg.alog.com.br
+   <html><head><title>Equinix Connect Brazil Looking Glass</title></head>
+   <body>
+   <CENTER><a href="http://www.equinix.com.br" target="_blank"><img src="http://lg.equinix.com.br/logo.png" border="0" alt="Equinix"></a></CENTER>
+
+   <h2 align="center">Equinix Connect Brazil Looking Glass</h2>
+   <p>
+   </p><hr size="2" width="85%">
+   <p>
+
+   <center><b><h2><font color='red'>Missing Parameter</font></h2></b></center>
+
+   <hr size="2" width="85%">
+   <tail>
+   </tail><p align="center">
+   <i>
+     Please email questions or comments to
+    <a href="mailto:br-neteng@equinix.com">br-neteng@equinix.com</a>.
+   </i>
+   </p>
+

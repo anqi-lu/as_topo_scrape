@@ -1,0 +1,34 @@
+http://lg.citytelecom.ru<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+	$Id: lg.cgi,v 1.30 2004/11/25 14:12:42 cougar Exp $
+	http://freshmeat.net/projects/lg/
+-->
+<HTML>
+<HEAD>
+<TITLE>Filanco core net Looking Glass (AS29076) - show route protocol bgp  active-path</TITLE>
+<LINK REL="shortcut icon" HREF="favicon.ico">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<TABLE BORDER="0" WIDTH="100%"><TR><TD Align="center"><A HREF="http://lg.citytelecom.ru/"><IMG SRC="logo.gif" BORDER="0" ALT="LG"></A></TD></TR></TABLE>
+<CENTER>
+<H2>Filanco core net Looking Glass (AS29076) - show route protocol bgp  active-path</H2>
+<A HREF="http://lg.cloud-ix.net">Filanco CLOUD-IX Looking Glass (AS29076)</A>
+<br><br><A HREF="https://apps.db.ripe.net/search/lookup.html?source=ripe&key=AS29076&type=aut-num">Our routing policy</A>
+</CENTER>
+<P>
+<HR SIZE=2 WIDTH="85%" NOSHADE>
+<P>
+<CENTER><FONT SIZE="+2" COLOR="#ff0000">Запрос не доступен (заблокирован)</FONT></CENTER>
+<P>
+<HR SIZE="2" WIDTH="85%" NOSHADE>
+
+<P>
+<CENTER>
+<I>
+  Please email questions or comments to
+ <A HREF="mailto:noc@citytelecom.ru">noc@citytelecom.ru</A>.
+</I>
+<P>
+</CENTER>
+</BODY>
+</HTML>

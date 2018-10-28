@@ -1,0 +1,29 @@
+http://looking-glass.iseek.com.au<html>
+<head>
+<title>
+iseek BGP looking glass
+</title>
+<link rel="stylesheet" href="/style.css" type="text/css">
+</head>
+<body>
+<div id="body">
+<div id="top">
+<div id="title">
+BGP Looking Glass <span id="version">(v1.01)</span>
+</div>
+<div id="subtitle">
+Provided by iseek network operations
+netops.support@iseek.com.au
+</div>
+<div id="welcome">
+Welcome back  @  [ 108.49.30.126 ]</div></div>
+<div id="waiver">
+Thank you. Redirecting back to the <a href=/>looking glass</a>.<br><br>
+<meta http-equiv="refresh" content="3;url=http://looking-glass.iseek.com.au/" >
+</div>
+<div id="footer">
+Generated in 0.00 sec @ Mon Oct 29 02:00:13 2018 AEST ( +1000 GMT )<br>
+</div>
+</div>
+</body>
+</html>

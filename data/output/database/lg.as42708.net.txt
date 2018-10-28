@@ -1,0 +1,53 @@
+http://lg.as42708.net<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Looking Glass - AS42708 - Portlane Networks</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="graphics/js/jquery.min.js"></script>
+		<script type="text/javascript" src="graphics/js/default.js"></script>
+		<link type="text/css" rel="stylesheet" href="graphics/css/default.css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="header_left"><a href="http://www.portlane.com/"><img src="graphics/img/logo.png" alt="Portlane Networks" title="Portlane Networks" /></a></div>
+				<div id="header_right">Looking Glass</div>
+			</div>
+			<fieldset id="selector">
+				<div id="selector_center">
+				<form action="#" method="get" id="main_frm">
+					<div id="frm_left_top">
+						Hostname, IPv4- or IPv6 address<br />
+						<input type="text" name="in_addr" id="addr_field" />
+					</div>
+					<div id="frm_right_top">
+						Router<br />
+						<select name="node" id="node_field">
+							<option value="ams1">ams1.nl</option>
+							<option value="fra1">fra1.de</option>
+							<option value="lon1">lon1.uk</option>
+							<option value="mal1">mal1.se</option>
+							<option value="osl1">osl1.no</option>
+							<option value="cr1.sto1">cr1.sto1.se</option>
+							<option value="sto3">sto3.se</option>
+							<option value="sto4">sto4.se</option>
+						</select>
+					</div>
+					<br class="delimiter" />
+					<div id="frm_left">
+						<input type="radio" name="type" value="trace" id="rb_trace" checked="checked" /> <label for="rb_trace">Traceroute</label>
+						<input type="radio" name="type" value="ping" id="rb_ping" /> <label for="rb_ping">Ping</label>
+						<input type="radio" name="type" value="bgp" id="rb_bgp" /> <label for="rb_bgp">BGP</label>
+					</div>
+					<div id="frm_right">
+						<input type="submit" value="Look it up!" id="submit" />
+					</div>
+				</form>
+				</div>
+			</fieldset>
+			<div id="results">
+				<div class="spinner"></div>
+			</div>
+		</div>
+	</body>
+</html>

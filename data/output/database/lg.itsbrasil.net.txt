@@ -1,0 +1,14 @@
+http://lg.itsbrasil.netBGP routing table entry for 108.49.0.0/16
+Paths: (2 available, best #2, table Default-IP-Routing-Table)
+  Not advertised to any peer
+  Telefonica [12956] UUNET [701]
+    176.52.252.196 from ITS-RED (ITS-RED)
+      Origin IGP, localpref 100, valid, internal
+      Last update: Sat Oct 20 03:55:53 2018
+
+  LACNIC-7738 [7738] UUNET [701]
+    189.89.133.182 from ITS-CEP (ITS-CEP)
+      Origin IGP, metric 0, localpref 100, valid, internal, best
+      Last update: Sat Oct 20 03:07:25 2018
+
+

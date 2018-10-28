@@ -2,15 +2,19 @@ import logging
 import concurrent.futures
 
 from download import get_data
+from post_get_request import send_request
+import datetime
 
-def fetch_all(urls):
+def fetch_all(urls, category):
     """This will download all the pages from the responses. 
     
     This makes conccurent async requests and utilizes all available cores,
     to reduce runtime.
     """
+    parameters = [(url, category) for url in urls]
+
     with concurrent.futures.ProcessPoolExecutor() as executor: 
-        successes = executor.map(_get_data_task, urls)
+        successes = executor.map(_get_data_task, parameters)
 
     success_count = sum(successes)
     total_count = len(urls)
@@ -25,11 +29,22 @@ def _report(success_count, total_count):
     with open("data/output/fetch_report.txt", 'a') as f:
         f.write("success_count: {}. lost_count: {}. percent: {}.\n".format(success_count, lost_count, percent))
 
-def _get_data_task(url):
+def _get_data_task(args):
     """Task which wraps the get_data function and returns a 1 on success and 0 otherwise. """
-    if get_data(url) is None:
+    url, category = args
+    if get_data(url):
+        try:
+            text = send_request(url)
+            dest = 'data/output/' + category + '/' + url[7:] + '.txt'
+            with open(dest, 'a') as f:
+                f.write(url)
+                f.write(text)
+            return 1
+        except ValueError as err:
+            print(err.args)
+            return 0
+    else:
         return 0
-    return 1
 
 def get_urls(file_path):
     with open(file_path, 'r') as f:
@@ -39,12 +54,11 @@ def get_urls(file_path):
 def main():
     lg_summary = 'data/urls_from_bgpsum.txt'
     lg_neighbor = 'data/urls_from_bgpneighbors.txt'
-
     lg_database = 'data/urls_from_lg_database.txt'
     
-    # fetch_all(get_urls(lg_database))
-    # fetch_all(get_urls(lg_summary))
-    fetch_all(get_urls(lg_neighbor))
+    fetch_all(get_urls(lg_database), "database")
+    fetch_all(get_urls(lg_summary), "summary")
+    fetch_all(get_urls(lg_neighbor), "neighbor")
 
 if __name__ == "__main__":
     main()
