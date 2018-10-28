@@ -174,5 +174,5 @@ def send_request(url):
 
     
 if __name__ == "__main__":
-    url = 'http://as39326.net/lg/'
+    url = 'http://lglass.gcn.bg/lg.cgi'
     resp = send_request(url)
