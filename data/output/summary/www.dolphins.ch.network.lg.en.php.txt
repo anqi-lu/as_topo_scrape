@@ -1,0 +1,164 @@
+http://www.dolphins.ch/network/lg.en.php<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>iway AG / AS8758 Looking Glass</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="lib/nhpup_1.1.css">
+    <link rel="icon" href="lib/favicon.ico">
+    <!--[if lt IE 9]>
+     <script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+     <script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body role="document">
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+   <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+     <span class="sr-only">Toggle navigation</span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="https://gixtools.net/">iway AG / AS8758 Looking Glass</a>
+   </div>
+  </div>
+ </nav>
+
+ <div class="well">
+  <form class="form-inline" role="form" method="post" action="./">
+   <div class="form-group">
+    <select class="form-control" name="routerid"><option value="10" selected="selected">AS8758 GIX route collector IPv4/6</option>
+</select>
+    <select class="form-control" name="requestid"><option value="10" selected="selected">show ip bgp summary</option>
+<option value="20">show ip bgp [arg NETv4 or NETv6]</option>
+<option value="30">show ip bgp regexp [arg ASN] - kind of :)</option>
+</select>
+    <input type="text" name="argument" placeholder="argument" class="form-control input-sm" value="" />
+    <button type="submit" class="btn btn-default">Execute</button>
+   </div>
+  </form>
+ </div>
+
+ <div class="container-fluid">
+  <table class="table table-striped table-bordered table-hover table-condensed small">
+<thead>
+<tr>
+<th>Node</th>
+<th>Location</th>
+<th>Country</th>
+<th>RIR</th>
+<th>AS name</th>
+<th>ASN</th>
+<th>Neighbor IP</th>
+<th>IPv4/6</th>
+<th>State</th>
+<th>PfxRcd</th>
+<th>Up/Down</th>
+<th>Last update</th>
+<th>Up since/last</th>
+<th>Down since/last</th>
+</tr>
+</thead>
+<tfoot>
+<tr><td colspan="14">Total number of neighbors 8</td></tr>
+</tfoot>
+<tbody>
+<tr><td> gauri.glb.as8758.net</td><td>Glattbrugg</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>212.25.27.34</td><td>4</td><td>up</td><td>726590</td><td>4</td><td>2s</td><td>41d17h56m12s</td><td>never</td></tr><tr><td> zelja.zh.as8758.net</td><td>Zurich</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>212.25.27.39</td><td>4</td><td>up</td><td>727286</td><td>4</td><td>3s</td><td>41d17h57m25s</td><td>never</td></tr><tr><td> zaina.zh.as8758.net</td><td>Zurich</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>212.25.27.43</td><td>4</td><td>up</td><td>726552</td><td>5</td><td>3s</td><td>41d17h55m1s</td><td>never</td></tr><tr><td> ghayda.glb.as8758.net</td><td>Glattbrugg</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>212.25.27.44</td><td>4</td><td>up</td><td>727208</td><td>3</td><td>2s</td><td>41d17h53m35s</td><td>never</td></tr><tr><td> zelja.zh.as8758.net</td><td>Zurich</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>2001:8e0:0:ffff::2</td><td>6</td><td>up</td><td>14513</td><td>6</td><td>4s</td><td>16d3h29m25s</td><td>never</td></tr><tr><td> gauri.glb.as8758.net</td><td>Glattbrugg</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>2001:8e0:0:ffff::34</td><td>6</td><td>up</td><td>12687</td><td>4</td><td>5s</td><td>41d17h58m15s</td><td>never</td></tr><tr><td> zaina.zh.as8758.net</td><td>Zurich</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>2001:8e0:0:ffff::43</td><td>6</td><td>up</td><td>29490</td><td>6</td><td>4s</td><td>41d17h51m21s</td><td>never</td></tr><tr><td> ghayda.glb.as8758.net</td><td>Glattbrugg</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>2001:8e0:0:ffff::9</td><td>6</td><td>up</td><td>29532</td><td>4</td><td>3s</td><td>41d17h51m13s</td><td>never</td></tr></tbody></table> </div>
+
+ <footer>
+  <p style="text-align:center"><a href="https://gixtools.net/gix/looking-glass/">GIXLG</a> - Copyright &copy; <a href="https://gixtools.net">GIXtools</a></p>
+ </footer>
+
+ <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+ <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="lib/nhpup_1.1.js"></script>
+</body>
+</html>
+http://www.dolphins.ch/network/lg.en.php<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>iway AG / AS8758 Looking Glass</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="lib/nhpup_1.1.css">
+    <link rel="icon" href="lib/favicon.ico">
+    <!--[if lt IE 9]>
+     <script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+     <script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body role="document">
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+   <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+     <span class="sr-only">Toggle navigation</span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="https://gixtools.net/">iway AG / AS8758 Looking Glass</a>
+   </div>
+  </div>
+ </nav>
+
+ <div class="well">
+  <form class="form-inline" role="form" method="post" action="./">
+   <div class="form-group">
+    <select class="form-control" name="routerid"><option value="10" selected="selected">AS8758 GIX route collector IPv4/6</option>
+</select>
+    <select class="form-control" name="requestid"><option value="10" selected="selected">show ip bgp summary</option>
+<option value="20">show ip bgp [arg NETv4 or NETv6]</option>
+<option value="30">show ip bgp regexp [arg ASN] - kind of :)</option>
+</select>
+    <input type="text" name="argument" placeholder="argument" class="form-control input-sm" value="" />
+    <button type="submit" class="btn btn-default">Execute</button>
+   </div>
+  </form>
+ </div>
+
+ <div class="container-fluid">
+  <table class="table table-striped table-bordered table-hover table-condensed small">
+<thead>
+<tr>
+<th>Node</th>
+<th>Location</th>
+<th>Country</th>
+<th>RIR</th>
+<th>AS name</th>
+<th>ASN</th>
+<th>Neighbor IP</th>
+<th>IPv4/6</th>
+<th>State</th>
+<th>PfxRcd</th>
+<th>Up/Down</th>
+<th>Last update</th>
+<th>Up since/last</th>
+<th>Down since/last</th>
+</tr>
+</thead>
+<tfoot>
+<tr><td colspan="14">Total number of neighbors 8</td></tr>
+</tfoot>
+<tbody>
+<tr><td> gauri.glb.as8758.net</td><td>Glattbrugg</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>212.25.27.34</td><td>4</td><td>up</td><td>726634</td><td>4</td><td>1s</td><td>41d18h30m23s</td><td>never</td></tr><tr><td> zelja.zh.as8758.net</td><td>Zurich</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>212.25.27.39</td><td>4</td><td>up</td><td>727330</td><td>4</td><td>1s</td><td>41d18h31m36s</td><td>never</td></tr><tr><td> zaina.zh.as8758.net</td><td>Zurich</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>212.25.27.43</td><td>4</td><td>up</td><td>726596</td><td>5</td><td>1s</td><td>41d18h29m12s</td><td>never</td></tr><tr><td> ghayda.glb.as8758.net</td><td>Glattbrugg</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>212.25.27.44</td><td>4</td><td>up</td><td>727252</td><td>3</td><td>1s</td><td>41d18h27m46s</td><td>never</td></tr><tr><td> zelja.zh.as8758.net</td><td>Zurich</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>2001:8e0:0:ffff::2</td><td>6</td><td>up</td><td>14517</td><td>6</td><td>11s</td><td>16d4h3m36s</td><td>never</td></tr><tr><td> gauri.glb.as8758.net</td><td>Glattbrugg</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>2001:8e0:0:ffff::34</td><td>6</td><td>up</td><td>12687</td><td>4</td><td>4s</td><td>41d18h32m26s</td><td>never</td></tr><tr><td> zaina.zh.as8758.net</td><td>Zurich</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>2001:8e0:0:ffff::43</td><td>6</td><td>up</td><td>29495</td><td>6</td><td>4s</td><td>41d18h25m32s</td><td>never</td></tr><tr><td> ghayda.glb.as8758.net</td><td>Glattbrugg</td><td> CH </td><td> RIPENCC </td><td>IWAY,</td><td>8758</td><td>2001:8e0:0:ffff::9</td><td>6</td><td>up</td><td>29537</td><td>4</td><td>4s</td><td>41d18h25m24s</td><td>never</td></tr></tbody></table> </div>
+
+ <footer>
+  <p style="text-align:center"><a href="https://gixtools.net/gix/looking-glass/">GIXLG</a> - Copyright &copy; <a href="https://gixtools.net">GIXtools</a></p>
+ </footer>
+
+ <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+ <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="lib/nhpup_1.1.js"></script>
+</body>
+</html>

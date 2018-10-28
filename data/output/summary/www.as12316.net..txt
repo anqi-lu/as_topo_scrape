@@ -1,0 +1,238 @@
+http://www.as12316.net/<!DOCTYPE html>
+<html><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Looking Glass AS 12316 F-I-TS</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:400,700italic,700,500italic,500,400italic,300italic,300" media="all">
+</head>
+
+<body id="id-15">
+<div style="background: #ffffff">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4">
+      <a href="http://www.f-i-ts.de/home/" title="Finanz Informatik Technologie Service"><img style="margin-left: -60px;" src="img/fi-ts-logo.png" alt=""></a>    
+    </div>
+    <div class="col-xs-8">
+      <p style="margin: 30px 0 0 215px;">Please email questions or<br/>comments to <a href="mailto:peering AT f-i-ts DOT net"><b>peering@f-i-ts.net</b></a>.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="content-outer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Looking Glass AS 12316 F-I-TS</h1>
+      </div>
+      <div class="col-xs-9">
+        <div class="inner white">
+	  
+          <div class="row">
+            <div class="col-xs-3">
+              <p><b>Type of query</b></p>
+            </div>
+            <div class="col-xs-5">
+              <p><b>Additional parameters</b></p>
+            </div>
+            <div class="col-xs-4">
+              <p><b>Node</b></p>
+            </div>
+          </div>
+          <div class="col-xs-12">
+	    <hr style="margin: 10px -15px 15px -15px;">
+          </div>
+          <form role="form" METHOD="GET" ACTION="/lg.cgi">
+	    <div class="row">
+	      <div class="col-xs-3">
+		<div class="form-group">
+
+		  <div class="radio">
+		    <label>
+		      <input type="radio" name="query" id="typeofquery1" value="bgp">
+		      <p>bgp</p>
+		    </label>
+		  </div>
+
+		  <div class="radio">
+		    <label>
+		      <input type="radio" name="query" id="typeofquery2" value=" bgp summary">
+		      <p>bgp summary</p>
+		    </label>
+		  </div>
+<INPUT TYPE="hidden" NAME="protocol" VALUE="IPv4">
+		</div>
+	      </div>
+	      <div class="col-xs-5">
+		<div class="form-group">
+		  <br />
+		  <input type="text" class="form-control" name="addr">
+		</div>
+	      </div>
+	      <div class="col-xs-4">
+		<div class="form-group">
+		  <br />
+		  <select class="form-control" name="router">
+<OPTION VALUE="FI-TS Routeserver" selected> FI-TS Routeserver
+		  </select>
+		</div>
+	      </div>
+	    </div>
+	    <div class="col-xs-12">
+	      <hr style="margin: 10px -15px 15px -15px;">
+	    </div>
+	    <div class="row">
+	      <div class="form-group">
+		<div class="col-xs-8">
+		</div>
+		<div class="col-xs-2">
+		  <button style="margin-left: 6px;" class="btn btn-fits" type="submit" title="Submit"> Submit </button>
+		</div>
+		<div class="col-xs-2">
+		  <button style="margin-left: -6px;" class="btn btn-fits" type="reset" title="Reset"> Reset </button>
+		</div>
+	      </div>
+	    </div>
+          </form>
+          <div class="row">
+            <div class="col-xs-12">
+              <p style="font-size: 13px; margin-top: 20px;">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</p>
+            </div>
+          </div>  
+	</div>
+      </div>
+      
+      <div class="col-xs-3r">
+      </div>
+    </div>
+  </div>
+  <div class="shadow">
+    
+  </div>
+</div>
+
+
+
+</body></html>
+http://www.as12316.net/<!DOCTYPE html>
+<html><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Looking Glass AS 12316 F-I-TS</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:400,700italic,700,500italic,500,400italic,300italic,300" media="all">
+</head>
+
+<body id="id-15">
+<div style="background: #ffffff">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4">
+      <a href="http://www.f-i-ts.de/home/" title="Finanz Informatik Technologie Service"><img style="margin-left: -60px;" src="img/fi-ts-logo.png" alt=""></a>    
+    </div>
+    <div class="col-xs-8">
+      <p style="margin: 30px 0 0 215px;">Please email questions or<br/>comments to <a href="mailto:peering AT f-i-ts DOT net"><b>peering@f-i-ts.net</b></a>.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="content-outer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Looking Glass AS 12316 F-I-TS</h1>
+      </div>
+      <div class="col-xs-9">
+        <div class="inner white">
+	  
+          <div class="row">
+            <div class="col-xs-3">
+              <p><b>Type of query</b></p>
+            </div>
+            <div class="col-xs-5">
+              <p><b>Additional parameters</b></p>
+            </div>
+            <div class="col-xs-4">
+              <p><b>Node</b></p>
+            </div>
+          </div>
+          <div class="col-xs-12">
+	    <hr style="margin: 10px -15px 15px -15px;">
+          </div>
+          <form role="form" METHOD="GET" ACTION="/lg.cgi">
+	    <div class="row">
+	      <div class="col-xs-3">
+		<div class="form-group">
+
+		  <div class="radio">
+		    <label>
+		      <input type="radio" name="query" id="typeofquery1" value="bgp">
+		      <p>bgp</p>
+		    </label>
+		  </div>
+
+		  <div class="radio">
+		    <label>
+		      <input type="radio" name="query" id="typeofquery2" value=" bgp summary">
+		      <p>bgp summary</p>
+		    </label>
+		  </div>
+<INPUT TYPE="hidden" NAME="protocol" VALUE="IPv4">
+		</div>
+	      </div>
+	      <div class="col-xs-5">
+		<div class="form-group">
+		  <br />
+		  <input type="text" class="form-control" name="addr">
+		</div>
+	      </div>
+	      <div class="col-xs-4">
+		<div class="form-group">
+		  <br />
+		  <select class="form-control" name="router">
+<OPTION VALUE="FI-TS Routeserver" selected> FI-TS Routeserver
+		  </select>
+		</div>
+	      </div>
+	    </div>
+	    <div class="col-xs-12">
+	      <hr style="margin: 10px -15px 15px -15px;">
+	    </div>
+	    <div class="row">
+	      <div class="form-group">
+		<div class="col-xs-8">
+		</div>
+		<div class="col-xs-2">
+		  <button style="margin-left: 6px;" class="btn btn-fits" type="submit" title="Submit"> Submit </button>
+		</div>
+		<div class="col-xs-2">
+		  <button style="margin-left: -6px;" class="btn btn-fits" type="reset" title="Reset"> Reset </button>
+		</div>
+	      </div>
+	    </div>
+          </form>
+          <div class="row">
+            <div class="col-xs-12">
+              <p style="font-size: 13px; margin-top: 20px;">Disclaimer: All commands will be logged for possible later analysis and statistics. If you don't like this policy, please disconnect now!</p>
+            </div>
+          </div>  
+	</div>
+      </div>
+      
+      <div class="col-xs-3r">
+      </div>
+    </div>
+  </div>
+  <div class="shadow">
+    
+  </div>
+</div>
+
+
+
+</body></html>

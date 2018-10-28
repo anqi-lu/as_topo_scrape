@@ -116,10 +116,18 @@ def data_postprocess(data):
                 
 '''input AS source url, return html text'''
 def send_request(url):
-    #get form contents inside the html
-    r = requests.get(url)
-    url = r.url
-    r = requests.get(url)
+    # get form contents inside the html
+    try:
+        r = requests.get(url)
+        url = r.url
+    except requests.exceptions.ConnectionError:
+        r.status_code = "Connection refused"
+
+    try:
+        r = requests.get(url)
+    except requests.exceptions.ConnectionError:
+        r.status_code = "Connection refused"
+    
     html = r.content.decode('utf-8', 'ignore')
     soup = BeautifulSoup(html, 'html.parser')
     '''all the needed info is inside the [form] frame

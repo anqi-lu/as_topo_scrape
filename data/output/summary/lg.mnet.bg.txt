@@ -1,0 +1,66 @@
+http://lg.mnet.bg
+BGP router identifier 84.43.191.250, local AS number 21230
+BGP table version is 823535825, main routing table version 823535825
+718174 network entries using 160870976 bytes of memory
+1940080 path entries using 170727040 bytes of memory
+196050/109864 BGP path/bestpath attribute entries using 40778400 bytes of memory
+203654 BGP AS-PATH entries using 10449776 bytes of memory
+8814 BGP community entries using 1850644 bytes of memory
+274 BGP extended community entries using 13622 bytes of memory
+2542 BGP route-map cache entries using 142352 bytes of memory
+0 BGP filter-list cache entries using 0 bytes of memory
+BGP using 384832810 total bytes of memory
+169038 received paths for inbound soft reconfiguration
+BGP activity 20870575/20044716 prefixes, 303948424/301766103 paths, scan interval 60 secs
+
+Neighbor        V           AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+77.85.194.149   4         8866    2259    2197 823535688    0    0 16:45:25     1704
+84.43.189.225   4        41313    2585    1117 823535686    0    0 16:47:37     8713
+84.43.189.230   4        44718    2229  270598 823535642    0    0 16:45:24        2
+84.43.189.234   4        29687    2123    2196 823535686    0    0 16:45:30       86
+84.43.189.245   4        12615    2133    2201 823535807    0    0 16:47:35       60
+84.43.189.250   4        21249    1158    1113 823535526    0    0 16:47:31        4
+85.14.0.7       4         8262       0       0        1    0    0 16:03:33 Idle (PfxCt)
+88.203.240.33   4         8717    1310    1111 823535807    0    0 16:45:21     1591
+95.158.129.45   4        41313    1116    1121 823535686    0    0 16:47:45        2
+95.158.131.251  4        41313  161595    1116 823535521    0    0 16:47:30   653035
+95.158.131.252  4        41313  167769    1113 823535521    0    0 16:47:33   653020
+178.132.82.81   4        57344    3229    1114 823535526    0    0 16:47:26     7473
+178.132.82.82   4        57344    4781    1121 823535526    0    0 16:47:31     7467
+185.1.40.1      4        41059  315701    1114 823535521    0    0 16:47:25   213527
+185.1.40.254    4        41059  305407    1118 823535521    0    0 16:47:32   213527
+194.12.255.1    4         8262    3069    1114 823535686    0    0 16:48:12    10806
+217.145.80.53   4        20665    1013    1112 823535807    0    0 16:47:35        9
+http://lg.mnet.bg
+BGP router identifier 84.43.191.250, local AS number 21230
+BGP table version is 823551816, main routing table version 823551816
+718227 network entries using 160882848 bytes of memory
+1940151 path entries using 170733288 bytes of memory
+195957/109832 BGP path/bestpath attribute entries using 40759056 bytes of memory
+203570 BGP AS-PATH entries using 10444702 bytes of memory
+8772 BGP community entries using 1840944 bytes of memory
+271 BGP extended community entries using 13502 bytes of memory
+1357 BGP route-map cache entries using 75992 bytes of memory
+0 BGP filter-list cache entries using 0 bytes of memory
+BGP using 384750332 total bytes of memory
+169056 received paths for inbound soft reconfiguration
+BGP activity 20871042/20045123 prefixes, 303954375/301771918 paths, scan interval 60 secs
+
+Neighbor        V           AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+77.85.194.149   4         8866    2327    2271 823551593    0    0 17:19:24     1704
+84.43.189.225   4        41313    2626    1154 823551815    0    0 17:21:35     8712
+84.43.189.230   4        44718    2304  272947 823551789    0    0 17:19:22        2
+84.43.189.234   4        29687    2194    2270 823551815    0    0 17:19:29       86
+84.43.189.245   4        12615    2204    2276 823551668    0    0 17:21:33       60
+84.43.189.250   4        21249    1197    1151 823551787    0    0 17:21:30        4
+85.14.0.7       4         8262       0       0        1    0    0 16:37:32 Idle (PfxCt)
+88.203.240.33   4         8717    1344    1148 823551668    0    0 17:19:19     1591
+95.158.129.45   4        41313    1154    1158 823551815    0    0 17:21:43        2
+95.158.131.251  4        41313  162815    1152 823551771    0    0 17:21:28   653073
+95.158.131.252  4        41313  169150    1151 823551771    0    0 17:21:31   653077
+178.132.82.81   4        57344    3295    1151 823551787    0    0 17:21:25     7489
+178.132.82.82   4        57344    4893    1158 823551787    0    0 17:21:30     7467
+185.1.40.1      4        41059  317905    1151 823551771    0    0 17:21:23   213499
+185.1.40.254    4        41059  307612    1156 823551771    0    0 17:21:31   213499
+194.12.255.1    4         8262    3105    1152 823551815    0    0 17:22:11    10805
+217.145.80.53   4        20665    1047    1149 823551668    0    0 17:21:34        9

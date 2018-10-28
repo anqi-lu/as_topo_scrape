@@ -1,0 +1,11 @@
+http://lg.lan.switch.ch/lg/lg.cgi
+Query "bgp summary" not implemented on  (platform "")
+
+			
+
+				http://lg.lan.switch.ch/lg/lg.cgi
+Query "bgp summary" not implemented on  (platform "")
+
+			
+
+				

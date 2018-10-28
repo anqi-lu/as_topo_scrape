@@ -1,0 +1,22 @@
+http://bgp.stech.net.br/lg
+BGP router identifier 187.84.222.252, local AS number 25933
+RIB entries 153866, using 9617 KiB of memory
+Peers 2, using 5040 bytes of memory
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+10.255.255.253  4 25933   25956       8        0    0    0 3d02h25m Active     
+10.255.255.254  4 25933       0       1        0    0    0 never    Active     
+
+Total number of neighbors 2
+bgpd> 
+http://bgp.stech.net.br/lg
+BGP router identifier 187.84.222.252, local AS number 25933
+RIB entries 153866, using 9617 KiB of memory
+Peers 2, using 5040 bytes of memory
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+10.255.255.253  4 25933   25956       8        0    0    0 3d02h59m Active     
+10.255.255.254  4 25933       0       1        0    0    0 never    Active     
+
+Total number of neighbors 2
+bgpd> 

@@ -1,0 +1,20 @@
+http://tools.vocus.com.au/lg/
+BGP router identifier 175.45.91.209, local AS number 4826
+RIB entries 1345692, using 144 MiB of memory
+Peers 2, using 9136 bytes of memory
+
+Neighbor        V         AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+175.45.72.1     4  4826 16791825  268819        0    0    0 04w3d03h   739854
+2402:7800::6    4  4826 9594756   44867        0    0    0 04w3d03h        0
+
+Total number of neighbors 2
+http://tools.vocus.com.au/lg/
+BGP router identifier 175.45.91.209, local AS number 4826
+RIB entries 1345781, using 144 MiB of memory
+Peers 2, using 9136 bytes of memory
+
+Neighbor        V         AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+175.45.72.1     4  4826 16799350  269024        0    0    0 04w3d04h   739929
+2402:7800::6    4  4826 9597030   44901        0    0    0 04w3d04h        0
+
+Total number of neighbors 2

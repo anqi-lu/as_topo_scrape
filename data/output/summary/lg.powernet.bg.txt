@@ -1,0 +1,12 @@
+http://lg.powernet.bg
+ERROR:problem connecting to "193.24.240.57", port 23: Connection refused
+ERROR:write error: filehandle isn't open
+ERROR:write error: filehandle isn't open
+ERROR:write error: filehandle isn't open
+ERROR:write error: filehandle isn't open
+http://lg.powernet.bg
+ERROR:problem connecting to "193.24.240.57", port 23: Connection refused
+ERROR:write error: filehandle isn't open
+ERROR:write error: filehandle isn't open
+ERROR:write error: filehandle isn't open
+ERROR:write error: filehandle isn't open

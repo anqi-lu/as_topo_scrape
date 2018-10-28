@@ -1,0 +1,24 @@
+http://www.as50763.net/lg/
+suri> 
+suri> show ip bgp summary
+BGP router identifier 37.1.88.90, local AS number 50763
+RIB entries 939499, using 100 MiB of memory
+Peers 2, using 9120 bytes of memory
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+37.1.88.89      4 50763 38669391  361421        0    0    0 29w3d15h   496268
+
+Total number of neighbors 1
+suri> 
+http://www.as50763.net/lg/
+suri> 
+suri> show ip bgp summary
+BGP router identifier 37.1.88.90, local AS number 50763
+RIB entries 939521, using 100 MiB of memory
+Peers 2, using 9120 bytes of memory
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+37.1.88.89      4 50763 38672043  361455        0    0    0 29w3d16h   496287
+
+Total number of neighbors 1
+suri> 

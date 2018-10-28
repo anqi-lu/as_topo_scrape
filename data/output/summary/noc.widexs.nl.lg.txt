@@ -1,0 +1,36 @@
+http://noc.widexs.nl/lg
+SSH@cr01a-wxs.ams3#terminal length 0
+SSH@cr01a-wxs.ams3#show ipv6 bgp summary
+  BGP4 Summary 
+  Router ID: 212.204.248.5   Local AS Number: 12573
+  Confederation Identifier: not configured
+  Confederation Peers: 
+  Maximum Number of IP ECMP Paths Supported for Load Sharing: 1
+  Number of Neighbors Configured: 5, UP: 4
+  Number of Routes Installed: 56946, Uses 4897356 bytes
+  Number of Routes Advertising to All Neighbors: 56934 (56934 entries), Uses 2732832 bytes
+  Number of Attribute Entries Installed: 23823, Uses 2144070 bytes
+  Neighbor Address          AS#         State   Time          Rt:Accepted Filtered Sent     ToSend
+  2001:898:1000::6          12573       ESTAB   1361d 3h29m   39          0        56901    1        
+  2001:898:2000:24::3       65053       ESTAB   207d10h55m    3           0        0        0        
+  2001:898:2000:24::4       65053       CONN    546d16h49m    0           0        0        0        
+  2001:898:2000:25::3       65053       ESTAB   207d10h31m    3           0        0        0        
+  2001:9a0:0:1005::1        15879       ESTAB   390d21h 6m    56874       0        32       0        
+http://noc.widexs.nl/lg
+SSH@cr01a-wxs.ams3#terminal length 0
+SSH@cr01a-wxs.ams3#show ipv6 bgp summary
+  BGP4 Summary 
+  Router ID: 212.204.248.5   Local AS Number: 12573
+  Confederation Identifier: not configured
+  Confederation Peers: 
+  Maximum Number of IP ECMP Paths Supported for Load Sharing: 1
+  Number of Neighbors Configured: 5, UP: 4
+  Number of Routes Installed: 56960, Uses 4898560 bytes
+  Number of Routes Advertising to All Neighbors: 56948 (56948 entries), Uses 2733504 bytes
+  Number of Attribute Entries Installed: 23827, Uses 2144430 bytes
+  Neighbor Address          AS#         State   Time          Rt:Accepted Filtered Sent     ToSend
+  2001:898:1000::6          12573       ESTAB   1361d 4h 3m   39          0        56916    0        
+  2001:898:2000:24::3       65053       ESTAB   207d11h29m    3           0        0        0        
+  2001:898:2000:24::4       65053       CONN    546d17h23m    0           0        0        0        
+  2001:898:2000:25::3       65053       ESTAB   207d11h 5m    3           0        0        0        
+  2001:9a0:0:1005::1        15879       ESTAB   390d21h40m    56888       0        32       0        

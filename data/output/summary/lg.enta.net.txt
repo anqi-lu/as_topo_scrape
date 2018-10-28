@@ -1,0 +1,18 @@
+http://lg.enta.netBGP router identifier 84.45.252.218, local AS number 65001
+RIB entries 1307954, using 80 MiB of memory
+Peers 2, using 5016 bytes of memory
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+84.45.252.217   4  8468 408951290 4320133        0    0    0 50w3d18h   715053
+
+Total number of neighbors 1
+lg.enta.net> quit
+http://lg.enta.netBGP router identifier 84.45.252.218, local AS number 65001
+RIB entries 1308017, using 80 MiB of memory
+Peers 2, using 5016 bytes of memory
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+84.45.252.217   4  8468 408953608 4320167        0    0    0 50w3d18h   715102
+
+Total number of neighbors 1
+lg.enta.net> quit

@@ -1,0 +1,62 @@
+http://www.olsson.net/lg.cgi
+
+Sun Oct 28 19:00:59.375 MET
+BGP router identifier 193.163.221.65, local AS number 5491
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0xe0000000   RD version: 162208811
+BGP main routing table version 162208811
+BGP NSR Initial initsync version 2 (Reached)
+BGP NSR/ISSU Sync-Group versions 0/0
+Dampening enabled
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker       162208811  162208811  162208811  162208811   162208811           0
+
+Some configured eBGP neighbors (under default or non-default vrfs)
+do not have both inbound and outbound policies configured for IPv4 Unicast
+address family. These neighbors will default to sending and/or
+receiving no routes and are marked with '!' in the output below.
+Use the 'show bgp neighbor ' command for details.
+
+Neighbor        Spk    AS MsgRcvd MsgSent   TblVer  InQ OutQ  Up/Down  St/PfxRcd
+5.56.153.148      0 31027 90829466  479870 162208811    0    0     7w6d     717372
+77.233.230.28     0 31027  463417  421070 162208811    0    0    39w5d          0!
+193.163.221.66    0  5491  538590  479866 162208811    0    0     6w5d          1
+
+http://www.olsson.net/lg.cgi
+
+Sun Oct 28 19:35:11.179 MET
+BGP router identifier 193.163.221.65, local AS number 5491
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0xe0000000   RD version: 162214679
+BGP main routing table version 162214679
+BGP NSR Initial initsync version 2 (Reached)
+BGP NSR/ISSU Sync-Group versions 0/0
+Dampening enabled
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker       162214679  162214679  162214679  162214679   162214679           0
+
+Some configured eBGP neighbors (under default or non-default vrfs)
+do not have both inbound and outbound policies configured for IPv4 Unicast
+address family. These neighbors will default to sending and/or
+receiving no routes and are marked with '!' in the output below.
+Use the 'show bgp neighbor ' command for details.
+
+Neighbor        Spk    AS MsgRcvd MsgSent   TblVer  InQ OutQ  Up/Down  St/PfxRcd
+5.56.153.148      0 31027 90833717  479904 162214679    0    0     7w6d     717431
+77.233.230.28     0 31027  463455  421104 162214679    0    0    39w5d          0!
+193.163.221.66    0  5491  538628  479900 162214679    0    0     6w5d          1
+

@@ -1,0 +1,20 @@
+http://www.as8304.eu/lg
+BGP router identifier 8.3.0.4, local AS number 65000
+RIB entries 49, using 3136 bytes of memory
+Peers 2, using 5040 bytes of memory
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+213.218.129.5   4 65000  563421  511275        0    0    0 22w2d03h       25
+213.218.129.8   4 65000  563266  511237        0    0    0 50w5d01h       25
+
+Total number of neighbors 2
+http://www.as8304.eu/lg
+BGP router identifier 8.3.0.4, local AS number 65000
+RIB entries 49, using 3136 bytes of memory
+Peers 2, using 5040 bytes of memory
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+213.218.129.5   4 65000  563458  511309        0    0    0 22w2d04h       25
+213.218.129.8   4 65000  563304  511271        0    0    0 50w5d01h       25
+
+Total number of neighbors 2

@@ -1,0 +1,91 @@
+http://lg.cern.ch
+  BGP4 Summary 
+  Router ID: 192.65.184.1   Local AS Number: 513
+  Confederation Identifier: not configured
+  Confederation Peers: 
+  Cluster ID: 513
+  Maximum Number of IP ECMP Paths Supported for Load Sharing: 4
+  Number of Neighbors Configured: 30, UP: 30
+  Number of Routes Installed: 1520463, Uses 150525837 bytes
+  Number of Routes Advertising to All Neighbors: 1985405 (718234 entries), Uses 34475232 bytes
+  Number of Attribute Entries Installed: 408543, Uses 36768870 bytes
+  '+': Data in InQueue '>': Data in OutQueue '-': Clearing
+  '*': Update Policy 'c': Group change 'p': Group change Pending
+  'r': Restarting 's': Stale '^': Up before Restart '<': EOR waiting
+  Neighbor Address  AS#         State   Time          Rt:Accepted Filtered Sent     ToSend
+  5.45.200.30       13238       ESTAB   10d20h19m     65          0        25       0        
+  62.40.100.9       20965       ESTAB   116d 0h28m    734         0        25       0        
+  62.40.124.157     20965       ESTAB   116d 0h28m    17100       0        25       0        
+  83.97.88.33       21320       ESTAB   116d 0h28m    232677      0        28       0        
+  149.6.55.57       174         ESTAB   3d16h43m      711537      0        25       0        
+  180.149.48.37     9885        ESTAB   74d 2h23m     350         0        25       0        
+  192.16.155.2      59624       ESTAB   4d23h55m      13          0        25       0        
+  192.16.155.6      32361       ESTAB   3d20h41m      3           0        1        0        
+  192.16.155.14     2018        ESTAB   4d23h55m      403         0        25       0        
+  192.16.155.18     2697        ESTAB   59d 9h44m     3           0        25       0        
+  192.16.155.22     24167       ESTAB   2d15h47m      7           0        25       0        
+  192.16.155.30     17579       ESTAB   4d23h55m      40          0        25       0        
+  192.16.155.66     43115       ESTAB   2d 8h45m      1           0        25       0        
+  192.65.184.3      513         ESTAB   347d11h56m    86014       0        636978   1        
+  192.65.184.4      513         ESTAB   74d 2h22m     0           0        716652   1        
+  192.65.184.7      513         ESTAB   193d10h 8m    418854      0        629841   1        
+  192.65.184.24     513         ESTAB   190d10h50m    0           0        1        0        
+  192.65.184.138    32361       ESTAB   347d11h56m    5           0        25       0        
+  192.65.184.150    2603        ESTAB   24d23h10m     959         0        25       0        
+  192.65.184.210    559         ESTAB   31d 5h49m     14383       0        25       0        
+  192.65.184.214    293         ESTAB   347d11h57m    8309        0        25       0        
+  192.65.184.218    559         ESTAB   31d 5h49m     14383       0        25       0        
+  192.65.184.221    559         ESTAB   31d 5h49m     14383       0        25       0        
+  192.65.187.82     65202       ESTAB   347d11h57m    0           0        1        0        
+  192.65.196.3      513         ESTAB   64d11h11m     13          0        1        0        
+  192.65.196.4      513         ESTAB   101d20h17m    12          0        1        0        
+  192.65.196.8      513         ESTAB   48d 6h40m     16          0        1        0        
+  192.65.196.9      513         ESTAB   101d20h16m    16          0        1        0        
+  192.91.244.94     11344       ESTAB   4d14h52m      0           0        1452     0        
+  193.51.191.214    2200        ESTAB   74d 2h24m     179         0        25       0        
+	http://lg.cern.ch
+  BGP4 Summary 
+  Router ID: 192.65.184.1   Local AS Number: 513
+  Confederation Identifier: not configured
+  Confederation Peers: 
+  Cluster ID: 513
+  Maximum Number of IP ECMP Paths Supported for Load Sharing: 4
+  Number of Neighbors Configured: 30, UP: 30
+  Number of Routes Installed: 1520636, Uses 150542964 bytes
+  Number of Routes Advertising to All Neighbors: 1985484 (718301 entries), Uses 34478448 bytes
+  Number of Attribute Entries Installed: 408572, Uses 36771480 bytes
+  '+': Data in InQueue '>': Data in OutQueue '-': Clearing
+  '*': Update Policy 'c': Group change 'p': Group change Pending
+  'r': Restarting 's': Stale '^': Up before Restart '<': EOR waiting
+  Neighbor Address  AS#         State   Time          Rt:Accepted Filtered Sent     ToSend
+  5.45.200.30       13238       ESTAB   10d20h53m     65          0        25       0        
+  62.40.100.9       20965       ESTAB   116d 1h 2m    734         0        25       0        
+  62.40.124.157     20965       ESTAB   116d 1h 2m    17102       0        25       0        
+  83.97.88.33       21320       ESTAB   116d 1h 2m    232687      0        28       0        
+  149.6.55.57       174         ESTAB   3d17h17m      711581      0        25       0        
+  180.149.48.37     9885        ESTAB   74d 2h57m     350         0        25       0        
+  192.16.155.2      59624       ESTAB   5d 0h29m      13          0        25       0        
+  192.16.155.6      32361       ESTAB   3d21h15m      3           0        1        0        
+  192.16.155.14     2018        ESTAB   5d 0h29m      403         0        25       0        
+  192.16.155.18     2697        ESTAB   59d10h18m     3           0        25       0        
+  192.16.155.22     24167       ESTAB   2d16h21m      7           0        25       0        
+  192.16.155.30     17579       ESTAB   5d 0h29m      40          0        25       0        
+  192.16.155.66     43115       ESTAB   2d 9h19m      1           0        25       0        
+  192.65.184.3      513         ESTAB   347d12h30m    86053       0        637018   0        
+  192.65.184.4      513         ESTAB   74d 2h56m     0           0        716720   0        
+  192.65.184.7      513         ESTAB   193d10h42m    418923      0        629815   0        
+  192.65.184.24     513         ESTAB   190d11h24m    0           0        1        0        
+  192.65.184.138    32361       ESTAB   347d12h30m    5           0        25       0        
+  192.65.184.150    2603        ESTAB   24d23h44m     960         0        25       0        
+  192.65.184.210    559         ESTAB   31d 6h23m     14385       0        25       0        
+  192.65.184.214    293         ESTAB   347d12h31m    8311        0        25       0        
+  192.65.184.218    559         ESTAB   31d 6h24m     14385       0        25       0        
+  192.65.184.221    559         ESTAB   31d 6h23m     14385       0        25       0        
+  192.65.187.82     65202       ESTAB   347d12h31m    0           0        1        0        
+  192.65.196.3      513         ESTAB   64d11h45m     13          0        1        0        
+  192.65.196.4      513         ESTAB   101d20h51m    12          0        1        0        
+  192.65.196.8      513         ESTAB   48d 7h14m     16          0        1        0        
+  192.65.196.9      513         ESTAB   101d20h50m    16          0        1        0        
+  192.91.244.94     11344       ESTAB   4d15h27m      0           0        1452     0        
+  193.51.191.214    2200        ESTAB   74d 2h58m     179         0        25       0        
+	

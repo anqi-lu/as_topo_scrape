@@ -1,0 +1,32 @@
+http://as9371.bgp4.jp
+osn-trigger> show ip bgp summary
+BGP router identifier 210.224.162.177, local AS number 9371
+RIB entries 1314004, using 80 MiB of memory
+Peers 6, using 15 KiB of memory
+Peer groups 1, using 16 bytes of memory
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+157.17.144.15   4  9371 15413827  164321        0    0    0 08w1d02h   718944
+157.17.144.16   4  9371 15421210  164321        0    0    0 08w1d02h   718944
+192.41.192.119  4 65400     324 5760030        0    0    0 01w2d04h        0
+210.173.172.66  4 65400  164227 5937209        0    0    0 02w3d07h        0
+210.188.224.40  4 65013   82010 5766580        0    0    3 07w6d17h        0
+210.224.179.139 4 65535   82200   82200        0    0    0 08w1d02h        0
+
+Total number of neighbors 6
+http://as9371.bgp4.jp
+osn-trigger> show ip bgp summary
+BGP router identifier 210.224.162.177, local AS number 9371
+RIB entries 1314017, using 80 MiB of memory
+Peers 6, using 15 KiB of memory
+Peer groups 1, using 16 bytes of memory
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+157.17.144.15   4  9371 15418198  164389        0    0    0 08w1d02h   718988
+157.17.144.16   4  9371 15425581  164389        0    0    0 08w1d02h   718988
+192.41.192.119  4 65400     324 5761874        0    0    0 01w2d04h        0
+210.173.172.66  4 65400  164296 5939121        0    0    0 02w3d07h        0
+210.188.224.40  4 65013   82043 5767856        0    0    0 07w6d17h        0
+210.224.179.139 4 65535   82234   82234        0    0    0 08w1d02h        0
+
+Total number of neighbors 6

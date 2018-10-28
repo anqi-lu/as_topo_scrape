@@ -1,0 +1,12 @@
+http://www.as42004.net/lg
+ERROR:unknown remote host: cr1.thn.as42004.net
+ERROR:write error: filehandle isn't open
+ERROR:write error: filehandle isn't open
+ERROR:write error: filehandle isn't open
+ERROR:write error: filehandle isn't open
+http://www.as42004.net/lg
+ERROR:unknown remote host: cr1.thn.as42004.net
+ERROR:write error: filehandle isn't open
+ERROR:write error: filehandle isn't open
+ERROR:write error: filehandle isn't open
+ERROR:write error: filehandle isn't open
