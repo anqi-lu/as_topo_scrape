@@ -114,6 +114,8 @@ def data_postprocess(data):
 def send_request(url):
     #get form contents inside the html
     r = requests.get(url)
+    url = r.url
+    r = requests.get(url)
     html = r.content.decode('utf-8', 'ignore')
     soup = BeautifulSoup(html, 'html.parser')
     '''all the needed info is inside the [form] frame
@@ -168,5 +170,5 @@ def send_request(url):
 
     
 if __name__ == "__main__":
-    url = 'http://www.ccn.net/lg'
+    url = 'http://active24.cz/lg/lg.cgi'
     resp = send_request(url)
