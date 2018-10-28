@@ -8,12 +8,18 @@ import datetime
 
 '''send post request, return html text results, need further data ectraction'''
 def send_pst_req(url_data):
-    r = requests.post(url = url_data[0], data = url_data[1]) 
+    try:
+        r = requests.post(url = url_data[0], data = url_data[1]) 
+    except:
+        print("Request failed")
     return r.text
 
 '''send get request, return html text results, need further data ectraction'''
 def send_get_req(url):
-    r = requests.get(url)
+    try:
+        r = requests.get(url)
+    except:
+        print("Request failed")
     return r.text
 
 '''get text for a tag'''
