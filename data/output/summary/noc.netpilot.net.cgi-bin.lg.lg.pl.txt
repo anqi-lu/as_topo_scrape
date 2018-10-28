@@ -1,2 +1,0 @@
-http://noc.netpilot.net/cgi-bin/lg/lg.pl
-http://noc.netpilot.net/cgi-bin/lg/lg.pl

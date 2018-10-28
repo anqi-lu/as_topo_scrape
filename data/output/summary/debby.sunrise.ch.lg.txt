@@ -1,8 +1,0 @@
-http://debby.sunrise.ch/lg
-                      ^
-% Invalid input detected at '^' marker.
-
-http://debby.sunrise.ch/lg
-                      ^
-% Invalid input detected at '^' marker.
-
