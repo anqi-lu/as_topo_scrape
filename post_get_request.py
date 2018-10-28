@@ -75,6 +75,8 @@ def select_process(selects, data):
         key = select.attrs['name']
         options = select.find_all('option')
         for option in options:
+            if 'value' not in option.attrs:
+                continue
             value = option.attrs['value']   
             text=''
             nxt_el = option.next_element
@@ -170,5 +172,5 @@ def send_request(url):
 
     
 if __name__ == "__main__":
-    url = 'http://active24.cz/lg/lg.cgi'
+    url = 'http://as39326.net/lg/'
     resp = send_request(url)
