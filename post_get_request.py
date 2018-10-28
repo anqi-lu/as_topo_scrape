@@ -142,24 +142,19 @@ def gen_request(final_url, method, post_data):
     pres = response.find_all('pre')
     if len(pres) > 0:
         dest = 'data/output/results/pre'
-        if not os.path.exists(dest):
-            os.makedirs(dest)
-        file_path = os.path.join(dest, ''.join(e for e in final_url if e.isalnum())+'_'+str(datetime.datetime.now()).replace(':','')+'.txt')
-        with open(file_path, 'a') as f:
-            f.write(url+'\n')
-            f.write(str(post_data)+'\n')
-            f.write(pres[0].text)
-        return pres[0].text
+        text = pres[0].text
     else:
         dest = 'data/output/results/nopre'
-        if not os.path.exists(dest):
-            os.makedirs(dest)
-        file_path = os.path.join(dest, ''.join(e for e in final_url if e.isalnum())+'_'+str(datetime.datetime.now()).replace(':','')+'.txt')
-        with open(file_path, 'a') as f:
-            f.write(url+'\n')
-            f.write(str(post_data)+'\n')
-            f.write(return_text)
-        return return_text
+        text = return_text
+    
+    if not os.path.exists(dest):
+        os.makedirs(dest)
+    file_path = os.path.join(dest, ''.join(e for e in final_url if e.isalnum())+'_'+str(datetime.datetime.now()).replace(':','')+'.txt')
+    with open(file_path, 'a') as f:
+        f.write(final_url+'\n')
+        f.write(str(post_data)+'\n')
+        f.write(text)
+    return text
     
 def walk_data(data, method, url):
     data_process = data.copy()
