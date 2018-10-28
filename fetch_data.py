@@ -13,11 +13,8 @@ if __name__ == "__main__":
     for i, url in enumerate(urls):
         if get_data(url):
             try:
-                text = send_request(url)
-                dest = 'data/output/'+str(i)+'_'+str(datetime.datetime.now()).replace(':','')+'.txt'
-                with open(dest, 'a') as f:
-                    f.write(url)
-                    f.write(text)
+                send_request(url)
+
             except ValueError as err:
                 with open('error_url.txt', 'a') as f:
                     f.write(err.args[0]+'\n'+url+'\n')
