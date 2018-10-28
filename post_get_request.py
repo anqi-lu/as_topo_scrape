@@ -10,17 +10,17 @@ import datetime
 def send_pst_req(url_data):
     try:
         r = requests.post(url = url_data[0], data = url_data[1]) 
+        return r.text
     except:
         print("Request failed")
-    return r.text
 
 '''send get request, return html text results, need further data ectraction'''
 def send_get_req(url):
     try:
         r = requests.get(url)
+        return r.text
     except:
         print("Request failed")
-    return r.text
 
 '''get text for a tag'''
 def bs4_get_string(nxt_el):
@@ -129,6 +129,7 @@ def data_postprocess(data):
                 
 '''input AS source url, return html text'''
 def gen_request(final_url, method, post_data):
+    file_name = final_url
 #    print(final_url, method, post_data)
     #if it's a post method
     if method.upper() == 'POST':
@@ -155,7 +156,7 @@ def gen_request(final_url, method, post_data):
     
     if not os.path.exists(dest):
         os.makedirs(dest)
-    file_path = os.path.join(dest, ''.join(e for e in final_url if e.isalnum())+'_'+str(datetime.datetime.now()).replace(':','')+'.txt')
+    file_path = os.path.join(dest, ''.join(e for e in file_name if e.isalnum())+'_'+str(datetime.datetime.now()).replace(':','')+'.txt')
     with open(file_path, 'a') as f:
         f.write(final_url+'\n')
         f.write(str(post_data)+'\n')
