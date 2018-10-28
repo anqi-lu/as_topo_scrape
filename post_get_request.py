@@ -72,6 +72,8 @@ def inputs_process(inputs, data):
 '''loop through all input tags, find needed arguments for data'''
 def select_process(selects, data):
     for select in selects:
+        if 'name' not in select.attrs:
+            continue
         key = select.attrs['name']
         options = select.find_all('option')
         for option in options:
