@@ -35,7 +35,7 @@ def _get_data_task(args):
     if get_data(url):
         try:
             text = send_request(url)
-            dest = 'data/output/' + category + '/' + url[7:] + '.txt'
+            dest = 'data/output/' + category + '/' + generate_name_from_url(url) '.txt'
             with open(dest, 'a') as f:
                 f.write(url)
                 f.write(text)
@@ -51,12 +51,20 @@ def get_urls(file_path):
         urls = f.read().splitlines()
     return urls
 
+
+def generate_name_from_url(url):
+    if url[:5] == "https":
+        url = url[8:]
+    elif url[:4] == "http":
+        url = url[7:]
+    return url.replace("/", ".")
+
 def main():
     lg_summary = 'data/urls_from_bgpsum.txt'
     lg_neighbor = 'data/urls_from_bgpneighbors.txt'
     lg_database = 'data/urls_from_lg_database.txt'
     
-    fetch_all(get_urls(lg_database), "database")
+    # fetch_all(get_urls(lg_database), "database")
     fetch_all(get_urls(lg_summary), "summary")
     fetch_all(get_urls(lg_neighbor), "neighbor")
 

@@ -9,18 +9,20 @@ import datetime
 '''send post request, return html text results, need further data ectraction'''
 def send_pst_req(url_data):
     try:
-        r = requests.post(url = url_data[0], data = url_data[1]) 
-        return r.text
+        r = requests.post(url = url_data[0], data = url_data[1], timeout=10) 
     except:
-        print("Request failed")
+        raise ValueError('request error')
+    
+    return r.text
 
 '''send get request, return html text results, need further data ectraction'''
 def send_get_req(url):
     try:
-        r = requests.get(url)
-        return r.text
+        r = requests.get(url, timeout=10)
     except:
-        print("Request failed")
+        raise ValueError('request error')
+    
+    return r.text
 
 '''get text for a tag'''
 def bs4_get_string(nxt_el):
@@ -227,5 +229,5 @@ def send_request(url):
 
     
 if __name__ == "__main__":
-    url = 'http://lglass.gcn.bg/lg.cgi'
+    url = 'http://lg.as16215.net'
     resp = send_request(url)
