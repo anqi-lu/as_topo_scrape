@@ -1,0 +1,138 @@
+http://lg.iix.net.id/cgi-bin/lg.cgi
+{'query': 'v6_summary', 'args': '', 'router': 'iix-jk2.cyber:cisco'}
+
+  BGP4 Summary 
+  Router ID: 103.28.75.0   Local AS Number: 7597
+  Confederation Identifier: not configured
+  Confederation Peers: 
+  Cluster ID: 103.28.75.0
+  Maximum Number of IP ECMP Paths Supported for Load Sharing: 1
+  Number of Neighbors Configured: 123, UP: 72
+  Number of Routes Installed: 1960, Uses 168560 bytes
+  Number of Routes Advertising to All Neighbors: 182108 (13538 entries), Uses 649824 bytes
+  Number of Attribute Entries Installed: 22780, Uses 2050200 bytes
+  Neighbor Address          AS#         State   Time          Rt:Accepted Filtered Sent     ToSend
+  2001:7fa:2::1             7597        ESTAB   82d 8h35m     1461        0        443      0        
+  2001:7fa:2::4             24048       ADMDN   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::5             24048       ADMDN   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::7             38511       ESTAB   11d 1h53m     3           0        1502     0        
+  2001:7fa:2::8             131746      ESTAB   9d23h 0m      3           0        1502     0        
+  2001:7fa:2::9             132653      ESTAB   50d17h52m     6           0        1499     0        
+  2001:7fa:2::a             17995       ESTAB   52d23h 3m     1           0        1504     0        
+  2001:7fa:2::b             38517       ESTAB   13d12h24m     3           59257    1502     0        
+  2001:7fa:2::15            58482       CONN    392d 5h36m    0           0        0        1505     
+  2001:7fa:2::16            136127      ESTAB   48d 7h32m     1           0        1504     0        
+  2001:7fa:2::17            23948       CONN    5d 6h 7m      0           0        0        1505     
+  2001:7fa:2::18            38511       CONN    302d 5h41m    0           0        0        1505     
+  2001:7fa:2::19            132652      ESTAB   9d22h58m      4           0        1501     0        
+  2001:7fa:2::1a            132630      CONN    806d 9h30m    0           0        0        1505     
+  2001:7fa:2::1b            18379       CONN    1191d 9h52m   0           0        0        1505     
+  2001:7fa:2::1c            58485       ADMDN   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::1d            131740      CONN    1280d16h12m   0           0        0        1505     
+  2001:7fa:2::1e            55685       ESTAB   28d10h48m     3           0        1502     0        
+  2001:7fa:2::1f            17670       CONN    1212d14h57m   0           0        0        1505     
+  2001:7fa:2::20            63859       ESTAB   10d22h52m     2           0        1503     0        
+  2001:7fa:2::21            42          ESTAB   42d 0h 1m     13          3        1492     0        
+  2001:7fa:2::22            3856        ESTAB   13d17h45m     1           0        1505     0        
+  2001:7fa:2::23            18393       ADMDN   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::24            9875        ESTAB   22d 5h45m     6           0        1499     0        
+  2001:7fa:2::25            23756       ESTAB   11d 1h53m     9           0        1496     0        
+  2001:7fa:2::26            4833        ESTAB   11d 1h51m     1           0        1504     0        
+  2001:7fa:2::27            23693       CONN    1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::2b            131755      ESTAB   22d 2h 5m     40          0        1466     0        
+  2001:7fa:2::2c            45719       ACTIV   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::2d            18103       ESTAB   25d 6h53m     0           0        1505     0        
+  2001:7fa:2::2f            17451       ESTAB   12d 1h28m     0           75       1505     0        
+  2001:7fa:2::30            59155       ESTAB   22d 2h 5m     39          0        1500     0        
+  2001:7fa:2::31            56246       ESTAB   9d22h58m      0           0        1505     0        
+  2001:7fa:2::32            55668       CONN    1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::33            45305       CONN    22d 7h23m     0           0        0        1505     
+  2001:7fa:2::35            17910       ESTAB   313d15h21m    1           0        1504     0        
+  2001:7fa:2::36            4787        ESTAB   277d15h56m    16          2        1490     0        
+  2001:7fa:2::37            4795        ESTAB   30d 1h21m     0           0        1505     0        
+  2001:7fa:2::38            9794        CONN    1003d12h13m   0           0        0        1505     
+  2001:7fa:2::39            9341        ADMDN   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::3a            4800        ESTAB   25d 7h32m     10          2        1496     0        
+  2001:7fa:2::3b            23698       ADMDN   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::3c            38496       ESTAB   225d 2h15m    8           0        1497     0        
+  2001:7fa:2::3d            24204       CONN    1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::3e            9785        CONN    652d11h47m    0           0        0        1505     
+  2001:7fa:2::3f            9326        ESTAB   11d 2h21m     1           0        1504     0        
+  2001:7fa:2::40            24530       ESTAB   47d19h15m     13          0        1492     0        
+  2001:7fa:2::41            136119      CONN    154d 0h10m    0           0        0        1505     
+  2001:7fa:2::42            45707       CONN    23d 9h13m     0           0        0        1505     
+  2001:7fa:2::43            137370      ESTAB   9d22h58m      1           0        1504     0        
+  2001:7fa:2::44            131706      ESTAB   14d21h11m     1           0        1504     0        
+  2001:7fa:2::46            133354      ESTAB   25d 7h 3m     1           0        1504     0        
+  2001:7fa:2::69            4622        ESTAB   46d 2h 8m     1           0        1504     0        
+  2001:7fa:2::6c            24555       ADMDN   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::6d            17922       ESTAB   25d 7h31m     67          4        1443     0        
+  2001:7fa:2::6e            7587        CONN    925d13h 5m    0           0        0        1505     
+  2001:7fa:2::6f            45287       ESTAB   39d18h17m     7           0        1498     0        
+  2001:7fa:2::73            17885       ESTAB   30d 3h30m     0           1        1505     0        
+  2001:7fa:2::7a            23947       ESTAB   29d 4h59m     77          1        1428     0        
+  2001:7fa:2::7b            58495       ESTAB   9d22h58m      4           277      1501     0        
+  2001:7fa:2::7c            55663       CONN    581d12h39m    0           0        0        1505     
+  2001:7fa:2::7d            38149       CONN    509d15h51m    0           0        0        1505     
+  2001:7fa:2::7e            24523       ESTAB   119d22h31m    6           0        1499     0        
+  2001:7fa:2::7f            24521       ESTAB   21d 7h22m     8           0        1497     0        
+  2001:7fa:2::88            9340        ADMDN   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::89            10217       ESTAB>  2d 7h36m      2           0        1503     0        
+  2001:7fa:2::8a            56088       ESTAB   147d12h55m    8           1        1497     0        
+  2001:7fa:2::8b            45289       ADMDN   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::8c            18059       ESTAB   48d 2h35m     2           0        1503     0        
+  2001:7fa:2::8e            23679       ESTAB   11d 1h51m     1           0        1504     0        
+  2001:7fa:2::8f            17996       ESTAB   69d 1h10m     2           0        1503     0        
+  2001:7fa:2::91            45325       ESTAB   9d22h58m      1           0        1504     0        
+  2001:7fa:2::92            23671       CONN    1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::93            23951       ESTAB   11d 1h54m     14          0        1491     0        
+  2001:7fa:2::94            23693       ADMDN   1401d17h 1m   0           0        0        0        
+  2001:7fa:2::95            55666       ESTAB   64d 4h29m     15          7        1490     0        
+  2001:7fa:2::96            45731       ESTAB   17h29m30s     1           0        1504     0        
+  2001:7fa:2::97            4382        ACTIV   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::98            24528       ACTIV   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::9a            45293       ADMDN   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::9b            58396       CONN    25d14h57m     0           0        0        1505     
+  2001:7fa:2::9c            38148       CONN    145d20h34m    0           0        0        1505     
+  2001:7fa:2::9d            38758       CONN    3h57m44s      0           0        0        1505     
+  2001:7fa:2::9e            55653       ACTIV   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::9f            24211       ADMDN   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::a1            132649      CONN    695d10h54m    0           0        0        1505     
+  2001:7fa:2::a2            46023       ESTAB   32d20h29m     5           0        1500     0        
+  2001:7fa:2::a3            24198       CONN    120d 9h12m    0           0        0        1505     
+  2001:7fa:2::a4            9228        ACTIV   1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::a5            55818       IDLE    93d22h26m     0           0        0        1505     
+  2001:7fa:2::a6            17727       ESTAB   198d 6h37m    7           0        1502     0        
+  2001:7fa:2::a7            38524       CONN    1401d17h 1m   0           0        0        1505     
+  2001:7fa:2::a8            24195       ESTAB   77d 1h37m     16          0        1489     0        
+  2001:7fa:2::a9            58487       ESTAB   19d 1h20m     1           0        1504     0        
+  2001:7fa:2::aa            133804      ESTAB   4d11h11m      1           0        1504     0        
+  2001:7fa:2::ac            133797      ESTAB   10d22h56m     2           0        1503     0        
+  2001:7fa:2::ad            58381       ESTAB   223d 1h37m    1           0        1504     0        
+  2001:7fa:2::ae            58477       ESTAB   31d17h35m     0           4        1505     0        
+  2001:7fa:2::af            4622        CONN    1203d 4h38m   0           0        0        1505     
+  2001:7fa:2::b1            131749      ESTAB   9d22h58m      3           0        1502     0        
+  2001:7fa:2::b2            24532       ESTAB>  159d17h46m    4           0        1501     0        
+  2001:7fa:2::b3            56258       ESTAB   11d 1h50m     2           0        1503     0        
+  2001:7fa:2::b4            134622      ESTAB   11d 1h52m     1           0        1504     0        
+  2001:7fa:2::b5            38767       ESTAB   35d19h54m     1           0        1504     0        
+  2001:7fa:2::b6            133812      CONN    293d12h26m    0           0        0        1505     
+  2001:7fa:2::b7            24534       ACTIV   93d22h26m     0           0        0        1505     
+  2001:7fa:2::b8            38146       ACTIV   796d11h36m    0           0        0        1505     
+  2001:7fa:2::b9            24213       ESTAB   25d 7h25m     1           0        1504     0        
+  2001:7fa:2::ba            135465      ESTAB   9d22h43m      13          0        1492     0        
+  2001:7fa:2::bb            38320       ESTAB   25d22h53m     4           0        1501     0        
+  2001:7fa:2::bc            20940       ESTAB   41d22h10m     1           0        1504     0        
+  2001:7fa:2::bd            58404       ESTAB   92d 8h 3m     2           0        1503     0        
+  2001:7fa:2::be            131717      ESTAB   9d 0h35m      5           0        1500     0        
+  2001:7fa:2::bf            133799      ESTAB   5d 6h38m      3           0        1502     0        
+  2001:7fa:2::c1            136821      ESTAB   3d 0h41m      1           0        1504     0        
+  2001:7fa:2::c2            133352      ACTIV   14h34m26s     0           0        0        1505     
+  2001:7fa:2::c3            136850      CONN    355d 4h46m    0           0        0        1505     
+  2001:7fa:2::ce            137295      ACTIV   104d 6h38m    0           0        0        1505     
+  2001:7fa:2::cf            23691       CONN    149d14h30m    0           0        0        1505     
+  2001:7fa:2::d1            19551       ESTAB   9d11h24m      0           0        1505     0        
+  2001:de9:8000::2          7597        ESTAB   12d12h 3m     11          0        1500     0        
+  2001:de9:8000:1::2        7597        ESTAB   0h28m55s      3           0        1502     0        
+  2001:de9:8000:2::2        7597        ESTAB   111d 5h10m    5           2        1503     0        
+	

@@ -1,0 +1,7 @@
+http://lg.contato.net/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+TRO                     28642   45379537     297803     0 02w5d11h 732450
+
+success.

@@ -1,0 +1,22 @@
+https://as41103.net/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+gr8-ld8-v6              41103          0          0     0 Never    Active
+gr7-pl4-v6              41103          0          0     0 Never    Active
+gr6-pl4-v6              41103          0          0     0 Never    Active
+gr5-the-v6              41103          0          0     0 Never    Active
+gr4-the-v6              41103          0          0     0 Never    Active
+gr3-the-v6              41103          0          0     0 Never    Active
+gr2-pl7-v6              41103          0          0     0 Never    Active
+gr1-pl7-v6              41103          0          0     0 Never    Active
+gr8-ld8                 41103    3158586     137330     0 02w0d07h 448335
+gr7-pl4                 41103     137332     137330     0 02w0d07h      0
+gr6-pl4                 41103     137330     137330     0 02w0d07h      0
+gr5-the                 41103    2218828     137330     0 02w0d07h 473833
+gr4-the                 41103     535649     137305     0 01w5d22h 133215
+gr3-the                 41103     946154     130570     0 01w1d10h 133823
+gr2-pl7                 41103     137331     137330     0 02w0d07h      0
+gr1-pl7                 41103     137333     137330     0 02w0d07h      0
+
+success.

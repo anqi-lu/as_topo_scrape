@@ -1,0 +1,22 @@
+http://lg.gin.ru/lg/
+{'query': 'summary', 'protocol': 'IPv6', 'addr': '', 'router': 'Moscow-GIN-VRR01'}
+
+Groups: 7 Peers: 7 Down peers: 0
+Table          Tot Paths  Act Paths Suppressed    History Damp State    Pending
+inet.0               
+                 2071243     867683          0          0          0          0
+inet6.0              
+                       0          0          0          0          0          0
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+194.84.128.4          65077    8025988    7744560       0       0 3w3d 15:56:20 Establ
+  inet.0: 238111/520512/520512/0
+194.84.128.12         65077       6775    1412694       0       1  2d 5:27:13 Establ
+  inet.0: 485/497/497/0
+194.84.128.13         65077    5044588   11453496       0       0 3w3d 15:56:12 427277/427286/427286/0 0/0/0/0
+194.84.128.14         65077     271499       9736       0       1  2d 5:27:19 Establ
+  inet.0: 201654/255089/255089/0
+194.84.128.17         65077   12602041   11994100       0       0 3w3d 15:57:10 0/867703/867703/0    0/0/0/0
+194.84.128.29         65077      77795   13438588       0       0 3w3d 15:57:16 Establ
+  inet.0: 131/131/131/0
+194.84.128.32         65077      77559   13412690       0       0 3w3d 15:56:43 Establ
+  inet.0: 25/25/25/0

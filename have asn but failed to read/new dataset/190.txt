@@ -1,0 +1,32 @@
+https://ssl.pirxnet.pl/lg/index.php
+{'requestid': '10', 'argument': '', 'routerid': '10'}
+Output: Groups: 9 Peers: 13 Down peers: 1
+Table          Tot Paths  Act Paths Suppressed    History Damp State    Pending
+inet6.0              
+                  279864      56241          0          0          0          0
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+2001:7f8:5b::1        62047    8178060     388990       0       8     2w0d21h Establ
+  inet6.0: 77/28099/28099/0
+2001:7f8:5b::100       62047    2424159     133736       0      13     6w0d22h Establ
+  inet6.0: 133/28099/28099/0
+2001:7f8:5b::295        6939      23593       2227       0      77    17:03:02 Establ
+  inet6.0: 973/27982/27982/0
+2001:7f8:60::1        24748  158945536    5849903       0     163     1w0d19h Establ
+  inet6.0: 25390/28585/28585/0
+2001:7f8:60::2        24748  158377059    5849287       0     131     1w0d19h Establ
+  inet6.0: 2023/28585/28585/0
+2001:7f8:60::13:6        6939     136355      24393       0      53     1w0d19h Establ
+  inet6.0: 0/27982/27982/0
+2a00:13a0:3000:100::2f01       31242     360155     389224       0      40    15w1d11h Establ
+  inet6.0: 7/7/7/0
+2a01:1df::7           15744   16569691     389255       0      18     17w6d0h Establ
+  inet6.0: 1781/56111/56111/0
+2a02:2780::32         62031      18505     145828       0      65     12w4d3h Active
+2a02:2780::41        200414      17840     521185       0      25 5d 11:18:53 Establ
+  inet6.0: 2/4/2/0
+2a02:2780::43        199551      46446    1708686       0      20      2w0d5h Establ
+  inet6.0: 2/2/2/0
+2a02:2780::45        197588        822      47350       0      29     6:02:30 Establ
+  inet6.0: 1/1/1/0
+2a02:a308:0:1e::1        6830    3704046      58864       0      16     2w4d21h Establ
+  inet6.0: 25852/54407/54407/0

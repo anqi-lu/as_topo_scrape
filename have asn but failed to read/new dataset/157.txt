@@ -1,0 +1,21 @@
+https://lg.syringanetworks.net/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+IDF-IP-AGG-2            15305     212325        439     0 03:38:38 792319
+SLC-IP-AGG-2            15305     211387        439     0 03:38:39 792319
+PHX-IP-AGG-1            15305     210064        439     0 03:38:38 791862
+SLC-IP-AGG-1            15305     211374        439     0 03:38:39 792319
+IDF-IP-AGG-1            15305     212381        439     0 03:38:38 792319
+BOI-IP-AGG-1            15305     211496        439     0 03:38:39 792319
+SLC-EBGPR-01            15305     206158        439     0 03:38:38 791862
+LAX-EBGPR-01            15305     207273        439     0 03:38:38 791862
+BOI-EBGPR-01            15305     209416        439     0 03:38:39 791862
+SEA-EBGPR-01            15305     209680        439     0 03:38:38 791862
+DEN-EBGPR-01            15305     209997        439     0 03:38:38 791862
+SJC-EBGPR-01            15305     208831        439     0 03:38:38 791862
+BOI-IP-AGG-2            15305     211390        439     0 03:38:39 792319
+DEN-EBGPR-PE-1          15305     216000        439     0 03:38:38 791862
+BOI-DEV-IP-AGG-1        15305     211111        439     0 03:38:39 792319
+
+success.

@@ -1,0 +1,33 @@
+http://noc.luglink.net/lg/
+{'query': 'summary', 'addr': '', 'protocol': 'IPv4', 'router': 'rt062'}
+
+Groups: 2 Peers: 22 Down peers: 22
+Table          Tot Paths  Act Paths Suppressed    History Damp State    Pending
+inet.0                 0          0          0          0          0          0
+bgp.l3vpn.0            0          0          0          0          0          0
+bgp.l2vpn.0            0          0          0          0          0          0
+inet6.0                0          0          0          0          0          0
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+10.2.255.1            41446          0          0       0       0    28w2d22h Active
+10.2.255.3            41446          0          0       0       0    28w2d22h Active
+10.2.255.4            41446          0          0       0       0    28w2d22h Active
+10.2.255.5            41446          0          0       0       0    28w2d22h Active
+10.2.255.41           41446          0          0       0       0    28w2d22h Active
+10.2.255.90           41446          0          0       0       0    28w2d22h Active
+10.2.255.101          41446          0          0       0       0    28w2d22h Active
+10.2.255.226          41446          0          0       0       0    28w2d22h Active
+10.2.255.227          41446          0          0       0       0    28w2d22h Active
+10.2.255.229          41446          0          0       0       0    28w2d22h Active
+10.2.255.234          41446          0          0       0       0    28w2d22h Active
+10.2.255.235          41446          0          0       0       0    28w2d22h Active
+2001:67c:2108::ff:1       41446          0          0       0       0    28w2d22h Active
+2001:67c:2108::ff:4       41446          0          0       0       0    28w2d22h Active
+2001:67c:2108::ff:225       41446          0          0       0       0    28w2d22h Active
+2001:67c:2108::ff:226       41446          0          0       0       0    28w2d22h Active
+2001:67c:2108::ff:227       41446          0          0       0       0    28w2d22h Active
+2001:67c:2108::ff:228       41446          0          0       0       0    28w2d22h Active
+2001:67c:2108::ff:229       41446          0          0       0       0    28w2d22h Active
+2001:67c:2108::ff:230       41446          0          0       0       0    28w2d22h Active
+2001:67c:2108::ff:234       41446          0          0       0       0    28w2d22h Active
+2001:67c:2108::ff:235       41446          0          0       0       0    28w2d22h Active
+

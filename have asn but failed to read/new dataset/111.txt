@@ -1,0 +1,8 @@
+https://lg.as7012.net/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+r04.lax02.as7012.net     7012   29013589    1521726     0 75w3d10h  60040
+r04.lax02.as7012.net     7012   98378047    1521723     0 75w3d10h 716284
+
+success.

@@ -1,0 +1,180 @@
+http://lg.bulgartel.bg/?query=summary&protocol=IPv4&addr=&router=br1.int.bulgartel.bg&
+{'query': 'summary', 'protocol': 'IPv4', 'addr': '', 'router': 'br1.int.bulgartel.bg'}
+
+Groups: 43 Peers: 97 Down peers: 20
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+77.67.94.57            as3257TISCALI-BACKBONE3257   12402350     100351       0       4 2d 20:17:03 Establ
+  t-net.inet.0: 110482/712189/711827/0
+77.71.0.185           as29687BGWAN29687       3378       3384       0     147  1d 2:41:46 Establ
+  peering.inet.0: 85/85/85/0
+80.77.144.134         as34772NEOTEL-AS-MK34772     110076     100991       0     138     4w5d11h Establ
+  peering.inet.0: 365/365/365/0
+80.81.192.157          as6695DECIX6695   28717725     612518       0      17     7w4d11h Establ
+  t-net.inet.0: 70109/182946/178775/0
+80.81.193.157          as6695DECIX6695   28765588     611753       0      22     6w6d21h Establ
+  t-net.inet.0: 51190/184543/180471/0
+80.249.208.255         as6777AMS-IX-RS6777  622048360    4273240       0     173      8w4d2h Establ
+  t-net.inet.0: 23024/105929/103195/0
+80.249.209.0           as6777AMS-IX-RS6777  653903144    4282840       0     144     1w0d14h Establ
+  t-net.inet.0: 6926/105846/103096/0
+83.217.227.5           as2914ARIN:NTT-COMMUNICATIONS-29142914   12774305     102308       0      30     4w0d11h Establ
+  t-net.inet.0: 394715/712460/711870/0
+87.245.240.153         9002   17053699      42191       0       1    76w0d17h Idle  
+91.212.235.1          as59899ARIN:IANA-RSVD59899      49712      44881       0      25    61w6d11h Idle  
+91.212.235.100        as59899ARIN:IANA-RSVD59899     149044     130080       0      10    61w6d11h Idle  
+93.94.137.10           ITD9070    4925855    3303421       0      24      5w0d5h Establ
+  peering.inet.0: 449/7845/7845/0
+93.94.137.26          as41313NOVATEL41313     169723     161490       0      46     7w4d11h Establ
+  peering.inet.0: 796/828/828/0
+93.94.137.34          as12796CDC GmbH12796       2684       2603       0     235    20:29:03 Establ
+  peering.inet.0: 0/3/3/0
+93.94.137.38          as60974ARIN:IANA-RSVD60974      16728      16242       0     304 4d 16:25:20 Establ
+  internet.inet.0: 3/3/3/0
+  internet.inet.2: 0/0/0/0
+93.94.137.42          as61996ARIN:IANA-RSVD61996     378107   49417695       0      69 5d 23:27:40 Establ
+  t-net.inet.0: 6/97/6/0
+93.94.137.46          as61996ARIN:IANA-RSVD61996     252378     128512       0     102 5d 23:27:46 Establ
+  peering.inet.0: 6/97/6/0
+93.94.137.50          as16344Information Services Plc.16344       1636     389325       0      36    12:28:54 Establ
+  internet.inet.0: 0/0/0/0
+93.94.137.54         198938     282652   48760455       0    2846      1w0d8h Establ
+  t-net.inet.0: 0/1/1/0
+93.94.137.62          as44118BkTel44118      46057      43465       0     158     2w0d10h Establ
+  t-net.inet.0: 2/2/2/0
+93.94.137.130        198938       3565       6225       0     698  1d 2:48:08 Establ
+  peering.inet.0: 0/1/1/0
+93.94.137.134         as25211EQUIFAX25211      23755      22735       0     106 6d 13:13:11 Establ
+  peering.inet.0: 42/42/42/0
+93.94.137.138        201642       5486     813462       0     143  1d 2:41:45 Establ
+  t-net.inet.0: 2/2/2/0
+93.94.137.142        201642     132702     188564       0     144  1d 2:41:45 Establ
+  peering.inet.0: 6/6/6/0
+93.94.137.150         as39251NETGUARD39251     156363     164114       0      19     7w4d11h Establ
+  peering.inet.0: 95/95/95/0
+93.94.137.154        198938    1908552  331363234       0      71     13w1d1h Establ
+  t-net.inet.0: 2/2/2/0
+93.94.137.162        205465      38213    5539590       0      29      1w6d6h Establ
+  t-net.inet.0: 2/2/2/0
+93.94.137.166        205465      37933      65594       0      31      1w6d4h Establ
+  peering.inet.0: 2/2/2/0
+93.94.137.186         as34909MAXCOM34909       4504    1280199       0      28 2d 18:23:40 Establ
+  t-net.inet.0: 5/6/5/0
+93.94.137.190         as16344Information Services Plc.16344      11687    1744739       0      56 3d 17:16:13 Establ
+  internet.inet.0: 0/0/0/0
+93.94.137.194         as34909MAXCOM34909       8961      15280       0     228 2d 18:23:45 Establ
+  peering.inet.0: 7/8/7/0
+93.94.137.210         as60974ARIN:IANA-RSVD60974      88153      87260       0     249    86w6d13h Connect
+93.94.137.214         as35654Cores35654      83709      80467       0     169 1d 21:12:05 Establ
+  peering.inet.0: 7/8/8/0
+93.94.137.218         as51196ARIN:IANA-RSVD51196     176041   26598074       0    5187     7w1d10h Establ
+  t-net.inet.0: 1/1/1/0
+93.94.137.222         as51196ARIN:IANA-RSVD51196     176025     253595       0     270     7w1d10h Establ
+  peering.inet.0: 1/1/1/0
+93.94.137.226         as31287AXEL31287     137285     131580       0      50   125w0d14h Active
+93.94.137.230         as31287AXEL31287     129193     123845       0       1   125w0d14h Connect
+93.94.137.234        198228     174358     253761       0     111     7w4d11h Establ
+  peering.inet.0: 4/4/4/0
+93.94.137.235        198228      37428      58878       0     149     1w4d11h Establ
+  peering.inet.0: 0/4/4/0
+93.94.141.82          as62015ARIN:IANA-RSVD62015        147     694737       0      20    21w5d16h Active
+93.94.141.86          as62015ARIN:IANA-RSVD62015        159      11332       0      19    21w5d16h Connect
+93.94.141.150        202543        178       2106       0      45     37w2d6h Idle  
+93.94.141.154        202543      56705      71535       0      73    13w1d16h Idle  
+93.94.141.162        202543        179     132968       0      35     37w2d6h Idle  
+93.94.141.164        202543          2       1727       0      31    13w1d16h Idle  
+93.94.141.214        206346      21626    3012177       0      27 6d 13:56:23 Establ
+  t-net.inet.0: 4/4/4/0
+93.94.141.218        206346      21640      35613       0      25 6d 13:56:17 Establ
+  peering.inet.0: 4/4/4/0
+93.94.141.226        205937     175996   26584982       0       5     6w4d15h Establ
+  internet.inet.0: 1/1/1/0
+95.87.193.89          as43561GLOBALNET43561     269048     267212       0      68     8w6d11h Establ
+  peering.inet.0: 241/242/242/0
+95.169.219.6         198938     178170     253250       0      77     6w0d21h Establ
+  peering.inet.0: 2/2/2/0
+95.169.219.10         as65507ARIN:IANA-RSVD265507     176007     276816       0      97     2w5d19h Establ
+  peering.inet.0: 2/2/2/0
+95.169.219.14         as13124IBGC13124      95016      96097       0      47     4w3d20h Establ
+  peering.inet.0: 56/58/58/0
+95.169.219.22         as43612Cable-TEL43612         21         64       0    5427     4w4d23h Active
+95.169.219.26         as44100ARIELTV44100       1693       4479       0      12    14:04:37 Establ
+  peering.inet.0: 1/1/1/0
+95.169.219.34         as39635MMI39635      46082    6084623       0     399     2w0d16h Establ
+  internet.inet.0: 2/2/2/0
+95.169.219.38         as65512ARIN:IANA-RSVD265512      99941      96568       0     125      3w1d0h Establ
+  t-net.inet.0: 2/2/2/0
+95.169.219.42         as65512ARIN:IANA-RSVD265512      43400      96727       0     115      3w1d0h Establ
+  peering.inet.0: 2/2/2/0
+95.169.219.50         as35761FORNIX35761      15638      16813       0      32    20:10:29 Establ
+  peering.inet.0: 19/19/19/0
+95.169.219.66        200009      62677    2875505       0    1105  6d 8:43:22 Establ
+  internet.inet.0: 1/1/1/0
+95.169.219.70        201212          3       2032       0      19    13w3d15h Connect
+95.169.219.74        201212     202178     736160       0      20    13w3d15h Connect
+95.169.219.78        201212          0          0       0       0    85w5d12h Connect
+95.169.219.82        201212          0          0       0       0    85w5d12h Connect
+95.169.219.86         as43205BULSATCOM-BG43205      59087      60319       0      34     2w5d23h Establ
+  peering.inet.0: 95/99/99/0
+95.169.219.90         as60578ARIN:IANA-RSVD60578     285110    1438337       0     160     9:22:15 Active
+95.169.219.102        as65507ARIN:IANA-RSVD265507     175957     160910       0      93     2w5d19h Establ
+  t-net.inet.0: 2/2/2/0
+95.169.219.106        as60441ARIN:IANA-RSVD60441      63325    8167415       0      52     2w5d20h Establ
+  t-net.inet.0: 2/2/2/0
+95.169.219.110        as60441ARIN:IANA-RSVD60441     112636     168997       0      52      5w0d7h Establ
+  peering.inet.0: 2/2/2/0
+95.169.219.134        as25211EQUIFAX25211       4863       4645       0      19     3w6d12h Active
+95.169.219.138        as44100ARIELTV44100       1693     417390       0       9    14:04:34 Establ
+  t-net.inet.0: 1/1/1/0
+95.169.219.142        as49188ARIN:IANA-RSVD49188      15016      20765       0       2 4d 18:43:59 Establ
+  peering.inet.0: 5/5/5/0
+109.160.0.57          as12615GCN12615      64500      64839       0      93 2d 17:43:32 Establ
+  peering.inet.0: 5/468/468/0
+178.18.230.100        as50952ARIN:IANA-RSVD50952    6562498     681484       0      13      1w2d1h Establ
+  t-net.inet.0: 11834/19954/19585/0
+178.18.230.200        as50952ARIN:IANA-RSVD50952    6543955     681411       0      15      1w2d1h Establ
+  t-net.inet.0: 9/19855/19488/0
+178.132.82.169        as57344ARIN:IANA-RSVD57344     588589     614382       0       4     3w5d22h Establ
+  peering.inet.0: 658/1717/1717/0
+185.1.30.1            as59900ARIN:IANA-RSVD59900    2982429     278326       0     112     13w1d1h Establ
+  peering.inet.0: 239/61058/5606/0
+185.1.30.254          as59900ARIN:IANA-RSVD59900    2960375     278317       0     109     13w1d1h Establ
+  peering.inet.0: 361/61020/5566/0
+185.44.116.149        as47872ARIN:IANA-RSVD47872     268156      34290       0       1     33w0d6h Idle  
+193.169.198.10        15669   37746730    4813941       0      40  6d 0:54:43 Establ
+  peering.inet.0: 5315/64182/8645/0
+193.169.198.172       as13172NEK13172      18365      28354       0      80  6d 0:54:39 Establ
+  peering.inet.0: 0/3/3/0
+193.169.198.173       as13172NEK13172       3615       6474       0      74  1d 4:27:02 Establ
+  peering.inet.0: 0/3/3/0
+193.169.199.10        15669   38278094    4814234       0      53 5d 23:51:50 Establ
+  peering.inet.0: 1323/64158/8626/0
+206.130.10.252        as63034ARIN:IANA-RSVD63034    1760610     101342       0       2  6d 1:27:29 Establ
+  t-net.inet.0: 8705/91081/90892/0
+206.130.10.253        as63034ARIN:IANA-RSVD63034    1805803     100820       0       6     1w6d12h Establ
+  t-net.inet.0: 36724/91063/90874/0
+212.45.65.197         as42459FOBUL42459     574363     617181       0      66      1w2d6h Establ
+  peering.inet.0: 13/14/13/0
+2001:504:36::f63a:afc:1       as63034ARIN:IANA-RSVD63034    1835057     101169       0       3     2w5d13h Establ
+  t-net.inet6.0: 10182/24733/24733/0
+2001:504:36::f63a:afd:1       as63034ARIN:IANA-RSVD63034    1796965     100569       0       2     1w6d12h Establ
+  t-net.inet6.0: 3160/24734/24734/0
+2001:668:0:3::1030:61        as3257TISCALI-BACKBONE3257    2812704     119036       0      67      4w5d7h Establ
+  t-net.inet6.0: 22547/55691/55691/0
+2001:728:0:5000::f1        as2914ARIN:NTT-COMMUNICATIONS-29142914   20713037     335395       0      72     13w1d1h Establ
+  t-net.inet6.0: 10277/55950/55950/0
+2001:7f8::1a27:5051:c09d        as6695DECIX6695   25005712     612777       0     409     11w0d1h Establ
+  t-net.inet6.0: 4707/27324/27324/0
+2001:7f8::1a27:5051:c19d        as6695DECIX6695   20860747     610870       0      18     6w6d21h Establ
+  t-net.inet6.0: 2448/27348/27348/0
+2001:7f8:1::a500:6777:1        as6777AMS-IX-RS6777  146977026    4251508       0     148     2w1d13h Establ
+  t-net.inet6.0: 1671/12940/12940/0
+2001:7f8:1::a500:6777:2        as6777AMS-IX-RS6777  119646518    2622993       0      93     1w0d14h Establ
+  t-net.inet6.0: 711/12906/12906/0
+2a01:4a40:0:100::a       as60974ARIN:IANA-RSVD60974     255657   20161352       0      79    11w5d13h Establ
+  internet.inet6.0: 7/7/7/0
+2a01:4a40:0:100::1a       as34909MAXCOM34909       8928     478766       0      70 2d 18:23:45 Establ
+  t-net.inet6.0: 4/4/4/0
+2a03:5f80:7::230:100       as50952ARIN:IANA-RSVD50952     943796     676914       0      11      1w2d1h Establ
+  t-net.inet6.0: 851/1220/1220/0
+2a03:5f80:7::230:200       as50952ARIN:IANA-RSVD50952     958238     676903       0      15      1w2d1h Establ
+  t-net.inet6.0: 0/1234/1234/0

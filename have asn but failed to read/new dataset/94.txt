@@ -1,0 +1,23 @@
+http://lg.orbyta.com/index.php
+{'para': '', 'router': '2', 'query': '1', 'ipv': '1'}
+
+              Groups: 46 Peers: 76 Down peers: 4
+Table          Tot Paths  Act Paths Suppressed    History Damp State    Pending
+inet.0               
+                   33990      10171         22          2         24          0
+bgp.l3vpn.0          
+                       0          0          0          0          0          0
+inet6.0              
+                    1048        439         85          2         87          0
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+186.148.63.197         7004   24775145     565931       0       9    26w5d15h Establ
+  INTERNACIONAL.inet.0: 317507/713403/713136/264
+190.196.210.26        65330     779643     729751       0       2    33w5d16h Establ
+  INTERNACIONAL.inet.0: 8/8/8/0
+190.196.210.230       18747     882173       4919       0      18 1d 14:56:52 Establ
+  INTERNACIONAL.inet.0: 680647/716400/715552/845
+190.196.212.26       262256     308891   14917035       0      74    13w2d20h Establ
+  INTERNACIONAL.inet.0: 16/16/16/0
+190.208.3.57           6429     728517      13957       0      21 4d 14:51:26 Establ
+  INTERNACIONAL.inet.0: 79486/713042/712800/239
+                

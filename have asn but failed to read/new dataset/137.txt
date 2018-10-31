@@ -1,0 +1,8 @@
+https://lg.datahata.by/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+r1ipv6                  56740    4970531     121973     0 1d13h56m  61763
+r1                      56740     146529     121954     0 01w3d15h   4037
+
+success.

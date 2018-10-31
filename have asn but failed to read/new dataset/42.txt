@@ -1,0 +1,19 @@
+http://lg.idola.net.id/?command=summary&query=&protocol=ipv4&router=ID%2C+Jakarta+-+IDS%2C+Menara+KPPTI&
+{'command': 'summary', 'query': '', 'protocol': 'ipv4', 'router': 'ID, Jakarta - IDS, Menara KPPTI'}
+Groups: 3 Peers: 5 Down peers: 1
+Table          Tot Paths  Act Paths Suppressed    History Damp State    Pending
+inet6.0              
+                  121896      60914          0          0          0          0
+inet.0               
+                  741950     739857          0          0          0          0
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+202.152.7.221         65535     447746     647561       0       0 5w5d 11:53:24 0/1/1/0              0/0/0/0
+202.152.11.80          4800   53115266     128617       0       0 5w5d 11:53:03 739857/741949/741923/0 0/0/0/0
+202.152.11.81          4800          0          0       0       0 5w5d 11:55:14 Active
+2400:8000::4800:11:80        4800   10621696     128616       0       0 5w5d 11:52:51 Establ
+  inet6.0: 40905/60950/60950/0
+2400:8000::4800:11:81        4800    9725086     128614       0       0 5w5d 11:52:48 Establ
+  inet6.0: 20009/60946/60946/0
+
+                 ^
+unknown command.
