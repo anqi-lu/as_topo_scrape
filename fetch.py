@@ -34,13 +34,11 @@ def _get_data_task(args):
     url, category = args
     if get_data(url):
         try:
-            text = send_request(url)
-            dest = 'data/output/' + category + '/' + generate_name_from_url(url) '.txt'
-            with open(dest, 'a') as f:
-                f.write(url)
-                f.write(text)
+            send_request(url)
             return 1
         except ValueError as err:
+            with open('error_url.txt', 'a') as f:
+                f.write(err.args[0]+'\n'+url+'\n')
             print(err.args)
             return 0
     else:
@@ -66,7 +64,7 @@ def main():
     
     # fetch_all(get_urls(lg_database), "database")
     fetch_all(get_urls(lg_summary), "summary")
-    fetch_all(get_urls(lg_neighbor), "neighbor")
+#    fetch_all(get_urls(lg_neighbor), "neighbor")
 
 if __name__ == "__main__":
     main()
