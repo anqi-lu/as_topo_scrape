@@ -3,7 +3,6 @@ import re
 import ipaddress
 import json
 from pathlib import Path
-from topo_graph import TopoNode
 
 DET_LINE_NUMBER = 4
 
@@ -13,6 +12,8 @@ find the neigbor table
 make a json object 
 write into a json file
 """
+
+AS_KEYWORDS = set(["as", "As", "AS", "ASN", "as#", "AS#", "asn"])
 def parse(filename):
     node_json = {}
     node_json['ip'] = ""
@@ -30,6 +31,8 @@ def parse(filename):
     own_ip = ""
     own_as = ""
     neighbor_node_json = []
+    headerline = data[0]
+    found_as = False 
 
     for i, line in enumerate(data):
         # can add more characters that we dont need
@@ -61,11 +64,16 @@ def parse(filename):
         if not tokens:
             continue
         if flag >= DET_LINE_NUMBER and match_ips(tokens[0]) is not None: # table found
-            headerline = data[i - 1]
-            for k, header in enumerate(headerline.split()):
-                if "as" in header.lower():
-                    # the column number is the as column number
-                    as_col_number = k
+            if len(AS_KEYWORDS.intersection(set(headerline.split()))) == 0: # haven't found AS in header
+                headerline = data[i - 1]
+                continue
+            if not found_as: 
+                for k, header in enumerate(headerline.split()):
+                    if header in AS_KEYWORDS:
+                        found_as = True
+                        # the column number is the as column number
+                        as_col_number = k
+                        print(as_col_number)
 
             if as_col_number >= len(tokens):
                 # AS col doesn't match the current row 
@@ -103,14 +111,14 @@ def write_node(node_json):
     ip = node_json['ip']
     asn = node_json['asn']
     name = ip + '_' + asn
-    with open('data/nodes/' + name + '.json', 'w') as outfile:
+    with open('data/sample/' + name + '.json', 'w') as outfile:
         json.dump(node_json, outfile, indent=2)
 
 def main():
     lg_summary = 'data/output/summary/'
     lg_neighbor = 'data/output/neighbor/'
     parse_files(lg_summary)
-    #node_json = parse(lg_summary+ 'as-ielo.net.lg.txt')
+    # parse("data/output/"+ 'sample.txt')
 
 if __name__ == "__main__":
     main()
