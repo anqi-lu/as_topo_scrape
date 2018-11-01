@@ -6,7 +6,7 @@ http://www.lonap.net/cgi-bin/mrlg.cgi
 http://noc.spacenet.ru/lg
 http://lg.ix.net.ua
 http://lg.ua-ix.net.ua
-http://lg.maxiweb.com.br
+https://lg.maxiweb.com.br/cgi-local/lg.cgi
 http://lg.schedom-europe.net/
 http://lg.lagis.at/
 http://lg.svao-ix.ru
@@ -24,8 +24,8 @@ http://netmon.acad.bg/lg
 http://ping6.it/
 http://noc.demos.net/lg/lg/lg.cgi
 http://noc.citylan.ru/lg
-http://lg.smile.smn.lv
-"http://www.six-de.net/lg/
+http://www.smile-ixp.net/lg/
+http://www.six-de.net/lg/
 http://www.bix.hu/lg/lg.cgi
 http://www.as34442.net/lg
 http://lg.telefonet.ru
