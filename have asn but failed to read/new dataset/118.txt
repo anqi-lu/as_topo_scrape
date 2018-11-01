@@ -1,0 +1,8 @@
+https://lg.clearfly.net/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+IBGP-V6                 27400    2803202      42144     0 6d15h51m  60701
+IBGP-V4                 27400    5255405      42172     0 6d16h01m 717898
+
+success.

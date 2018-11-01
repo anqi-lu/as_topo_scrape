@@ -1,0 +1,17 @@
+https://lg.synhacx.eu.org/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+eon-v4                 206155          0          0     0 Never    Active
+eon                    206155          0          0     0 Never    Active
+omega-v4               206155     674968     675075     0 20:20:34      0
+juno-v4                206155     375243     375411     0 1d05h19m      0
+dev                     64751     346999     407814     0 12w2d12h Active
+bgpmon                  65179     187225   29927071     0 2d17h15m      0
+milkywan                57199    8091685     700511     0 04w5d00h  55918/100000
+snapserv               200753   55488546     698510     0 02w5d15h  58836/100000
+tserv18                  6939   24254038     700817     0 02w6d19h  57527/100000
+omega                  206155     693060   33670293     0 20:20:01      1/100000
+juno                   206155    8734663   29652243     0 1d05h19m    326/100000
+
+success.

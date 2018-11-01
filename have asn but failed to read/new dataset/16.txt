@@ -1,0 +1,31 @@
+http://lg.cern.ch/lg.cgi
+{'query': 'summary', 'args': '', 'router': 'le2j:juniper'}
+
+Groups: 5 Peers: 10 Down peers: 0
+Table          Tot Paths  Act Paths Suppressed    History Damp State    Pending
+inet.0               
+                     861        288          0          0          0          0
+inet6.0              
+                     435        143          0          0          0          0
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+172.24.46.2             513     155044     153600       0       0 2w2d 8:20:42 Establ
+  inet.0: 284/289/289/0
+172.24.46.3             513     152809     153600       0       0 2w2d 8:20:41 Establ
+  inet.0: 0/289/289/0
+172.24.46.4             513     155535     153599       0       0 2w2d 8:20:30 Establ
+  inet.0: 0/279/279/0
+192.16.166.38         58069       4478       4883       0       2    12:26:18 3/3/3/0              0/0/0/0
+192.16.166.194          789      47388      51984       0       0 5d 11:48:11 1/1/1/0              0/0/0/0
+2001:1458:302:31::2         789      47388      52687       0       0 5d 11:48:09 Establ
+  inet6.0: 1/1/1/0
+2001:1458:302:37::2       58069       4475       4900       0       2    12:26:15 Establ
+  inet6.0: 1/1/1/0
+fd01:1458:300:21::2         513     154674     153600       0       0 2w2d 8:20:42 Establ
+  inet6.0: 140/146/146/0
+fd01:1458:300:21::3         513     152297     153599       0       0 2w2d 8:20:41 Establ
+  inet6.0: 0/146/146/0
+fd01:1458:300:21::4         513     155164     153597       0       0 2w2d 8:20:10 Establ
+  inet6.0: 1/141/141/0
+
+{master:0}
+	

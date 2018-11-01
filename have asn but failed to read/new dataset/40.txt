@@ -1,0 +1,24 @@
+http://lg.hextet.net/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+THKING_v6               31451          0       9153     0 Never    Active
+MBNOG_v6                65204      15704     280922     0 6d21h00m      0
+MBNOG_v4                65204      15715    1138727     0 6d21h03m      0
+NLNOG_v6               199036      15851    1853216     0 01w0d10h      0
+NLNOG_v4               199036      15714    8944795     0 01w0d10h      0
+isolario_v6             65517      36618     311381     0 4d01h45m      0
+isolario_v4             65517      36334    2127345     0 1d10h54m      0
+BGPmon_RS07-CA_v6       65179      10990     275418     0 01w5d17h      0
+BGPmon_RS07-CA_v4       65179      10990    1137466     0 01w5d17h      0
+core2.ywg2.les.net_v6   18451     403871      36626     0 01w5d17h  59014
+core2.ywg2.les.net_v4   18451    1634173      36626     0 01w5d17h 734943
+core1.ywg2.les.net_v6   18451     405505      36626     0 01w5d17h  59019
+core1.ywg2.les.net_v4   18451    1633131      36626     0 01w5d17h 734945
+Blackhole              395089      36626      36626     0 01w5d17h      0
+Core1_IPv6             395089      41918      36620     0 6d20h25m     14
+Core1_IPv4             395089      42038      36624     0 6d20h26m     11
+Core0_IPv6             395089     153542      36626     0 01w5d17h  22834
+Core0_IPv4             395089     183341      36626     0 01w5d17h  54892
+
+success.

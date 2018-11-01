@@ -1,0 +1,20 @@
+http://lg.mtsdatacentres.com/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+NLNOGv6                199036     319378     282192     0 01w0d10h      0
+NONOGv4                199036     317990  314982572     0 01w0d10h      0
+104.236.154.30          65179     222027   35527334     0 1d06h11m      0
+216.55.208.2           394255     372893     372828     0 27w3d15h      0
+MBNOGv6                 65204          0          0     0 Never    Active
+MBNOGv4                 65204     319349   35078601     0 02w6d13h      0
+v6_DC1_MIN_P13C02_ER02 394255     817577     745245     0 27w3d10h      3
+v6_DC1_MIN_P18C09_ER01 394255     817188     745537     0 27w3d15h     22
+v6_DC1_MIN_P22C07_CR02 394255    7229708     745540     0 27w3d15h  56251
+v6_DC1_MIN_P21C07_CR01 394255    9628094     745540     0 27w3d15h  59078
+DC1_MIN_P18C09_ER01    394255     813213     745508     0 27w3d15h     35
+DC1_MIN_P13C02_ER02    394255     812786     745188     0 27w3d10h     49
+DC1_MIN_P22C09_CR02    394255   28463358     745509     0 27w3d15h 715583
+DC1_MIN_P21C07_CR01    394255   28087608     745510     0 27w3d15h 716691
+
+success.

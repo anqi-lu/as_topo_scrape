@@ -9,7 +9,7 @@ if __name__ == "__main__":
     lg_neighbor = 'data/urls_from_bgpneighbors.txt'
 
     lg_database = 'data/urls_from_lg_database.txt'
-    urls = get_urls(lg_neighbor)
+    urls = get_urls(lg_summary)
     for i, url in enumerate(urls):
         if get_data(url):
             try:

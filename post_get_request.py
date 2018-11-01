@@ -9,18 +9,20 @@ import datetime
 '''send post request, return html text results, need further data ectraction'''
 def send_pst_req(url_data):
     try:
-        r = requests.post(url = url_data[0], data = url_data[1]) 
-        return r.text
+        r = requests.post(url = url_data[0], data = url_data[1], timeout=10) 
     except:
-        print("Request failed")
+        raise ValueError('request error')
+    
+    return r.text
 
 '''send get request, return html text results, need further data ectraction'''
 def send_get_req(url):
     try:
-        r = requests.get(url)
-        return r.text
+        r = requests.get(url, timeout=10)
     except:
-        print("Request failed")
+        raise ValueError('request error')
+    
+    return r.text
 
 '''get text for a tag'''
 def bs4_get_string(nxt_el):
@@ -56,6 +58,8 @@ def inputs_process(inputs, data):
                     value = 'Submit'
                 elif inp.attrs['type'].lower() == 'text':
                     value = ''
+                elif inp.attrs['type'].lower() == 'reset':
+                    value = ''
                 else:
                     raise ValueError("type not as submit or text")
             else:
@@ -85,9 +89,6 @@ def select_process(selects, data):
         key = select.attrs['name']
         options = select.find_all('option')
         for option in options:
-            if 'value' not in option.attrs:
-                continue
-            value = option.attrs['value']   
             text=''
             nxt_el = option.next_element
             nxt_el_str = bs4_get_string(nxt_el)
@@ -98,6 +99,10 @@ def select_process(selects, data):
                         break
                 nxt_el_str = bs4_get_string(nxt_el)
             text = nxt_el_str
+            if 'value' not in option.attrs:
+                value = text
+            else:
+                value = option.attrs['value'] 
             if key not in data:
                 data[key]=[]
             data[key].append([value, text])
@@ -115,10 +120,13 @@ def data_postprocess(data):
 #            post_data[key] = attrs[0][0]
             for attr in attrs:
                 text = attr[1]
-                if 'bgp' in text and '6' not in text and 'sum' in text: #BGP summary
+                if 'bgp' in text.lower() and 'sum' in text.lower(): #BGP summary
                     sum_flag = True
                     is_bgp = True
-                    post_data[key] = attr[0]
+                    if key in post_data:
+                        post_data[key].append(attr[0])
+                    else:
+                        post_data[key] = [attr[0]]
                     break
             if not is_bgp:
                 post_data[key] = data[key]
@@ -184,11 +192,12 @@ def walk_data(data, method, url):
             print(err.args)
     
                 
-def send_request(url):
+def send_request(url, mode='sum'):
         #get form contents inside the html
     r = requests.get(url)
-    url = r.url
-    r = requests.get(url)
+    while r.url != url:
+        url = r.url
+        r = requests.get(url)
     html = r.content.decode('utf-8', 'ignore')
     soup = BeautifulSoup(html, 'html.parser')
     '''all the needed info is inside the [form] frame
@@ -227,5 +236,5 @@ def send_request(url):
 
     
 if __name__ == "__main__":
-    url = 'http://lglass.gcn.bg/lg.cgi'
+    url = 'http://looking-glass.galacsys.net/'
     resp = send_request(url)

@@ -1,0 +1,7 @@
+http://lg.neidetelecom.com/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+BGPLG-IGW-DUH           21277   65854937    1230909     0 14w1d17h 641115
+
+success.

@@ -1,0 +1,9 @@
+http://lg.trit.net/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+s1                      40193    1977029      48287     0 02w1d11h 230270
+r1                      40193    5161161      48275     0 04w5d12h 712860
+r3                      40193    5595499      48274     0 04w5d12h 712860
+
+success.

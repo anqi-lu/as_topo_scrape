@@ -1,0 +1,10 @@
+http://lglass.gcn.bg/lg.cgi
+{'query': 'summary', 'addr': '', 'router': 'INTERNET_Varna'}
+
+ show bgp summary | except "inet.0|inet6.0" 
+Groups: 2 Peers: 2 Down peers: 0
+Table          Tot Paths  Act Paths Suppressed    History Damp State    Pending
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+87.246.1.5            12615    9994009     612885       0      38     3w6d11h 66685/67588/66691/0  0/0/0/0
+212.3.236.25           3356   73888564     403775       0       7     6w0d12h 645963/711777/708812/0 0/0/0/0
+

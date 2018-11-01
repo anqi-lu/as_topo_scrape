@@ -1,0 +1,26 @@
+http://www.as29140.net/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+v6-RR2_FFM2_IBGP        29140      59046      59315     0 02w6d14h     53
+v6-RR1_FFM2_IBGP        29140      59046      59315     0 02w6d14h     53
+v6-BORDER8_IBGP         29140      63176      59315     0 02w6d14h      0
+v6-BORDER7_IBGP         29140     826577      59315     0 02w6d14h   1818
+v6-BORDER6_IBGP         29140    2629027      59315     0 02w6d14h  24859
+v6-BORDER5B_IBGP        29140      59018      59315     0 02w6d14h      0
+v6-BORDER5_IBGP         29140      59023      59315     0 02w6d14h      6
+v6-BORDER4_IBGP         29140    3699656      59306     0 01w0d12h   1850
+v6-BORDER3_IBGP         29140    3185187      59315     0 02w6d14h  19486
+v6-BORDER2_IBGP         29140    4655611      59070     0 2d09h40m  10703
+RR2_FFM2_IBGP           29140      59019      59315     0 02w6d14h      1
+RR1_FFM2_IBGP           29140      59019      59315     0 02w6d14h      1
+BORDER8_IBGP            29140      63176      59315     0 02w6d14h      0
+BORDER7_IBGP            29140    2588105      59315     0 02w6d14h  77028
+BORDER6_IBGP            29140    5493256      59315     0 02w6d14h 398809
+BORDER5B_IBGP           29140      59019      59315     0 02w6d14h      1
+BORDER5_IBGP            29140      59024      59315     0 02w6d14h      9
+BORDER4_IBGP            29140    1351489      59306     0 01w0d12h  16868
+BORDER3_IBGP            29140     862245      59315     0 02w6d14h  90271
+BORDER2_IBGP            29140    2392202      59072     0 2d09h40m 131211
+
+success.

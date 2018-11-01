@@ -1,0 +1,14 @@
+http://lg.les.net/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+core2.ywg2-v6           18451   34674830     441950     0 21w6d10h  58996
+core1.ywg2-v6           18451   36887359     441950     0 21w6d10h  58997
+core2.ywg1-v6           18451     431516     441950     0 21w6d10h      1
+core1.ywg1-v6           18451     431426     441950     0 21w6d10h      1
+core2.ywg2              18451   64524258     441954     0 10w1d12h 734952
+core1.ywg2              18451   65078319     441950     0 21w6d10h 734952
+core1.ywg1              18451     485069     441950     0 21w6d10h      4
+core2.ywg1              18451          0     110489     0 Never    Active
+
+success.

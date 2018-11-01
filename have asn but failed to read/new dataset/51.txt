@@ -1,0 +1,23 @@
+http://lg.idola.net.id/?command=summary&query=&protocol=ipv6&router=ID%2C+Batam+-+GPN%2C+Batam+Graha+Pena&
+{'command': 'summary', 'query': '', 'protocol': 'ipv6', 'router': 'ID, Batam - GPN, Batam Graha Pena'}
+Groups: 5 Peers: 9 Down peers: 1
+Table          Tot Paths  Act Paths Suppressed    History Damp State    Pending
+inet.0               
+                  742028     739873          0          0          0          0
+inet6.0              
+                  121854      60908          0          0          0          0
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+183.91.76.30         134655      69351   13599561       0     112 3w0d 2:07:56 1/1/1/0              0/0/0/0
+183.91.77.42         134655      11461    2324324       0      16 3d 11:39:30 1/1/1/0              0/0/0/0
+202.152.7.2           59142      31712      60453       0       0 2w5d 6:25:54 1/1/1/0              0/0/0/0
+202.152.9.114         46026          0          0       0       0 7w1d 8:35:03 Active
+202.152.11.6           4800       4545       4939       0       3 1d 13:44:21 55/59/59/0           0/0/0/0
+202.152.11.80          4800   50106828     127423       0       1 5w5d 12:07:14 739815/741965/741682/0 0/0/0/0
+202.152.11.81          4800      91949      92101       0       1 4w1d 6:38:01 0/1/1/0              0/0/0/0
+2400:8000::4800:11:80        4800   17796928     158077       0       1 7w1d 7:22:27 Establ
+  inet6.0: 40903/60929/60929/0
+2400:8000::4800:11:81        4800     320962       6643       0      15  2d 2:45:22 Establ
+  inet6.0: 20005/60925/60925/0
+
+                      ^
+unknown command.

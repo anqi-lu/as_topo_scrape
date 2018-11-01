@@ -1,0 +1,12 @@
+http://bussola.as21034.net/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+r3-ipv6                 21034          0          0     0 Never    Active
+r3                      21034    3899679     283206     0 14w0d08h 103367
+r2-ipv6                 21034       7827         44     0 02w4d05h Active
+r2                      21034   21177768     283205     0 14w0d08h 321374
+r1-ipv6                 21034        600         45     0 02w4d05h Active
+r1                      21034   11521224     283205     0 14w0d08h 562209
+
+success.

@@ -1,0 +1,26 @@
+https://lg.axione.fr/
+{'query': 'summary', 'addr': '', 'protocol': 'IPv6', 'router': 'rou-cbv92-01'}
+
+Groups: 4 Peers: 6 Down peers: 3
+Table          Tot Paths  Act Paths Suppressed    History Damp State    Pending
+inet.0               
+                     170         14          0          0          0          0
+inet6.0              
+                       0          0          0          0          0          0
+                 1436021     718014          0          0          0          0
+bgp.invpnflow.0      
+                       0          0          0          0          0          0
+                  112392      56196          0          0          0          0
+inetflow.0           
+                       0          0          0          0          0          0
+Peer                     AS      InPkt     OutPkt    OutQ   Flaps Last Up/Dwn State|#Active/Received/Accepted/Damped...
+10.1.105.10           65100          0          0       0       0 106w0d 19:35:11 Active
+10.10.0.253           65100   41290916    7758246       0       6 33w1d 18:57:29 Establ
+  inet.0: 14/85/14/0
+  inet6.0: 0/0/0/0
+10.10.0.254           65100   41195630    7761363       0       4 33w1d 18:57:33 Establ
+  inet.0: 0/85/14/0
+  inet6.0: 0/0/0/0
+213.200.76.113         3257   33036973     375591       0      13 16w5d 19:37:46 Establ
+217.119.176.44        31167          0          0       0      93 55w1d 4:29:45 Active
+2001:668:0:3::1000:831        3257          0          0       0       5 37w2d 4:26:41 Connect

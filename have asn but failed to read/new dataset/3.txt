@@ -1,0 +1,14 @@
+http://lg.as26320.net/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+IPv6-WPGBURDC1-BGP01    26320      50979      45534     0 02w1d19h      0
+IPv6-WPGBURDC1-BGP02    26320      50957      45534     0 02w1d19h      2
+IPv6-WPG360DC1-BGP01    26320      50979      45534     0 02w1d19h      0
+IPv6-WPG360DC1-BGP02    26320    1163398      45534     0 02w1d19h  57512
+WPG360DC1-BGP02         26320     362698      45538     0 02w1d19h 118060
+WPGBURDC1-BGP02         26320      60427      45538     0 02w1d19h   3045
+WPG360DC1-BGP01         26320    1227424      45538     0 02w1d19h 734405
+WPGBURDC1-BGP01         26320    1698098      45538     0 02w1d19h 722514
+
+success.

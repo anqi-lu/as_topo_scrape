@@ -1,0 +1,11 @@
+http://lg.mbix.ca/cgi-bin/bgplg?req=&cmd=show+ip+bgp+summary&
+{'req': '', 'cmd': 'show ip bgp summary'}
+
+Neighbor                   AS    MsgRcvd    MsgSent  OutQ Up/Down  State/PrfRcvd
+195.160.236.11          34135      20189     111993     0 4d01h39m      0
+RS2 v6                  16395     366972      36726     0 01w5d18h  27984
+RS1 v6                  16395     367089      36726     0 01w5d18h  27984
+RS2 v4                  16395     256550      36726     0 01w5d18h  56596
+RS1 v4                  16395     256885      36726     0 01w5d18h  56598
+
+success.

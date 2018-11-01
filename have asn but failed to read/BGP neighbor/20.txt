@@ -1,0 +1,20 @@
+http://noc.widexs.nl/lg/
+{'query': 'summary', 'protocol': 'IPv6', 'addr': '', 'router': 'cr01a-wxs.ams3'}
+
+SSH@cr01a-wxs.ams3#terminal length 0
+SSH@cr01a-wxs.ams3#show ipv6 bgp summary
+  BGP4 Summary 
+  Router ID: 212.204.248.5   Local AS Number: 12573
+  Confederation Identifier: not configured
+  Confederation Peers: 
+  Maximum Number of IP ECMP Paths Supported for Load Sharing: 1
+  Number of Neighbors Configured: 5, UP: 4
+  Number of Routes Installed: 56805, Uses 4885230 bytes
+  Number of Routes Advertising to All Neighbors: 56793 (56793 entries), Uses 2726064 bytes
+  Number of Attribute Entries Installed: 23892, Uses 2150280 bytes
+  Neighbor Address          AS#         State   Time          Rt:Accepted Filtered Sent     ToSend
+  2001:898:1000::6          12573       ESTAB   1363d23h25m   39          0        56761    0        
+  2001:898:2000:24::3       65053       ESTAB   210d 6h51m    3           0        0        0        
+  2001:898:2000:24::4       65053       CONN    549d12h45m    0           0        0        0        
+  2001:898:2000:25::3       65053       ESTAB   210d 6h27m    3           0        0        0        
+  2001:9a0:0:1005::1        15879       ESTAB   393d17h 2m    56733       0        32       0        
