@@ -236,5 +236,5 @@ def send_request(url, mode='sum'):
 
     
 if __name__ == "__main__":
-    url = 'http://looking-glass.galacsys.net/'
+    url = 'http://lg.he.net/'
     resp = send_request(url)
