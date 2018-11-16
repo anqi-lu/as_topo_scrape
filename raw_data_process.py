@@ -7,7 +7,7 @@ import json
 
 asn_lookup = {}
 
-if __name__ == "__main__":
+def summ_data_process():
     pathlist = Path('pre').glob('*.txt*')
     cnter=0
     valid_url = {}
@@ -83,7 +83,31 @@ if __name__ == "__main__":
                     json.dump(data_dict, fp)
                     
             else:
-                shutil.copy(f, 'trash_bin/'+f[4:])
-            
+                shutil.copy(f, 'trash_bin/'+f[4:]) 
+                
+def summ_data_process():
+    pathlist = Path('pre').glob('*.txt*')
+    cnter=0
+    valid_url = {}
+    all_url = {}
+    for i, p in enumerate(pathlist):
+        f=str(p)
+        valid_input = False
+        neighbors = []
+        borrow_num = 0
+        with open(f, 'r') as file:
+            lines = file.readlines()
+            for line in lines[2:]:
+                line = line.strip().lower()
+                line_s = line.split()
+                
+if __name__ == "__main__":
+    pathlist = Path('data/output/neighbor').glob('*.txt*')
+    cnter=0
+    valid_url = {}
+    all_url = {}
+    for i, p in enumerate(pathlist):
+        f=str(p)
+        print(f)
                     
             
