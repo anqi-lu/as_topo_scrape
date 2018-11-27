@@ -1,0 +1,5 @@
+ftp.afrinic.net/pub/dbase/
+ftp://ftp.apnic.net/pub/apnic/whois/
+ftp://whois.in.bell.ca/bell/bell.db.gz
+ftp://whois.epoch.net/pub/IRRd/databases
+ftp://ftp.ripe.net/ripe/dbase/
