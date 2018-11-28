@@ -1,8 +1,0 @@
-[
-    { "summary": 
-        ["show ip bgp summary", "show ipv4 bgp summary", "show ipv6 bgp summary"]
-    },
-    { "neighbor": 
-        ["show ip bgp neighbor", "show ipv4 bgp summary", "show ipv6 bgp summary"]
-    }
-]
