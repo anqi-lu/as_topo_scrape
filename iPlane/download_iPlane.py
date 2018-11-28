@@ -33,9 +33,9 @@ def url_is_alive(url):
 
 # extract all the downloadable txt files from url list into download folder
 def download_txt_files(url_list, txt_root):
-    i = 1
+    i = 1938
     for url in url_list:
-        filename = str(i) + '.txt'
+        filename = txt_root + str(i) + '.txt'
         urllib.request.urlretrieve(url, filename)
         i = i + 1
     return
@@ -44,7 +44,11 @@ def download_txt_files(url_list, txt_root):
 # the pair is stored in the form: 123 3456 (previous < latter, divided by semi-coma)
 def store_as_pairs(read_root, store_name, as_dict):
     file_names = os.listdir(read_root)
-    for file_name in file_names:
+    for file_cnt,file_name in enumerate(file_names):
+        if file_cnt%100 == 0:
+            import datetime
+            print(datetime.datetime.now())
+            print(file_cnt/len(file_names))
         file_path = os.path.join(read_root, file_name)
         with open(file_path, 'r') as f:
             content = f.readlines()
@@ -83,12 +87,12 @@ def isInt(num):
         return False
 
 def main():
-    # url_base = 'http://web.eecs.umich.edu/~harshavm/iplane/iplane_logs/data/'
+    url_base = 'http://web.eecs.umich.edu/~harshavm/iplane/iplane_logs/data/'
     read_root = 'download/'
     store_name = 'iPlane_AS_pairs.txt'
     as_dict = set()
-    url_list = url_generator(url_base,2011, 2016, 'pl_traceroutes/curr_inter_ip_links.txt')
-    download_txt_files(url_list, read_root)
+    # url_list = url_generator(url_base, 2015, 2016, 'pl_traceroutes/curr_inter_ip_links.txt')
+    # download_txt_files(url_list, read_root)
     store_as_pairs(read_root, store_name, as_dict)
 
 if __name__ == "__main__":
