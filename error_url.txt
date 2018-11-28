@@ -1,0 +1,682 @@
+bgp summary not found
+http://ams-nl.lg.iniz.com/
+bgp summary not found
+http://as197890.net
+form tag not exist
+http://as16347.adista.fr
+bgp summary not found
+http://ali.ginernet.com/
+bgp summary not found
+http://as23265.net/mrlg.php
+bgp summary not found
+http://as201206.net/
+bgp summary not found
+http://as29222.net/lg/
+bgp summary not found
+http://as39326.net/lg
+form tag not exist
+http://as37100.net/
+bgp summary not found
+http://as62471.net/lg/
+bgp summary not found
+http://as44574.net/lg/
+bgp summary not found
+http://at.edis.at
+bgp summary not found
+http://baires02.com.ar/traceroute/
+bgp summary not found
+http://bandit.probe-networks.de/cgi-bin/trace
+bgp summary not found
+http://bcn.ginernet.com/
+bgp summary not found
+http://bgp.nero.net
+form tag not exist
+http://atw.co.hu/lg/
+bgp summary not found
+http://cgi.ipartners.pl/cgi-bin/traceroute.cgi
+form tag not exist
+http://customers.datapipe.net/trace.pl
+bgp summary not found
+http://davespeed.com/cgi-bin/traceroute.cgi
+form tag not exist
+http://dia.telxgroup.net/netperf.php
+bgp summary not found
+http://dns1.byteweb.com.br/lg
+form tag not exist
+http://eng.atlanticmetro.net/
+bgp summary not found
+http://eng.nac.net/lookingglass/lg.html
+form tag not exist
+http://dtel-ix.net/index.php/looking-glass
+bgp summary not found
+http://eu-looking-glass.battle.net/
+form tag not exist
+http://en.isoc.org.il/iix/2x_looking_glass.html
+bgp summary not found
+http://glass.cprm.net/bgp.html
+bgp summary not found
+http://gblnet.ru/lg/
+bgp summary not found
+http://ez.net.id/webb/lglass/lg.php
+bgp summary not found
+http://ip6.ch/#lookingglass
+bgp summary not found
+http://integra.net/lg/
+bgp summary not found
+http://ipstats.globalcrossing.net/dotcom/link7r.shtml?mode=r2h&type=trace
+bgp summary not found
+http://irr.bboi.net/cgi-bin/lg.cgi
+bgp summary not found
+http://irr.wvfiber.net/cgi-bin/lg.cgi
+bgp summary not found
+http://ipms.chinatelecomglobal.com/public/lookglass/lookglassDisclaimer.html
+bgp summary not found
+http://ixlg-en.dtln.ru/summary/ost-rs+nord-rs/ipv4
+bgp summary not found
+http://kr-looking-glass.battle.net/
+form tag not exist
+http://lab.nat.moe/routeview/
+form tag not exist
+http://leasewebnoc.com/lg/lg.cgi/
+bgp summary not found
+http://lg.abica.co.uk/
+form tag not exist
+http://lg.aarnet.edu.au
+form tag not exist
+http://lg.accelerated.de
+bgp summary not found
+http://lg.adamo.es/lg/lg.cgi
+form tag not exist
+http://lg.acom.net.ua/
+form tag not exist
+http://lg.aina.net
+bgp summary not found
+http://lg.algartelecom.com.br/lg.php
+bgp summary not found
+http://lg.alog.com.br
+bgp summary not found
+http://lg.alog.com.br/
+bgp summary not found
+http://lg.angonix.net/
+form tag not exist
+http://lg.anlx.net
+bgp summary not found
+http://lg.appnexus.com/
+bgp summary not found
+http://lg.arpnet.pl/
+bgp summary not found
+http://lg.as10929.net
+bgp summary not found
+http://lg.arpnetworks.com/
+bgp summary not found
+http://lg.as13746.net
+bgp summary not found
+http://lg.as14442.net
+bgp summary not found
+http://lg.as1403.net
+bgp summary not found
+http://lg.as19531.net/
+form tag not exist
+http://lg.as2110.net/
+bgp summary not found
+http://lg.as2518.net/lg/
+bgp summary not found
+http://lg.as35266.net/
+bgp summary not found
+http://lg.as35908.net/
+bgp summary not found
+http://lg.as40191.net
+bgp summary not found
+http://lg.as42455.net/
+bgp summary not found
+http://lg.as42695.net/
+bgp summary not found
+http://lg.as42708.net
+bgp summary not found
+http://lg.as47869.net/
+bgp summary not found
+http://lg.as45177.net/
+form tag not exist
+http://lg.as50056.net
+form tag not exist
+http://lg.as5577.net
+form tag not exist
+http://lg.as58511.net/
+bgp summary not found
+http://lg.as58511.net/lg/lg.cgi
+bgp summary not found
+http://lg.as59605.net/lg/lg.cgi
+bgp summary not found
+http://lg.as60362.net/summary/router1.paris1/ipv4
+bgp summary not found
+http://lg.as63031.net/
+bgp summary not found
+http://lg.as6453.net/bin/lg.cgi
+bgp summary not found
+http://lg.as8218.eu
+bgp summary not found
+http://lg.atl.zerofail.net/
+bgp summary not found
+http://lg.atman.pl
+bgp summary not found
+http://lg.atman.pl/
+form tag not exist
+http://lg.atservers.com/
+bgp summary not found
+http://lg.atservers.com/form.html
+bgp summary not found
+http://lg.au.superloop.com/lg/lg.cgi
+bgp summary not found
+http://lg.balifiber.id/lg/lg.cgi
+bgp summary not found
+http://lg.bgp4.pl/
+type not as submit or text
+http://lg.b-ix.net/
+bgp summary not found
+http://lg.blueskysystems.co.uk
+bgp summary not found
+http://lg.bt.net/
+bgp summary not found
+http://lg.buf1.as20278.net/
+bgp summary not found
+http://lg.cable.st/
+bgp summary not found
+http://lg.cablenet-as.net/
+form tag not exist
+http://lg.cerberus.net.uk
+form tag not exist
+http://lg.ch.as1836.net/
+bgp summary not found
+http://lg.chi1.as20278.net/
+bgp summary not found
+http://lg.ciklet.net.tr
+form tag not exist
+http://lg.certto.com.br/
+bgp summary not found
+http://lg.citytelecom.ru
+bgp summary not found
+http://lg.cloudsingularity.net
+bgp summary not found
+http://lg.clouvider.net/
+bgp summary not found
+http://lg.cnt.ru/
+form tag not exist
+http://lg.conectbm.com.br
+bgp summary not found
+http://lg.connesi.it/
+bgp summary not found
+http://lg.core-backbone.com/
+bgp summary not found
+http://lg.cosmonova.net.ua/
+bgp summary not found
+http://lg.datafibra.com.br
+bgp summary not found
+http://lg.datagroup.com.ua/
+bgp summary not found
+http://lg.dataix.ru
+form tag not exist
+http://lg.datautama.net.id
+form tag not exist
+http://lg.delta-telecom.net
+form tag not exist
+http://lg.df.ru/
+form tag not exist
+http://lg.dgc.se/
+bgp summary not found
+http://lg.dhosting.pl/
+bgp summary not found
+http://lg.dhosting.pl
+form tag not exist
+http://lg.digitalcable.ro
+bgp summary not found
+http://lg.directone.ro/
+bgp summary not found
+http://lg.dragon.cz/
+form tag not exist
+http://lg.dts-online.net
+form tag not exist
+http://lg.duocast.net/
+bgp summary not found
+http://lg.econnect.net.br
+bgp summary not found
+http://lg.edpnet.net/
+bgp summary not found
+http://lg.edxnetwork.eu/summary/lg/ipv4
+bgp summary not found
+http://lg.egihosting.com
+form tag not exist
+http://lg.eleusi.com
+form tag not exist
+http://lg.elion.ee
+form tag not exist
+http://lg.eltel.net/
+bgp summary not found
+http://lg.elcat.kg/
+bgp summary not found
+http://lg.ensite.com.br/
+bgp summary not found
+http://lg.espanix.net/
+bgp summary not found
+http://lg.etop.pl/
+bgp summary not found
+http://lg.eurorings.net/
+bgp summary not found
+http://lg.euroweb.ro/
+bgp summary not found
+http://lg.evio.pl/
+form tag not exist
+http://lg.fdcservers.net
+bgp summary not found
+http://lg.firenet.com.au/lg
+bgp summary not found
+http://lg.first-colo.net/
+bgp summary not found
+http://lg.fratec.net/
+bgp summary not found
+http://lg.funet.fi/lg/
+form tag not exist
+http://lg.gegnet.com.br
+bgp summary not found
+http://lg.gldn.net/
+bgp summary not found
+http://lg.globenet.net/lg/lg.cgi
+bgp summary not found
+http://lg.grahamedia.net.id/
+bgp summary not found
+http://lg.grupogtd.com/
+bgp summary not found
+http://lg.gtitelecom.net.br/summary/lg/ipv4
+bgp summary not found
+http://lg.gtu.net.ua/
+bgp summary not found
+http://lg.hibernianetworks.com/
+bgp summary not found
+http://lg.hkserverworks.com
+bgp summary not found
+http://lg.hkunicom.com/lg
+form tag not exist
+http://lg.hokinet.com.br/
+bgp summary not found
+http://lg.hostoweb.com/
+form tag not exist
+http://lg.host-palace.com/lg/lg.cgi
+form tag not exist
+http://lg.hsdn.org/
+bgp summary not found
+http://lg.huge-networks.com
+bgp summary not found
+http://lg.hugeserver.com/
+bgp summary not found
+http://lg.i4networks.nl/lg.cgi
+form tag not exist
+http://lg.ibeo.hgc-intl.com/
+bgp summary not found
+http://lg.ikoula.com/
+form tag not exist
+http://lg.imcloud.tw/
+bgp summary not found
+http://lg.infowest.net/lg/
+bgp summary not found
+http://lg.interlan.ro/
+bgp summary not found
+http://lg.ints.net/
+bgp summary not found
+http://lg.invitel.net
+bgp summary not found
+http://lg.ionswitch.com/
+bgp summary not found
+http://lg.ip.rt.ru/prefix_detail/NordWest+Moscow+FarEast+Siberia+Volga+Ural+South/ipv4?q=8.8.8.8
+bgp summary not found
+http://lg.ip.tdc.net
+form tag not exist
+http://lg.iqnet.com/
+bgp summary not found
+http://lg.iranet.ir
+form tag not exist
+http://lg.isomedia.com/
+bgp summary not found
+http://lg.ist.citynethost.com/
+bgp summary not found
+http://lg.it-communicationsltd.co.uk/
+form tag not exist
+http://lg.its.cz
+bgp summary not found
+http://lg.itsbrasil.net
+bgp summary not found
+http://lg.iveloz.net.br
+form tag not exist
+http://lg.jay.net/cgi-bin/lg.cgi
+bgp summary not found
+http://lg.jettel.pl/
+bgp summary not found
+http://lg.ja.net/
+bgp summary not found
+http://lg.k2telecom.net.br/
+bgp summary not found
+http://lg.joesdatacenter.com
+bgp summary not found
+http://lg.la1.hostbrew.com/
+bgp summary not found
+http://lg.kvant-telecom.ru
+bgp summary not found
+http://lg.lax.psychz.net/
+bgp summary not found
+http://lg.lattelecom.lv
+bgp summary not found
+http://lg.level3.net/
+bgp summary not found
+http://lg.linkfull.com.br/lg/
+bgp summary not found
+http://lg.level3carrier.com/lg/
+form tag not exist
+http://lg.llnw.net/
+bgp summary not found
+http://lg.mastertel.ru/
+form tag not exist
+http://lg.maxistelecom.com.br
+form tag not exist
+http://lg.maxiweb.com.br
+bgp summary not found
+http://lg.meerfarbig.net/summary/lg.fra1/ipv4
+bgp summary not found
+http://lg.mediainvent.net
+bgp summary not found
+http://lg.mesh.eu
+bgp summary not found
+http://lg.micronodes.net/
+bgp summary not found
+http://lg.m-online.net/lg
+form tag not exist
+http://lg.mtu.ru/
+bgp summary not found
+http://lg.naitways.net
+bgp summary not found
+http://lg.nask.pl/
+bgp summary not found
+http://lg.naukanet.ru/
+bgp summary not found
+http://lg.neocarrier.com/
+bgp summary not found
+http://lg.net.telekom.hu/summary/TIXRS0+TIXRS1/ipv4
+bgp summary not found
+http://lg.netcetera.co.uk/
+bgp summary not found
+http://lg.netcup.net/
+bgp summary not found
+http://lg.netdirekt.com.tr/
+bgp summary not found
+http://lg.neterra.net/look
+bgp summary not found
+http://lg.netia.pl/
+bgp summary not found
+http://lg.netnation.com/summary/lg/ipv4
+bgp summary not found
+http://lg.netvisiontelecom.ro
+bgp summary not found
+http://lg.netvisiontelecom.ro/
+bgp summary not found
+http://lg.networx.bg
+bgp summary not found
+http://lg.nexlinx.net.pk/
+bgp summary not found
+http://lg.nexthop.no/
+bgp summary not found
+http://lg.nic.cz/
+form tag not exist
+http://lg.nipbr.com.br/
+bgp summary not found
+http://lg.nitex.cz/
+bgp summary not found
+http://lg.nordu.net/lg.cgi
+form tag not exist
+http://lg.o3bnetworks.net/
+bgp summary not found
+http://lg.omnilance.com
+form tag not exist
+http://lg.omsk.ru/
+bgp summary not found
+http://lg.onnettelecom.com.br/lg/
+bgp summary not found
+http://lg.opticfusion.net
+form tag not exist
+http://lg.overthewire.com.au/
+bgp summary not found
+http://lg.p3.ru
+bgp summary not found
+http://lg.paetec.net/lg
+bgp summary not found
+http://lg.pinspb.ru/
+form tag not exist
+http://lg.petrus.com.pl/
+bgp summary not found
+http://lg.polineo.pl/
+bgp summary not found
+http://lg.pitline.net/cgi-bin/lg.cgi
+bgp summary not found
+http://lg.proc.ru/
+bgp summary not found
+http://lg.qnren.net/
+bgp summary not found
+http://lg.rackplace.de/
+bgp summary not found
+http://lg.qonnected.net/
+bgp summary not found
+http://lg.rascom.ru/
+bgp summary not found
+http://lg.ramtel.ru/
+bgp summary not found
+http://lg.rcn.net/lgform.cgi
+form tag not exist
+http://lg.retn.net/
+bgp summary not found
+http://lg.ring.nlnog.net
+bgp summary not found
+http://lg.ring.nlnog.net/
+bgp summary not found
+http://lg.ring.nlnog.net/adv/lg01/ipv4?q=all%20for%208.8.8.8%20protocol%20NYNEX1
+bgp summary not found
+http://lg.ring.nlnog.net/summary/lg01/ipv4
+bgp summary not found
+http://lg.riu.edu.ar/lg
+bgp summary not found
+https://lg.as43289.net/
+bgp summary not found
+https://lg.as25577.net/
+bgp summary not found
+https://lg.cesnet.cz/
+bgp summary not found
+https://lg.coloau.com.au/
+bgp summary not found
+https://lg.combahton.net/
+type not as submit or text
+https://lg.core.heg.com
+form tag not exist
+https://lg.custdc.net
+form tag not exist
+https://lg.de-cix.net/
+form tag not exist
+https://lg.dfw.de-cix.net
+form tag not exist
+https://lg.dus.de-cix.net
+form tag not exist
+https://lg.ecix.net/
+bgp summary not found
+https://lg.ett.ua/
+bgp summary not found
+https://lg.g8.net.br/
+bgp summary not found
+https://lg.gcore.lu/lg.cgi
+bgp summary not found
+https://lg.ggamaur.net/
+bgp summary not found
+https://lg.grenode.net/
+form tag not exist
+https://lg.ham.de-cix.net/
+bgp summary not found
+https://lg.hamburg.freifunk.net/start
+bgp summary not found
+https://lg.gitoyen.net
+bgp summary not found
+https://lg.hivane.net/summary/route-server/ipv4
+form tag not exist
+https://lg.ix.ks.ua/
+form tag not exist
+https://lg.ist.de-cix.net/
+bgp summary not found
+https://lg.kapper.net/
+bgp summary not found
+https://lg.koding.com/
+bgp summary not found
+https://lg.kivix.net/summary/rs1+rs2/ipv4
+bgp summary not found
+https://lg.liquidweb.com
+bgp summary not found
+https://lg.ldn-fai.net/
+form tag not exist
+https://lg.mad.de-cix.net/
+bgp summary not found
+https://lg.man-da.de/prefix_detail/lg/ipv4?q=www.man-da.de
+bgp summary not found
+https://lg.medkirov.ru/
+form tag not exist
+https://lg.melbourne.co.uk
+form tag not exist
+https://lg.mrs.de-cix.net/
+form tag not exist
+https://lg.muc.de-cix.net/
+form tag not exist
+https://lg.nyc.de-cix.net/
+bgp summary not found
+https://lg.opentransit.net/
+bgp summary not found
+https://lg.parvati.it/
+bgp summary not found
+https://lg.plutex.de/
+form tag not exist
+https://lg.pmo.de-cix.net/
+form tag not exist
+https://lg.premium-datacenter.de/
+form tag not exist
+https://lg.selectel.ru
+bgp summary not found
+https://lg.starnet.md
+bgp summary not found
+https://lg.tetaneutral.net/summary/h7/ipv4
+bgp summary not found
+https://lg.telin.co.id/lgnew/index.php
+form tag not exist
+https://lg.velder.li/
+bgp summary not found
+https://lg.vk.com
+bgp summary not found
+https://lg.wirehive.net/summary/lg/ipv4
+bgp summary not found
+https://lookingglass.azista.net/
+bgp summary not found
+https://lookingglass.noc.renater.fr/
+bgp summary not found
+https://lookingglass.omantel.om/lg
+form tag not exist
+https://mon.grnet.gr/lg/
+form tag not exist
+https://mtr.sh/
+bgp summary not found
+https://network.feral.io/looking-glass
+type not as submit or text
+https://my.ams-ix.net/login
+form tag not exist
+https://noc.eu.clara.net/
+bgp summary not found
+https://noc.gaertner.de/cgi-bin/looking-glass.cgi
+form tag not exist
+https://noc.link11.de/lg/
+bgp summary not found
+https://portal.etsi.org/webstats/traceroute.asp
+bgp summary not found
+https://radar.qrator.net/as25291
+bgp summary not found
+https://registro.br/cgi-bin/nicbr/trt
+type not as submit or text
+https://ring.nlnog.net/
+form tag not exist
+https://routerproxy.grnoc.iu.edu/sox/
+bgp summary not found
+https://stat.ripe.net/widget/looking-glass
+form tag not exist
+https://status.ks.ua/lg/
+bgp summary not found
+https://tools.csti.ch/
+form tag not exist
+https://tools.franceix.net/looking-glass
+bgp summary not found
+https://support.cw.com/index.html?TESTDRIVE=1&LG=1
+bgp summary not found
+https://tools.hostnetworks.com.au/lg/
+bgp summary not found
+https://tools.geant.net/portal/links/lg/
+bgp summary not found
+https://tools.wiscnet.net/stats/proxy/
+type not as submit or text
+https://w3dt.net/tools/traceroute
+bgp summary not found
+https://www.76telecom.com.br/lg/
+bgp summary not found
+https://www.as15879.net
+bgp summary not found
+https://www.as25098.net
+type not as submit or text
+https://www.ccn.net/index.php/de/service/looking-glass
+bgp summary not found
+https://www.citydata.com.br/lg/
+bgp summary not found
+https://www.da-rz.de/de/darz-tools/darz-looking-glass/
+bgp summary not found
+https://www.hostvirtual.com/lg/
+form tag not exist
+https://www.init7.net/de/infrastruktur/tools/
+form tag not exist
+https://www.inex.ie/ixp/lg
+type not as submit or text
+https://www.heise.de/netze/tools/traceroute
+bgp summary not found
+https://www.kei.pl/
+form tag not exist
+https://www.liquidtelecom.net/looking_glass/q
+bgp summary not found
+https://www.msk-ix.ru/en/lookingglass/
+bgp summary not found
+https://www.msk-ix.ru/lookingglass/
+bgp summary not found
+https://www.kheops-network.info/lg/
+bgp summary not found
+https://www.myqubenet.net/lookingglass/
+bgp summary not found
+https://www.net.wisc.edu/cgi-bin/public/lg-as59.pl
+type not as submit or text
+https://www.pcsp.co.za/ASN327911
+bgp summary not found
+https://www.peeringdb.com/asn/549
+bgp summary not found
+https://www.prolixium.com/lg
+bgp summary not found
+https://www.saix.at/lg/
+form tag not exist
+https://www.sixxs.net/tools/grh/
+bgp summary not found
+https://www.seeweb.it/data-center/traceroute-diretto
+form tag not exist
+https://www.sixxs.net/tools/traceroute/
+type not as submit or text
+https://www.sprint.net/lg/
+type not as submit or text
+https://www.space.net/traceroute/index.html
+type not as submit or text
+https://www.steadfast.net/support/networktest.php
+form tag not exist
+https://www.swissix.ch/infrastructure/routeserver/looking-glass/
+bgp summary not found
+https://www.switch.ch/network/tools/lookingglass/
+bgp summary not found
+https://www.tumori.nu/IPv6/traceroute.html
+bgp summary not found
+https://www.transip.nl/noc/

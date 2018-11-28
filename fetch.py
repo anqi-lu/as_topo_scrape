@@ -62,8 +62,8 @@ def main():
     lg_neighbor = 'data/urls_from_bgpneighbors.txt'
     lg_database = 'data/urls_from_lg_database.txt'
     
-    # fetch_all(get_urls(lg_database), "database")
-    fetch_all(get_urls(lg_summary), "summary")
+    fetch_all(get_urls(lg_database), "database")
+    # fetch_all(get_urls(lg_summary), "summary")
 #    fetch_all(get_urls(lg_neighbor), "neighbor")
 
 if __name__ == "__main__":

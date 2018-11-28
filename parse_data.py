@@ -14,6 +14,7 @@ write into a json file
 """
 
 AS_KEYWORDS = set(["as", "As", "AS", "ASN", "as#", "AS#", "asn"])
+
 def parse(filename):
     node_json = {}
     node_json['ip'] = ""
