@@ -13,7 +13,7 @@ find the neigbor table
 make a json object 
 write into a json file
 """
-def parse(filename):
+def parse(filename, subdir):
     node_json = {}
     node_json['ip'] = ""
     node_json['asn'] = ""
@@ -27,8 +27,8 @@ def parse(filename):
 
     own_ip = ""
     own_as = ""
-    current_asn = None
-    current_ip = None
+    current_asn = ""
+    current_ip = 
 
     neighbor_node_json = []
     AS_NUM_SPECIFIED = False
@@ -64,7 +64,7 @@ def parse(filename):
         if not tokens:
             continue
         if flag >= DET_LINE_NUMBER and match_ip(tokens[0]) is not None: # table found
-            
+
             for token in tokens:
                 if match_ip(token):
                     current_ip = token
@@ -84,11 +84,9 @@ def parse(filename):
         node_json['ip'] = own_ip
         node_json['asn'] = own_as
         node_json['neighbors'] = neighbor_node_json
-        write_node(node_json)
+        write_node(node_json, subdir)
 
     return None
-
-
 
 # helper functions
 
@@ -119,26 +117,33 @@ def is_number_valid_asn(s):
             return True 
 
 """ write a node into a json file """
-def write_node(node_json):
+def write_node(node_json, subdir):
     ip = node_json['ip']
     asn = node_json['asn']
     name = ip + '_' + asn
-    with open('data/sample/' + name + '.json', 'w') as outfile:
+    with open('data/nodes/' + subdir + '/' + name + '.json', 'w') as outfile:
         json.dump(node_json, outfile, indent=2)
 
 """ walk through the text files (data from LG servers) and parse each one """
 def parse_files(directory_in_str):
     pathlist = Path(directory_in_str).glob('*.txt')
+    subdir = directory_in_str.split('/')[-1]
     for path in pathlist:
         # because path is object not string
         path_in_str = str(path)
-        parse(path_in_str)
+        parse(path_in_str, subdir)
 
 def main():
     lg_summary = 'data/output/summary/'
     lg_neighbor = 'data/output/neighbor/'
-    parse_files(lg_summary)
-    # parse("data/output/"+ 'sample.txt')
+    lg_database = 'data/output/database/'
+    lg_failed_neighbor = 'have asn but failed to read/BGP neighbor'
+    lg_failed_sum = 'have asn but failed to read/BGP sum'
+    lg_failed_newdataset= 'have asn but failed to read/new dataset'
+    #parse_files(lg_summary)
+    parse_files(lg_failed_neighbor)
+    parse_files(lg_failed_sum)
+    parse_files(lg_failed_newdataset)
 
 if __name__ == "__main__":
     main()
